@@ -1,0 +1,120 @@
+
+(Spin Version 6.5.2 -- 13 October 2022)
+
+Full statespace search for:
+	never claim         	+ (phi2)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 500 byte, depth reached 273, errors: 0
+     1354 states, stored (1369 visited)
+     1092 states, matched
+     2461 transitions (= visited+matched)
+     1134 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.682	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.834	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  129.315	total actual memory usage
+
+
+unreached in proctype client
+	Weak_attacker1_phi2_attack.pml:151, state 38, "dstIP_send = 101"
+	Weak_attacker1_phi2_attack.pml:152, state 39, "dstMac_send = 1001"
+	Weak_attacker1_phi2_attack.pml:153, state 40, "target_send = gip"
+	Weak_attacker1_phi2_attack.pml:154, state 41, "c_sv[portID]!8,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	Weak_attacker1_phi2_attack.pml:149, state 43, "srcIP_send = llip"
+	Weak_attacker1_phi2_attack.pml:173, state 60, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	Weak_attacker1_phi2_attack.pml:175, state 65, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	Weak_attacker1_phi2_attack.pml:175, state 65, "else"
+	Weak_attacker1_phi2_attack.pml:184, state 69, "dstIP_send = 101"
+	Weak_attacker1_phi2_attack.pml:185, state 70, "dstMac_send = 1001"
+	Weak_attacker1_phi2_attack.pml:186, state 71, "target_send = gip"
+	Weak_attacker1_phi2_attack.pml:187, state 72, "c_sv[portID]!9,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	Weak_attacker1_phi2_attack.pml:190, state 74, "mac_gip[mac] = 0"
+	Weak_attacker1_phi2_attack.pml:191, state 75, "printf('\nClient Mac %d from port %d release global IP %d\n',mac,portID,gip)"
+	Weak_attacker1_phi2_attack.pml:182, state 77, "srcIP_send = llip"
+	Weak_attacker1_phi2_attack.pml:195, state 78, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	Weak_attacker1_phi2_attack.pml:200, state 84, "goto getgip"
+	Weak_attacker1_phi2_attack.pml:200, state 84, "goto stop"
+	Weak_attacker1_phi2_attack.pml:197, state 87, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	Weak_attacker1_phi2_attack.pml:197, state 87, "else"
+	Weak_attacker1_phi2_attack.pml:216, state 93, "dstIP_send = 102"
+	Weak_attacker1_phi2_attack.pml:217, state 94, "dstMac_send = 1002"
+	Weak_attacker1_phi2_attack.pml:218, state 95, "target_send = target_recv"
+	Weak_attacker1_phi2_attack.pml:219, state 96, "c_sv[portID]!1,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,-(1)"
+	Weak_attacker1_phi2_attack.pml:214, state 97, "srcIP_send = target_recv"
+	Weak_attacker1_phi2_attack.pml:222, state 99, "printf('\nClient Mac %d receive a %e message, but no process\n',mac,msgtype)"
+	Weak_attacker1_phi2_attack.pml:212, state 100, "((((msgtype==2)&&(target_recv==gip))&&mac_isBound[mac]))"
+	Weak_attacker1_phi2_attack.pml:212, state 100, "else"
+	Weak_attacker1_phi2_attack.pml:210, state 104, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	Weak_attacker1_phi2_attack.pml:210, state 104, "(timeout)"
+	Weak_attacker1_phi2_attack.pml:229, state 109, "clientAlive[portID] = 0"
+	Weak_attacker1_phi2_attack.pml:232, state 110, "-end-"
+	(27 of 110 states)
+unreached in proctype attacker1
+	Weak_attacker1_phi2_attack.pml:300, state 38, "dstIP_send = 101"
+	Weak_attacker1_phi2_attack.pml:301, state 39, "dstMac_send = 1001"
+	Weak_attacker1_phi2_attack.pml:302, state 40, "target_send = gip"
+	Weak_attacker1_phi2_attack.pml:303, state 41, "c_sv[portID]!8,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	Weak_attacker1_phi2_attack.pml:298, state 43, "srcIP_send = llip"
+	Weak_attacker1_phi2_attack.pml:318, state 56, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	Weak_attacker1_phi2_attack.pml:320, state 61, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	Weak_attacker1_phi2_attack.pml:320, state 61, "else"
+	Weak_attacker1_phi2_attack.pml:343, state 97, "c_sv[1]?<c_sv_1__type_SNIFFINGCACHE,c_sv_1__srcIP_SNIFFINGCACHE,c_sv_1__srcMac_SNIFFINGCACHE,c_sv_1__dstIP_SNIFFINGCACHE,c_sv_1__dstMac_SNIFFINGCACHE,c_sv_1__target_SNIFFINGCACHE,c_sv_1__iaid_SNIFFINGCACHE>"
+	Weak_attacker1_phi2_attack.pml:345, state 100, "(1)"
+	Weak_attacker1_phi2_attack.pml:342, state 101, "((c_sv_1__type_recv==2))"
+	Weak_attacker1_phi2_attack.pml:342, state 101, "else"
+	Weak_attacker1_phi2_attack.pml:351, state 106, "c_sv_portID__srcIP_send = c_sv_1__target_SNIFFINGCACHE"
+	Weak_attacker1_phi2_attack.pml:352, state 107, "c_sv_portID__srcMac_send = mac"
+	Weak_attacker1_phi2_attack.pml:353, state 108, "c_sv_portID__dstIP_send = 102"
+	Weak_attacker1_phi2_attack.pml:354, state 109, "c_sv_portID__dstMac_send = 1002"
+	Weak_attacker1_phi2_attack.pml:355, state 110, "c_sv_portID__target_send = c_sv_1__target_SNIFFINGCACHE"
+	Weak_attacker1_phi2_attack.pml:356, state 111, "c_sv_portID__iaid_send = IAID"
+	Weak_attacker1_phi2_attack.pml:357, state 112, "c_sv[portID]!c_sv_portID__type_send,c_sv_portID__srcIP_send,c_sv_portID__srcMac_send,c_sv_portID__dstIP_send,c_sv_portID__dstMac_send,c_sv_portID__target_send,c_sv_portID__iaid_send"
+	(17 of 124 states)
+unreached in proctype dhcp_server
+	Weak_attacker1_phi2_attack.pml:398, state 10, "dhcp_sv!5,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi2_attack.pml:405, state 19, "(1)"
+	Weak_attacker1_phi2_attack.pml:411, state 25, "gip_IAID[target_recv] = 0"
+	Weak_attacker1_phi2_attack.pml:412, state 26, "IAID_getgip[iaid] = 0"
+	Weak_attacker1_phi2_attack.pml:413, state 27, "dhcp_sv!6,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi2_attack.pml:415, state 29, "dhcp_sv!4,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi2_attack.pml:409, state 30, "((gip_IAID[target_recv]==iaid))"
+	Weak_attacker1_phi2_attack.pml:409, state 30, "((gip_IAID[target_recv]!=iaid))"
+	Weak_attacker1_phi2_attack.pml:421, state 35, "conflictIPCount = (conflictIPCount+1)"
+	Weak_attacker1_phi2_attack.pml:422, state 36, "gip_IAID[target_recv] = -(1)"
+	Weak_attacker1_phi2_attack.pml:423, state 37, "IAID_getgip[iaid] = 0"
+	Weak_attacker1_phi2_attack.pml:424, state 38, "dhcp_sv!6,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi2_attack.pml:426, state 40, "dhcp_sv!4,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi2_attack.pml:419, state 41, "((gip_IAID[target_recv]==iaid))"
+	Weak_attacker1_phi2_attack.pml:419, state 41, "((gip_IAID[target_recv]!=iaid))"
+	Weak_attacker1_phi2_attack.pml:430, state 45, "dhcp_sv!3,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,-(1)"
+	Weak_attacker1_phi2_attack.pml:432, state 47, "printf('\nInvalid message received by DHCP server\n')"
+	Weak_attacker1_phi2_attack.pml:436, state 54, "-end-"
+	(16 of 54 states)
+unreached in proctype savi_switch
+	Weak_attacker1_phi2_attack.pml:481, state 21, "BST[target].state = 3"
+	Weak_attacker1_phi2_attack.pml:482, state 22, "port_gipNum[recv_portID] = (port_gipNum[recv_portID]-1)"
+	Weak_attacker1_phi2_attack.pml:502, state 43, "printf('\nInvalid message send by Client from port %d\n',recv_portID)"
+	Weak_attacker1_phi2_attack.pml:524, state 62, "(1)"
+	Weak_attacker1_phi2_attack.pml:530, state 68, "BST[target].state = 3"
+	Weak_attacker1_phi2_attack.pml:531, state 70, "(1)"
+	Weak_attacker1_phi2_attack.pml:528, state 71, "((BST[target].state==2))"
+	Weak_attacker1_phi2_attack.pml:528, state 71, "else"
+	Weak_attacker1_phi2_attack.pml:533, state 74, "(1)"
+	Weak_attacker1_phi2_attack.pml:535, state 76, "printf('\nInvalid message send by DHCP server\n')"
+	Weak_attacker1_phi2_attack.pml:541, state 85, "-end-"
+	(10 of 85 states)
+unreached in init
+	(0 of 34 states)
+unreached in claim phi2
+	_spin_nvr.tmp:10, state 13, "-end-"
+	(1 of 13 states)
+
+pan: elapsed time 0.01 seconds
+ltl phi2: (! (<> (is_attacker1_end))) || (<> (client_bounded))

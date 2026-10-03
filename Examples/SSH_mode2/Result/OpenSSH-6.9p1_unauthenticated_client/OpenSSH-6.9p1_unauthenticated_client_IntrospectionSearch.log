@@ -1,0 +1,54 @@
+Depth=      10 States=      131 Transitions=      131 Memory=   128.391	
+Depth=      20 States=      341 Transitions=      341 Memory=   128.391	
+Depth=      30 States= 1.09e+03 Transitions= 1.43e+03 Memory=   128.391	
+Depth=      40 States= 1.84e+03 Transitions= 2.78e+03 Memory=   128.488	
+Depth=      50 States= 2.77e+03 Transitions= 4.27e+03 Memory=   128.586	
+Depth=      60 States= 3.09e+03 Transitions= 4.68e+03 Memory=   128.586	
+Depth=      70 States= 3.45e+03 Transitions= 5.24e+03 Memory=   128.586	
+Depth=      80 States= 4.24e+03 Transitions= 6.65e+03 Memory=   128.684	
+Depth=      90 States= 4.96e+03 Transitions= 7.79e+03 Memory=   128.781	
+Depth=     100 States=  6.3e+03 Transitions= 9.75e+03 Memory=   128.879	
+Depth=     110 States= 8.69e+03 Transitions= 1.28e+04 Memory=   129.074	
+Depth=     120 States= 1.11e+04 Transitions= 1.72e+04 Memory=   129.270	
+Depth=     130 States= 1.36e+04 Transitions= 2.13e+04 Memory=   129.465	
+Depth=     140 States= 1.55e+04 Transitions= 2.48e+04 Memory=   129.562	
+Depth=     150 States= 1.67e+04 Transitions= 2.68e+04 Memory=   129.660	
+Depth=     160 States= 1.79e+04 Transitions= 2.93e+04 Memory=   129.758	
+Depth=     170 States= 1.92e+04 Transitions= 3.14e+04 Memory=   129.855	
+Depth=     180 States= 2.03e+04 Transitions=  3.3e+04 Memory=   129.953	
+Depth=     190 States= 2.12e+04 Transitions= 3.53e+04 Memory=   130.051	
+Depth=     200 States= 2.15e+04 Transitions= 3.58e+04 Memory=   130.051	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 202, errors: 0
+    21610 states, stored
+	   21610 nominal states (stored-atomic)
+    14741 states, matched
+    36351 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    1.154	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.078	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  130.051	total actual memory usage
+
+
+unreached in init
+	OpenSSH-6.9p1_unauthenticated_client_introspection.pml:2235, state 2919, "-end-"
+	(1 of 2919 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds

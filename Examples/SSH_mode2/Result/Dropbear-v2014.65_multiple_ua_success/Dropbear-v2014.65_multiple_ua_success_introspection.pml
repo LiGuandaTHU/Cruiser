@@ -1,0 +1,831 @@
+// This model is generated automatically by ModelConstructor of Cruiser in Mode 2, based on the Protocol FSM and Unexpected Message Sequence DFA. Do not edit manually.
+mtype:MSG = {I_CH_OPEN, I_KEXINIT, I_UA_PK_NOK, I_UA_PK_OK, I_KEX30, I_CH_DATA, I_SR_AUTH, I_CH_EOF, I_CH_REQUEST_PTY, I_SR_CONN, I_KEXINIT_PROCEED, I_NEWKEYS, I_CH_CLOSE, 
+	O_SR_ACCEPT, O_UA_FAILURE, O_CH_EOF, O_NO_CONN, O_CH_NONE, O_CH_MAX, O_NEWKEYS, O_UA_SUCCESS, O_KEX31, O_CH_OPEN_SUCCESS, O_KEXINIT, O_CH_SUCCESS, O_UNIMPL};
+mtype:FSM_STATE = {s0, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16};
+mtype:DFA_STATE = {start, bug, ua_success};
+mtype:MSG input;
+mtype:MSG output;
+mtype:FSM_STATE fsm_state;
+mtype:DFA_STATE dfa_state;
+bool dealt;
+
+inline DFA_ProcessMessage(msg) {
+d_step {
+	dealt = false;
+	if
+	:: dfa_state == start ->
+		if
+		:: msg == O_UA_SUCCESS ->
+			dfa_state = ua_success;
+			dealt = true;
+		:: msg == I_KEXINIT || msg == O_UA_FAILURE || msg == I_UA_PK_NOK || msg == I_UA_PK_OK || msg == O_CH_EOF || msg == I_SR_AUTH || msg == O_NO_CONN || msg == O_CH_NONE || msg == O_CH_SUCCESS || msg == I_KEXINIT_PROCEED || msg == I_NEWKEYS || msg == I_CH_CLOSE || msg == O_SR_ACCEPT || msg == I_CH_OPEN || msg == I_KEX30 || msg == I_CH_DATA || msg == O_CH_MAX || msg == O_NEWKEYS || msg == I_CH_EOF || msg == O_UNIMPL || msg == I_CH_REQUEST_PTY || msg == O_KEX31 || msg == O_CH_OPEN_SUCCESS || msg == O_KEXINIT || msg == I_SR_CONN ->
+			dfa_state = start;
+			dealt = true;
+		:: else -> skip;
+		fi;
+	:: dfa_state == bug ->
+		skip;
+	:: dfa_state == ua_success ->
+		if
+		:: msg == O_UA_SUCCESS ->
+			dfa_state = bug;
+			dealt = true;
+		:: msg == I_KEXINIT || msg == O_UA_FAILURE || msg == I_UA_PK_NOK || msg == I_UA_PK_OK || msg == O_CH_EOF || msg == I_SR_AUTH || msg == O_NO_CONN || msg == O_CH_NONE || msg == O_CH_SUCCESS || msg == I_KEXINIT_PROCEED || msg == I_NEWKEYS || msg == I_CH_CLOSE || msg == O_SR_ACCEPT || msg == I_CH_OPEN || msg == I_KEX30 || msg == I_CH_DATA || msg == O_CH_MAX || msg == O_NEWKEYS || msg == I_CH_EOF || msg == O_UNIMPL || msg == I_CH_REQUEST_PTY || msg == O_KEX31 || msg == O_CH_OPEN_SUCCESS || msg == O_KEXINIT || msg == I_SR_CONN ->
+			dfa_state = ua_success;
+			dealt = true;
+		:: else -> skip;
+		fi;
+	fi;
+}
+	if
+	:: dealt == false -> goto Restart;
+	:: else -> skip;
+	fi;
+}
+
+init {
+Restart:
+	fsm_state = s0;
+	dfa_state = start;
+	dealt = false;
+	do
+	:: true ->
+Continue:
+		if
+		:: input = I_CH_OPEN;
+		:: input = I_KEXINIT;
+		:: input = I_UA_PK_NOK;
+		:: input = I_UA_PK_OK;
+		:: input = I_KEX30;
+		:: input = I_CH_DATA;
+		:: input = I_SR_AUTH;
+		:: input = I_CH_EOF;
+		:: input = I_CH_REQUEST_PTY;
+		:: input = I_SR_CONN;
+		:: input = I_KEXINIT_PROCEED;
+		:: input = I_NEWKEYS;
+		:: input = I_CH_CLOSE;
+		fi;
+		printf("Input: %e\n", input);
+		DFA_ProcessMessage(input);
+		printf("DFA State: %e\n", dfa_state);
+		if
+		:: fsm_state == s0 ->
+			if
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s0;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s0;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s0;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s0;
+				output = O_CH_NONE;
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_KEXINIT;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_KEXINIT;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_KEXINIT;
+			:: input == I_KEX30 ->
+				fsm_state = s3;
+				output = O_KEXINIT;
+				printf("Output: %e\n", output);
+				DFA_ProcessMessage(output);
+				printf("DFA State: %e\n", dfa_state);
+				output = O_UNIMPL;
+			:: input == I_NEWKEYS ->
+				fsm_state = s3;
+				output = O_KEXINIT;
+				printf("Output: %e\n", output);
+				DFA_ProcessMessage(output);
+				printf("DFA State: %e\n", dfa_state);
+				output = O_UNIMPL;
+			:: input == I_KEXINIT ->
+				fsm_state = s3;
+				output = O_KEXINIT;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s4;
+				output = O_KEXINIT;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s1 ->
+			if
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEX30 ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_CH_MAX;
+			:: input == I_CH_DATA ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_EOF ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s2 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEX30 ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s2;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s2;
+				output = O_CH_NONE;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s2;
+				output = O_CH_NONE;
+			:: input == I_KEXINIT ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_CH_EOF ->
+				fsm_state = s2;
+				output = O_CH_NONE;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s3 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s3;
+				output = O_UNIMPL;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s3;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s3;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s3;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s3;
+				output = O_CH_NONE;
+			:: input == I_KEX30 ->
+				fsm_state = s5;
+				output = O_KEX31;
+				printf("Output: %e\n", output);
+				DFA_ProcessMessage(output);
+				printf("DFA State: %e\n", dfa_state);
+				output = O_NEWKEYS;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s4 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEX30 ->
+				fsm_state = s3;
+				goto Continue;
+			:: input == I_NEWKEYS ->
+				fsm_state = s4;
+				output = O_UNIMPL;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s4;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s4;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s4;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s4;
+				output = O_CH_NONE;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s5 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEX30 ->
+				fsm_state = s5;
+				output = O_UNIMPL;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s5;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s5;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s5;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s5;
+				output = O_CH_NONE;
+			:: input == I_NEWKEYS ->
+				fsm_state = s6;
+				goto Continue;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s6 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEX30 ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s6;
+				output = O_UA_FAILURE;
+			:: input == I_SR_AUTH ->
+				fsm_state = s6;
+				output = O_SR_ACCEPT;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s6;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s6;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s6;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s6;
+				output = O_CH_NONE;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s7;
+				output = O_KEXINIT;
+			:: input == I_KEXINIT ->
+				fsm_state = s8;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s9;
+				output = O_UA_SUCCESS;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s7 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s2;
+				output = O_UNIMPL;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s7;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s7;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s7;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s7;
+				output = O_CH_NONE;
+			:: input == I_KEX30 ->
+				fsm_state = s8;
+				goto Continue;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s8 ->
+			if
+			:: input == I_CH_OPEN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s2;
+				output = O_UNIMPL;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEX30 ->
+				fsm_state = s5;
+				output = O_KEX31;
+				printf("Output: %e\n", output);
+				DFA_ProcessMessage(output);
+				printf("DFA State: %e\n", dfa_state);
+				output = O_NEWKEYS;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s8;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s8;
+				output = O_CH_NONE;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s8;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s8;
+				output = O_CH_NONE;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s9 ->
+			if
+			:: input == I_KEX30 ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s7;
+				output = O_KEXINIT;
+			:: input == I_KEXINIT ->
+				fsm_state = s8;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s9;
+				goto Continue;
+			:: input == I_SR_AUTH ->
+				fsm_state = s9;
+				output = O_SR_ACCEPT;
+			:: input == I_SR_CONN ->
+				fsm_state = s9;
+				output = O_SR_ACCEPT;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s9;
+				output = O_CH_NONE;
+			:: input == I_CH_DATA ->
+				fsm_state = s9;
+				output = O_CH_NONE;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s9;
+				goto Continue;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s9;
+				output = O_CH_NONE;
+			:: input == I_CH_EOF ->
+				fsm_state = s9;
+				output = O_CH_NONE;
+			:: input == I_CH_OPEN ->
+				fsm_state = s10;
+				output = O_CH_OPEN_SUCCESS;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s10 ->
+			if
+			:: input == I_KEX30 ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s9;
+				output = O_CH_EOF;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s10;
+				goto Continue;
+			:: input == I_SR_AUTH ->
+				fsm_state = s10;
+				output = O_SR_ACCEPT;
+			:: input == I_SR_CONN ->
+				fsm_state = s10;
+				output = O_SR_ACCEPT;
+			:: input == I_CH_OPEN ->
+				fsm_state = s10;
+				output = O_CH_MAX;
+			:: input == I_CH_DATA ->
+				fsm_state = s10;
+				goto Continue;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s10;
+				goto Continue;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s11;
+				output = O_KEXINIT;
+			:: input == I_CH_EOF ->
+				fsm_state = s12;
+				output = O_CH_EOF;
+			:: input == I_KEXINIT ->
+				fsm_state = s13;
+				output = O_KEXINIT;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s14;
+				output = O_CH_SUCCESS;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s11 ->
+			if
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_UNIMPL;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_DATA ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_EOF ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_CH_OPEN ->
+				fsm_state = s11;
+				output = O_CH_MAX;
+			:: input == I_KEX30 ->
+				fsm_state = s13;
+				goto Continue;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s12 ->
+			if
+			:: input == I_KEX30 ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_DATA ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s9;
+				goto Continue;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s11;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s12;
+				goto Continue;
+			:: input == I_SR_AUTH ->
+				fsm_state = s12;
+				output = O_SR_ACCEPT;
+			:: input == I_SR_CONN ->
+				fsm_state = s12;
+				output = O_SR_ACCEPT;
+			:: input == I_CH_OPEN ->
+				fsm_state = s12;
+				output = O_CH_MAX;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s12;
+				goto Continue;
+			:: input == I_CH_EOF ->
+				fsm_state = s12;
+				goto Continue;
+			:: input == I_KEXINIT ->
+				fsm_state = s13;
+				output = O_KEXINIT;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s15;
+				output = O_CH_SUCCESS;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s13 ->
+			if
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_UNIMPL;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_DATA ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_EOF ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_CH_OPEN ->
+				fsm_state = s13;
+				output = O_CH_MAX;
+			:: input == I_KEX30 ->
+				fsm_state = s16;
+				output = O_KEX31;
+				printf("Output: %e\n", output);
+				DFA_ProcessMessage(output);
+				printf("DFA State: %e\n", dfa_state);
+				output = O_NEWKEYS;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s14 ->
+			if
+			:: input == I_KEX30 ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s9;
+				output = O_CH_EOF;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s11;
+				output = O_KEXINIT;
+			:: input == I_KEXINIT ->
+				fsm_state = s13;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s14;
+				goto Continue;
+			:: input == I_SR_AUTH ->
+				fsm_state = s14;
+				output = O_SR_ACCEPT;
+			:: input == I_SR_CONN ->
+				fsm_state = s14;
+				output = O_SR_ACCEPT;
+			:: input == I_CH_OPEN ->
+				fsm_state = s14;
+				output = O_CH_MAX;
+			:: input == I_CH_DATA ->
+				fsm_state = s14;
+				goto Continue;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s14;
+				goto Continue;
+			:: input == I_CH_EOF ->
+				fsm_state = s15;
+				output = O_CH_EOF;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s15 ->
+			if
+			:: input == I_KEX30 ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_DATA ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s9;
+				goto Continue;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s11;
+				output = O_KEXINIT;
+			:: input == I_KEXINIT ->
+				fsm_state = s13;
+				output = O_KEXINIT;
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s15;
+				goto Continue;
+			:: input == I_SR_AUTH ->
+				fsm_state = s15;
+				output = O_SR_ACCEPT;
+			:: input == I_SR_CONN ->
+				fsm_state = s15;
+				output = O_SR_ACCEPT;
+			:: input == I_CH_OPEN ->
+				fsm_state = s15;
+				output = O_CH_MAX;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s15;
+				goto Continue;
+			:: input == I_CH_EOF ->
+				fsm_state = s15;
+				goto Continue;
+			:: else -> goto Continue;
+			fi;
+		:: fsm_state == s16 ->
+			if
+			:: input == I_UA_PK_NOK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_AUTH ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_SR_CONN ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_REQUEST_PTY ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_DATA ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_UA_PK_OK ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT_PROCEED ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_KEXINIT ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_EOF ->
+				fsm_state = s1;
+				output = O_NO_CONN;
+			:: input == I_CH_CLOSE ->
+				fsm_state = s2;
+				output = O_NO_CONN;
+			:: input == I_NEWKEYS ->
+				fsm_state = s10;
+				goto Continue;
+			:: input == I_KEX30 ->
+				fsm_state = s16;
+				output = O_UNIMPL;
+			:: input == I_CH_OPEN ->
+				fsm_state = s16;
+				output = O_CH_MAX;
+			:: else -> goto Continue;
+			fi;
+		fi;
+		printf("FSM State: %e\n", fsm_state);
+		printf("Output: %e\n\n", output);
+		DFA_ProcessMessage(output);
+		printf("DFA State: %e\n\n", dfa_state);
+	od;
+}
+ltl no_bug { [] (dfa_state != bug) }

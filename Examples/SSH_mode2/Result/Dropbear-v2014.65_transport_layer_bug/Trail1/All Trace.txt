@@ -1,0 +1,149 @@
+ltl no_bug: [] ((dfa_state!=9))
+starting claim 1
+1: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:130 (state 1) [fsm_state = 17]
+2: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:131 (state 2) [dfa_state = 10]
+3: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:132 (state 3) [dealt = 0]
+4: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+5: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:139 (state 7) [input = 24]
+Input: I_KEXINIT
+6: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:17 (state 28) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:19 (state 24) [dfa_state = 8]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:20 (state 25) [dealt = 1]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:23 (state 29) [.(goto)]
+7: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+8: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 140) [else]
+9: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: iki
+10: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:155 (state 146) [((fsm_state==17))]
+12: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:198 (state 434) [((input==24))]
+13: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:199 (state 435) [fsm_state = 14]
+14: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:200 (state 436) [output = 7]
+FSM State: s3
+15: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:907 (state 1531) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:908 (state 1532) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 1649) [dealt = 0]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 1647) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:26 (state 1556) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:28 (state 1546) [dfa_state = 7]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:29 (state 1547) [dealt = 1]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:38 (state 1557) [.(goto)]
+17: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 1648) [.(goto)]
+18: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 1652) [else]
+19: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 1653) [(1)]
+DFA State: oki
+
+20: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:910 (state 1657) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+22: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:148 (state 16) [input = 15]
+Input: I_KEX30
+23: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:39 (state 58) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:41 (state 48) [dfa_state = 5]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:42 (state 49) [dealt = 1]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:51 (state 59) [.(goto)]
+24: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+25: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 140) [else]
+26: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: k30
+27: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:292 (state 532) [((fsm_state==14))]
+29: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:330 (state 569) [((input==15))]
+30: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:331 (state 570) [fsm_state = 12]
+31: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:332 (state 571) [output = 10]
+Output: O_KEX31
+32: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:333 (state 572) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 689) [dealt = 0]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 687) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:62 (state 635) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:64 (state 625) [dfa_state = 4]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:65 (state 626) [dealt = 1]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:74 (state 636) [.(goto)]
+33: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 688) [.(goto)]
+34: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 692) [else]
+35: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 693) [(1)]
+DFA State: k31
+36: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:335 (state 697) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:336 (state 698) [output = 6]
+FSM State: s5
+38: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:907 (state 1531) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:908 (state 1532) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 1649) [dealt = 0]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 1647) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:75 (state 1609) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:77 (state 1599) [dfa_state = 3]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:78 (state 1600) [dealt = 1]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:87 (state 1610) [.(goto)]
+40: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 1648) [.(goto)]
+41: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 1652) [else]
+42: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 1653) [(1)]
+DFA State: onk
+
+43: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:910 (state 1657) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+45: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:141 (state 9) [input = 22]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:88 (state 111) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:90 (state 101) [dfa_state = 2]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:91 (state 102) [dealt = 1]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:100 (state 112) [.(goto)]
+47: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+48: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 140) [else]
+49: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: ink
+50: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:382 (state 747) [((fsm_state==12))]
+52: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:420 (state 784) [((input==22))]
+53: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:421 (state 785) [fsm_state = 11]
+54: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:138 (state 6) [input = 25]
+Input: I_UA_PK_NOK
+55: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:101 (state 125) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:109 (state 121) [dfa_state = 6]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:110 (state 122) [dealt = 1]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:113 (state 126) [.(goto)]
+56: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+57: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 140) [else]
+58: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: end
+59: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:425 (state 791) [((fsm_state==11))]
+61: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:439 (state 804) [((input==25))]
+62: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:440 (state 805) [fsm_state = 11]
+63: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:441 (state 806) [output = 9]
+FSM State: s6
+64: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:907 (state 1531) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_FAILURE
+
+65: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:908 (state 1532) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:13 (state 1649) [dealt = 0]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:15 (state 1647) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:52 (state 1581) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:54 (state 1574) [dfa_state = 9]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:55 (state 1575) [dealt = 1]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:61 (state 1582) [.(goto)]
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:121 (state 1648) [.(goto)]
+spin: trail ends after 66 steps
+#processes: 1
+input = I_UA_PK_NOK
+output = O_UA_FAILURE
+fsm_state = s6
+dfa_state = bug
+dealt = 1
+66: proc  0 (:init::1) Dropbear-v2014.65_transport_layer_bug_introspection.pml:122 (state 1654)
+66: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

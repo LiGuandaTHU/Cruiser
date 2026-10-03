@@ -1,0 +1,221 @@
+ltl no_bug: [] ((dfa_state!=8))
+starting claim 1
+1: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:97 (state 1) [fsm_state = 31]
+2: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:98 (state 2) [dfa_state = 9]
+3: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:99 (state 3) [dealt = 0]
+4: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:101 (state 4) [(1)]
+5: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:110 (state 11) [input = 31]
+Input: I_IGNORE
+6: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:126 (state 28) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 110) [dealt = 0]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 108) [IF]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 39) [IF]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 35) [dfa_state = 9]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 36) [dealt = 1]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 40) [.(goto)]
+7: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 109) [.(goto)]
+8: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 113) [else]
+9: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 114) [(1)]
+DFA State: start
+10: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:128 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:130 (state 119) [((fsm_state==31))]
+12: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:206 (state 634) [((input==31))]
+13: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:207 (state 635) [fsm_state = 28]
+14: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:208 (state 636) [output = 4]
+FSM State: s3
+15: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2276 (state 3793) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2277 (state 3794) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 3876) [dealt = 0]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 3874) [IF]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 3805) [IF]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 3801) [dfa_state = 9]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 3802) [dealt = 1]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 3806) [.(goto)]
+17: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 3875) [.(goto)]
+18: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3879) [else]
+19: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3880) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2279 (state 3884) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:101 (state 4) [(1)]
+22: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:121 (state 22) [input = 20]
+Input: I_KEX30
+23: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:126 (state 28) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 110) [dealt = 0]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 108) [IF]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 39) [IF]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 35) [dfa_state = 9]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 36) [dealt = 1]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 40) [.(goto)]
+24: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 109) [.(goto)]
+25: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 113) [else]
+26: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 114) [(1)]
+DFA State: start
+27: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:128 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:355 (state 875) [((fsm_state==28))]
+29: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:417 (state 936) [((input==20))]
+30: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:418 (state 937) [fsm_state = 24]
+31: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:419 (state 938) [output = 2]
+Output: O_KEX31
+32: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:420 (state 939) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 1021) [dealt = 0]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 1019) [IF]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 950) [IF]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 946) [dfa_state = 9]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 947) [dealt = 1]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 951) [.(goto)]
+33: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 1020) [.(goto)]
+34: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 1024) [else]
+35: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 1025) [(1)]
+DFA State: start
+36: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:422 (state 1029) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:423 (state 1030) [output = 3]
+FSM State: s7
+38: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2276 (state 3793) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2277 (state 3794) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 3876) [dealt = 0]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 3874) [IF]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 3805) [IF]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 3801) [dfa_state = 9]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 3802) [dealt = 1]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 3806) [.(goto)]
+40: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 3875) [.(goto)]
+41: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3879) [else]
+42: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3880) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2279 (state 3884) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:101 (state 4) [(1)]
+45: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:111 (state 12) [input = 30]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:126 (state 28) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 110) [dealt = 0]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 108) [IF]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 39) [IF]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 35) [dfa_state = 9]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 36) [dealt = 1]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 40) [.(goto)]
+47: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 109) [.(goto)]
+48: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 113) [else]
+49: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 114) [(1)]
+DFA State: start
+50: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:128 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:635 (state 1423) [((fsm_state==24))]
+52: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:637 (state 1424) [((input==30))]
+53: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:638 (state 1425) [fsm_state = 30]
+54: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:117 (state 18) [input = 24]
+Input: I_SR_AUTH
+55: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:126 (state 28) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 110) [dealt = 0]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 108) [IF]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 39) [IF]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:23 (state 35) [dfa_state = 9]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:24 (state 36) [dealt = 1]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 40) [.(goto)]
+56: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 109) [.(goto)]
+57: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 113) [else]
+58: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 114) [(1)]
+DFA State: start
+59: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:128 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:221 (state 739) [((fsm_state==30))]
+61: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:280 (state 797) [((input==24))]
+62: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:281 (state 798) [fsm_state = 26]
+63: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:282 (state 799) [output = 15]
+FSM State: s5
+64: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2276 (state 3793) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+65: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2277 (state 3794) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 3876) [dealt = 0]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 3874) [IF]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:18 (state 3805) [IF]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:20 (state 3798) [dfa_state = 7]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:21 (state 3799) [dealt = 1]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:27 (state 3806) [.(goto)]
+66: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 3875) [.(goto)]
+67: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3879) [else]
+68: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3880) [(1)]
+DFA State: sr_accept
+
+69: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2279 (state 3884) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:101 (state 4) [(1)]
+71: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:106 (state 7) [input = 35]
+Input: I_UA_NONE
+72: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:126 (state 28) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 110) [dealt = 0]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 108) [IF]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:30 (state 55) [IF]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:35 (state 48) [dfa_state = 6]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:36 (state 49) [dealt = 1]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:42 (state 56) [.(goto)]
+73: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 109) [.(goto)]
+74: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 113) [else]
+75: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 114) [(1)]
+DFA State: invalid_authreq
+76: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:128 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:493 (state 1103) [((fsm_state==26))]
+78: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:557 (state 1342) [((input==35))]
+79: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:558 (state 1343) [fsm_state = 21]
+80: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:559 (state 1344) [output = 1]
+FSM State: s10
+81: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2276 (state 3793) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_FAILURE
+
+82: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2277 (state 3794) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 3876) [dealt = 0]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 3874) [IF]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:43 (state 3832) [IF]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:45 (state 3825) [dfa_state = 7]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:46 (state 3826) [dealt = 1]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:52 (state 3833) [.(goto)]
+83: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 3875) [.(goto)]
+84: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3879) [else]
+85: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 3880) [(1)]
+DFA State: sr_accept
+
+86: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2279 (state 3884) [printf('DFA State: %e\\n\\n',dfa_state)]
+87: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:101 (state 4) [(1)]
+88: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:109 (state 10) [input = 32]
+Input: I_UA_PK_NOK
+89: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:126 (state 28) [printf('Input: %e\\n',input)]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 110) [dealt = 0]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 108) [IF]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:30 (state 55) [IF]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:35 (state 48) [dfa_state = 6]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:36 (state 49) [dealt = 1]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:42 (state 56) [.(goto)]
+90: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 109) [.(goto)]
+91: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 113) [else]
+92: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:91 (state 114) [(1)]
+DFA State: invalid_authreq
+93: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:128 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+94: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:840 (state 1719) [((fsm_state==21))]
+95: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:854 (state 1732) [((input==32))]
+96: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:855 (state 1733) [fsm_state = 29]
+97: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:856 (state 1734) [output = 12]
+FSM State: s2
+98: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2276 (state 3793) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_DISCONNECT
+
+99: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:2277 (state 3794) [printf('Output: %e\\n\\n',output)]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:14 (state 3876) [dealt = 0]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:16 (state 3874) [IF]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:43 (state 3832) [IF]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:48 (state 3828) [dfa_state = 8]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:49 (state 3829) [dealt = 1]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:52 (state 3833) [.(goto)]
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:88 (state 3875) [.(goto)]
+spin: trail ends after 100 steps
+#processes: 1
+input = I_UA_PK_NOK
+output = O_DISCONNECT
+fsm_state = s2
+dfa_state = bug
+dealt = 1
+100: proc  0 (:init::1) OpenSSH-6.9p1_invalid_auth_rejection_response_introspection.pml:89 (state 3881)
+100: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

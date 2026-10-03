@@ -1,0 +1,38 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.586	
+Depth=      20 States=      117 Transitions=      273 Memory=   128.586	
+Depth=      30 States=      235 Transitions=      391 Memory=   128.586	
+Depth=      40 States=      503 Transitions=      868 Memory=   128.586	
+Depth=      50 States=      861 Transitions= 1.58e+03 Memory=   128.586	
+Depth=      60 States= 1.09e+03 Transitions= 1.83e+03 Memory=   128.586	
+Depth=      70 States= 1.37e+03 Transitions=  2.3e+03 Memory=   128.684	
+pan:1: assertion violated  !( !((dfa_state!=9))) (at depth 74)
+pan: wrote BitVise-7.23_transport_layer_bug_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 74, errors: 1
+     1490 states, stored
+	    1490 nominal states (stored-atomic)
+     1023 states, matched
+     2513 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.080	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.744	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.684	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

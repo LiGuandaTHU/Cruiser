@@ -1,0 +1,84 @@
+error: max search depth too small
+Depth=    9999 States=    1e+06 Transitions= 2.13e+06 Memory=   201.776	t=     0.58 R=   2e+06
+Depth=    9999 States=    2e+06 Transitions=  4.3e+06 Memory=   275.409	t=     1.17 R=   2e+06
+Depth=    9999 States=    3e+06 Transitions= 7.51e+06 Memory=   352.948	t=     1.91 R=   2e+06
+Depth=    9999 States=    4e+06 Transitions= 1.23e+07 Memory=   435.663	t=     2.87 R=   1e+06
+Depth=    9999 States=    5e+06 Transitions= 1.67e+07 Memory=   517.401	t=     3.87 R=   1e+06
+Depth=    9999 States=    6e+06 Transitions= 2.11e+07 Memory=   599.628	t=      4.9 R=   1e+06
+Depth=    9999 States=    7e+06 Transitions= 2.61e+07 Memory=   682.343	t=     6.05 R=   1e+06
+Depth=    9999 States=    8e+06 Transitions= 3.06e+07 Memory=   764.179	t=     7.17 R=   1e+06
+Depth=    9999 States=    9e+06 Transitions= 3.48e+07 Memory=   845.526	t=     8.25 R=   1e+06
+Depth=    9999 States=    1e+07 Transitions= 3.94e+07 Memory=   927.558	t=     9.44 R=   1e+06
+Depth=    9999 States=  1.1e+07 Transitions= 4.35e+07 Memory=  1008.808	t=     10.6 R=   1e+06
+Depth=    9999 States=  1.2e+07 Transitions= 4.76e+07 Memory=  1090.644	t=     11.7 R=   1e+06
+Depth=    9999 States=  1.3e+07 Transitions= 5.15e+07 Memory=  1172.577	t=     12.9 R=   1e+06
+Depth=    9999 States=  1.4e+07 Transitions= 5.56e+07 Memory=  1254.218	t=     14.1 R=   1e+06
+Depth=    9999 States=  1.5e+07 Transitions= 5.93e+07 Memory=  1335.761	t=     15.3 R=   1e+06
+Depth=    9999 States=  1.6e+07 Transitions= 6.29e+07 Memory=  1405.878	t=     16.6 R=   1e+06
+Depth=    9999 States=  1.7e+07 Transitions= 6.65e+07 Memory=  1475.995	t=     17.9 R=   1e+06
+Depth=    9999 States=  1.8e+07 Transitions= 7.03e+07 Memory=  1556.757	t=     19.2 R=   9e+05
+Depth=    9999 States=  1.9e+07 Transitions= 7.48e+07 Memory=  1639.374	t=     20.6 R=   9e+05
+Depth=    9999 States=    2e+07 Transitions= 7.89e+07 Memory=  1720.233	t=     21.8 R=   9e+05
+Depth=    9999 States=  2.1e+07 Transitions=  8.3e+07 Memory=  1800.995	t=     23.1 R=   9e+05
+Depth=    9999 States=  2.2e+07 Transitions= 8.67e+07 Memory=  1881.757	t=     24.3 R=   9e+05
+Depth=    9999 States=  2.3e+07 Transitions= 9.03e+07 Memory=  1962.323	t=     25.6 R=   9e+05
+Depth=    9999 States=  2.4e+07 Transitions= 9.42e+07 Memory=  2043.476	t=       27 R=   9e+05
+Depth=    9999 States=  2.5e+07 Transitions= 9.77e+07 Memory=  2124.628	t=     28.3 R=   9e+05
+Depth=    9999 States=  2.6e+07 Transitions= 1.02e+08 Memory=  2205.487	t=     29.8 R=   9e+05
+Depth=    9999 States=  2.7e+07 Transitions= 1.06e+08 Memory=  2286.640	t=     31.4 R=   9e+05
+Depth=    9999 States=  2.8e+07 Transitions= 1.09e+08 Memory=  2368.866	t=     33.1 R=   8e+05
+Depth=    9999 States=  2.9e+07 Transitions= 1.14e+08 Memory=  2449.042	t=     34.8 R=   8e+05
+Depth=    9999 States=    3e+07 Transitions= 1.18e+08 Memory=  2529.218	t=     36.5 R=   8e+05
+Depth=    9999 States=  3.1e+07 Transitions= 1.23e+08 Memory=  2609.784	t=       39 R=   8e+05
+Depth=    9999 States=  3.2e+07 Transitions= 1.31e+08 Memory=  2693.476	t=     42.7 R=   7e+05
+Depth=    9999 States=  3.3e+07 Transitions= 1.35e+08 Memory=  2774.726	t=     44.4 R=   7e+05
+Depth=    9999 States=  3.4e+07 Transitions=  1.4e+08 Memory=  2856.171	t=     46.2 R=   7e+05
+pan: resizing hashtable to -w26..  done
+Depth=    9999 States=  3.5e+07 Transitions= 1.43e+08 Memory=  3432.917	t=       51 R=   7e+05
+Depth=    9999 States=  3.6e+07 Transitions= 1.47e+08 Memory=  3514.460	t=     52.3 R=   7e+05
+Depth=    9999 States=  3.7e+07 Transitions=  1.5e+08 Memory=  3590.534	t=     53.4 R=   7e+05
+Depth=    9999 States=  3.8e+07 Transitions= 1.53e+08 Memory=  3667.390	t=     54.4 R=   7e+05
+Depth=    9999 States=  3.9e+07 Transitions= 1.57e+08 Memory=  3749.616	t=     55.9 R=   7e+05
+Depth=    9999 States=    4e+07 Transitions= 1.61e+08 Memory=  3831.257	t=     57.2 R=   7e+05
+Depth=    9999 States=  4.1e+07 Transitions= 1.66e+08 Memory=  3913.288	t=     58.8 R=   7e+05
+
+(Spin Version 6.5.2 -- 13 October 2022)
+
+Full statespace search for:
+	never claim         	+ (phi3)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 100 byte, depth reached 9999, errors: 0
+ 39787776 states, stored (4.16336e+07 visited)
+1.2714239e+08 states, matched
+1.6877595e+08 transitions (= visited+matched)
+ 43156397 atomic steps
+hash conflicts:  65948615 (resolved)
+
+Stats on memory usage (in Megabytes):
+ 4856.906	equivalent memory usage for states (stored*(State-vector + overhead))
+ 3452.588	actual memory usage for states (compression: 71.09%)
+         	state-vector as stored = 63 byte + 28 byte overhead
+  512.000	memory used for hash table (-w26)
+    0.534	memory used for DFS stack (-m10000)
+    1.932	memory lost to fragmentation
+ 3963.190	total actual memory usage
+
+
+unreached in proctype DCCP
+	DCCP_attacker_phi3_attack.pml:84, state 27, "snd!DCCP_RESET"
+	DCCP_attacker_phi3_attack.pml:171, state 112, "-end-"
+	(2 of 112 states)
+unreached in init
+	(0 of 7 states)
+unreached in proctype attacker
+	(0 of 46 states)
+unreached in claim phi3
+	_spin_nvr.tmp:22, state 31, "-end-"
+	(1 of 31 states)
+
+pan: elapsed time 59.9 seconds
+pan: rate 694587.17 states/second
+ltl phi3: (! (<> (is_attacker_end))) || (! (<> ([] ((state[0]==before_state[0])))))

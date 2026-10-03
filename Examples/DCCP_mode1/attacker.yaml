@@ -1,0 +1,131 @@
+end: false
+
+channel:
+  - name: AtoB
+    field:
+      - fieldname: type
+        fieldtype: mtype
+  - name: BtoA
+    field:
+      - fieldname: type
+        fieldtype: mtype
+
+behavior:
+  - pattern: INTERCEPTION
+    channel: AtoB
+    filter: NONE
+
+  - pattern: INTERCEPTION
+    channel: BtoA
+    filter: NONE
+
+  - pattern: INJECTION
+    channel: BtoA
+    assigner:
+      type:
+        one of:
+        - const: DCCP_REQUEST
+        - const: DCCP_RESPONSE
+        - const: DCCP_DATA
+        - const: DCCP_ACK
+        - const: DCCP_DATAACK
+        - const: DCCP_CLOSEREQ
+        - const: DCCP_CLOSE
+        - const: DCCP_RESET
+
+  - pattern: INJECTION
+    channel: AtoB
+    assigner:
+      type:
+        one of:
+        - const: DCCP_REQUEST
+        - const: DCCP_RESPONSE
+        - const: DCCP_DATA
+        - const: DCCP_ACK
+        - const: DCCP_DATAACK
+        - const: DCCP_CLOSEREQ
+        - const: DCCP_CLOSE
+        - const: DCCP_RESET
+
+# channel:
+#   - name: AtoN
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+#   - name: BtoN
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+#   - name: NtoA
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+#   - name: NtoB
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+
+# behavior:
+#   - pattern: INTERCEPTION
+#     channel: AtoN
+#     filter:
+#       type:
+#         one of:
+#         - const: DCCP_REQUEST
+#         - const: DCCP_RESPONSE
+#         - const: DCCP_DATA
+#         - const: DCCP_ACK
+#         - const: DCCP_DATAACK
+#         - const: DCCP_CLOSEREQ
+#         - const: DCCP_CLOSE
+#         - const: DCCP_RESET
+#         - const: DCCP_SYNC
+#         - const: DCCP_SYNCACK
+
+#   - pattern: INTERCEPTION
+#     channel: BtoN
+#     filter:
+#       type:
+#         one of:
+#         - const: DCCP_REQUEST
+#         - const: DCCP_RESPONSE
+#         - const: DCCP_DATA
+#         - const: DCCP_ACK
+#         - const: DCCP_DATAACK
+#         - const: DCCP_CLOSEREQ
+#         - const: DCCP_CLOSE
+#         - const: DCCP_RESET
+#         - const: DCCP_SYNC
+#         - const: DCCP_SYNCACK
+
+#   - pattern: INJECTION
+#     channel: NtoA
+#     assigner:
+#       type:
+#         one of:
+#         - const: DCCP_REQUEST
+#         - const: DCCP_RESPONSE
+#         - const: DCCP_DATA
+#         - const: DCCP_ACK
+#         - const: DCCP_DATAACK
+#         - const: DCCP_CLOSEREQ
+#         - const: DCCP_CLOSE
+#         - const: DCCP_RESET
+#         - const: DCCP_SYNC
+#         - const: DCCP_SYNCACK
+
+#   - pattern: INJECTION
+#     channel: NtoB
+#     assigner:
+#       type:
+#         one of:
+#         - const: DCCP_REQUEST
+#         - const: DCCP_RESPONSE
+#         - const: DCCP_DATA
+#         - const: DCCP_ACK
+#         - const: DCCP_DATAACK
+#         - const: DCCP_CLOSEREQ
+#         - const: DCCP_CLOSE
+#         - const: DCCP_RESET
+#         - const: DCCP_SYNC
+#         - const: DCCP_SYNCACK

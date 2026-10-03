@@ -1,0 +1,271 @@
+ltl no_bug: [] ((dfa_state!=3))
+starting claim 1
+1: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:58 (state 1) [fsm_state = 43]
+2: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:59 (state 2) [dfa_state = 4]
+3: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:60 (state 3) [dealt = 0]
+4: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:62 (state 4) [(1)]
+5: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:65 (state 5) [input = 27]
+Input: I_KEXINIT
+6: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 30) [IF]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 26) [dfa_state = 4]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 27) [dealt = 1]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 31) [.(goto)]
+7: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+8: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+9: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: start
+10: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:82 (state 67) [((fsm_state==43))]
+12: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:103 (state 132) [((input==27))]
+13: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:104 (state 133) [fsm_state = 41]
+14: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:105 (state 134) [output = 6]
+FSM State: s2
+15: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1927 (state 3351) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1928 (state 3352) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 3391) [dealt = 0]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 3389) [IF]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 3363) [IF]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 3359) [dfa_state = 4]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 3360) [dealt = 1]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 3364) [.(goto)]
+17: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 3390) [.(goto)]
+18: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3394) [else]
+19: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3395) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1930 (state 3399) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:62 (state 4) [(1)]
+22: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:74 (state 14) [input = 18]
+Input: I_KEX30
+23: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 30) [IF]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 26) [dfa_state = 4]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 27) [dealt = 1]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 31) [.(goto)]
+24: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+25: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+26: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: start
+27: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:190 (state 492) [((fsm_state==41))]
+29: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:222 (state 523) [((input==18))]
+30: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:223 (state 524) [fsm_state = 39]
+31: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:224 (state 525) [output = 8]
+Output: O_KEX31
+32: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:225 (state 526) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 565) [dealt = 0]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 563) [IF]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 537) [IF]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 533) [dfa_state = 4]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 534) [dealt = 1]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 538) [.(goto)]
+33: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 564) [.(goto)]
+34: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 568) [else]
+35: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 569) [(1)]
+DFA State: start
+36: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:227 (state 573) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:228 (state 574) [output = 1]
+FSM State: s4
+38: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1927 (state 3351) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1928 (state 3352) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 3391) [dealt = 0]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 3389) [IF]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 3363) [IF]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 3359) [dfa_state = 4]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 3360) [dealt = 1]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 3364) [.(goto)]
+40: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 3390) [.(goto)]
+41: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3394) [else]
+42: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3395) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1930 (state 3399) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:62 (state 4) [(1)]
+45: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:67 (state 7) [input = 25]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 30) [IF]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 26) [dfa_state = 4]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 27) [dealt = 1]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 31) [.(goto)]
+47: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+48: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+49: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: start
+50: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:274 (state 623) [((fsm_state==39))]
+52: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:309 (state 657) [((input==25))]
+53: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:310 (state 658) [fsm_state = 37]
+54: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:72 (state 12) [input = 20]
+Input: I_SR_AUTH
+55: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 30) [IF]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:22 (state 26) [dfa_state = 4]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:23 (state 27) [dealt = 1]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 31) [.(goto)]
+56: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+57: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+58: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: start
+59: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:354 (state 705) [((fsm_state==37))]
+61: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:386 (state 736) [((input==20))]
+62: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:387 (state 737) [fsm_state = 34]
+63: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:388 (state 738) [output = 13]
+FSM State: s9
+64: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1927 (state 3351) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+65: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1928 (state 3352) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 3391) [dealt = 0]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 3389) [IF]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:17 (state 3363) [IF]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:19 (state 3356) [dfa_state = 2]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:20 (state 3357) [dealt = 1]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:26 (state 3364) [.(goto)]
+66: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 3390) [.(goto)]
+67: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3394) [else]
+68: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3395) [(1)]
+DFA State: sr_accept
+
+69: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1930 (state 3399) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:62 (state 4) [(1)]
+71: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:65 (state 5) [input = 27]
+Input: I_KEXINIT
+72: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:29 (state 43) [IF]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:34 (state 39) [dfa_state = 2]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:35 (state 40) [dealt = 1]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:38 (state 44) [.(goto)]
+73: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+74: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+75: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: sr_accept
+76: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:474 (state 828) [((fsm_state==34))]
+78: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:509 (state 862) [((input==27))]
+79: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:510 (state 863) [fsm_state = 29]
+80: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:511 (state 864) [output = 6]
+FSM State: s14
+81: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1927 (state 3351) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+82: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1928 (state 3352) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 3391) [dealt = 0]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 3389) [IF]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:29 (state 3376) [IF]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:31 (state 3369) [dfa_state = 1]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:32 (state 3370) [dealt = 1]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:38 (state 3377) [.(goto)]
+83: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 3390) [.(goto)]
+84: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3394) [else]
+85: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3395) [(1)]
+DFA State: rekey
+
+86: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1930 (state 3399) [printf('DFA State: %e\\n\\n',dfa_state)]
+87: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:62 (state 4) [(1)]
+88: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:74 (state 14) [input = 18]
+Input: I_KEX30
+89: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:39 (state 54) [IF]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:44 (state 50) [dfa_state = 1]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:45 (state 51) [dealt = 1]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:48 (state 55) [.(goto)]
+90: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+91: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+92: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: rekey
+93: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+94: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:682 (state 1131) [((fsm_state==29))]
+95: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:711 (state 1159) [((input==18))]
+96: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:712 (state 1160) [fsm_state = 22]
+97: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:713 (state 1161) [output = 8]
+Output: O_KEX31
+98: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:714 (state 1162) [printf('Output: %e\\n',output)]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 1201) [dealt = 0]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 1199) [IF]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:39 (state 1197) [IF]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:44 (state 1193) [dfa_state = 1]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:45 (state 1194) [dealt = 1]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:48 (state 1198) [.(goto)]
+99: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 1200) [.(goto)]
+100: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 1204) [else]
+101: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 1205) [(1)]
+DFA State: rekey
+102: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:716 (state 1209) [printf('DFA State: %e\\n',dfa_state)]
+103: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:717 (state 1210) [output = 1]
+FSM State: s21
+104: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1927 (state 3351) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+105: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1928 (state 3352) [printf('Output: %e\\n\\n',output)]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 3391) [dealt = 0]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 3389) [IF]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:39 (state 3387) [IF]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:44 (state 3383) [dfa_state = 1]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:45 (state 3384) [dealt = 1]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:48 (state 3388) [.(goto)]
+106: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 3390) [.(goto)]
+107: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3394) [else]
+108: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 3395) [(1)]
+DFA State: rekey
+
+109: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1930 (state 3399) [printf('DFA State: %e\\n\\n',dfa_state)]
+110: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:62 (state 4) [(1)]
+111: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:69 (state 9) [input = 23]
+Input: I_UA_PK_OK
+112: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 58) [dealt = 0]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 56) [IF]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:39 (state 54) [IF]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:44 (state 50) [dfa_state = 1]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:45 (state 51) [dealt = 1]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:48 (state 55) [.(goto)]
+113: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 57) [.(goto)]
+114: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 61) [else]
+115: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:52 (state 62) [(1)]
+DFA State: rekey
+116: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+117: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:974 (state 1565) [((fsm_state==22))]
+118: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1009 (state 1599) [((input==23))]
+119: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1010 (state 1600) [fsm_state = 10]
+120: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1011 (state 1601) [output = 7]
+FSM State: s33
+121: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1927 (state 3351) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+122: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:1928 (state 3352) [printf('Output: %e\\n\\n',output)]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:13 (state 3391) [dealt = 0]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:15 (state 3389) [IF]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:39 (state 3387) [IF]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:41 (state 3380) [dfa_state = 3]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:42 (state 3381) [dealt = 1]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:48 (state 3388) [.(goto)]
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:49 (state 3390) [.(goto)]
+spin: trail ends after 123 steps
+#processes: 1
+input = I_UA_PK_OK
+output = O_UA_SUCCESS
+fsm_state = s33
+dfa_state = bug
+dealt = 1
+123: proc  0 (:init::1) BitVise-8.49_missing_newkeys_introspection.pml:50 (state 3396)
+123: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

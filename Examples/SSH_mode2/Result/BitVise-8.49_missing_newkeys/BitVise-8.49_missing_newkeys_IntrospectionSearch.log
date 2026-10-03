@@ -1,0 +1,43 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.391	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.391	
+Depth=      30 States=      539 Transitions=      635 Memory=   128.391	
+Depth=      40 States=      976 Transitions= 1.21e+03 Memory=   128.391	
+Depth=      50 States= 1.68e+03 Transitions= 2.35e+03 Memory=   128.488	
+Depth=      60 States= 2.15e+03 Transitions= 2.94e+03 Memory=   128.488	
+Depth=      70 States=  2.6e+03 Transitions= 3.71e+03 Memory=   128.586	
+Depth=      80 States=  3.1e+03 Transitions= 4.54e+03 Memory=   128.586	
+Depth=      90 States= 3.91e+03 Transitions= 5.65e+03 Memory=   128.684	
+Depth=     100 States= 5.33e+03 Transitions= 7.27e+03 Memory=   128.781	
+Depth=     110 States= 7.46e+03 Transitions=  9.9e+03 Memory=   128.977	
+Depth=     120 States= 1.02e+04 Transitions= 1.34e+04 Memory=   129.172	
+pan:1: assertion violated  !( !((dfa_state!=3))) (at depth 122)
+pan: wrote BitVise-8.49_missing_newkeys_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 122, errors: 1
+    11163 states, stored
+	   11163 nominal states (stored-atomic)
+     3791 states, matched
+    14954 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         2 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.596	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.310	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  129.270	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

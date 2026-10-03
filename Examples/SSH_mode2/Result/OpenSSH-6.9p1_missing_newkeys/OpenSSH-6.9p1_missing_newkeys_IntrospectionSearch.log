@@ -1,0 +1,200 @@
+Depth=      10 States=      131 Transitions=      131 Memory=   128.391	
+Depth=      20 States=      341 Transitions=      341 Memory=   128.391	
+Depth=      30 States= 1.09e+03 Transitions= 1.43e+03 Memory=   128.391	
+Depth=      40 States= 1.84e+03 Transitions= 2.78e+03 Memory=   128.488	
+Depth=      50 States= 2.77e+03 Transitions= 4.27e+03 Memory=   128.586	
+Depth=      60 States= 3.09e+03 Transitions= 4.68e+03 Memory=   128.586	
+Depth=      70 States= 3.45e+03 Transitions= 5.24e+03 Memory=   128.586	
+Depth=      80 States= 4.24e+03 Transitions= 6.65e+03 Memory=   128.684	
+Depth=      90 States= 5.11e+03 Transitions= 7.96e+03 Memory=   128.781	
+Depth=     100 States= 6.81e+03 Transitions= 1.03e+04 Memory=   128.879	
+Depth=     110 States= 9.68e+03 Transitions= 1.43e+04 Memory=   129.172	
+Depth=     120 States= 1.23e+04 Transitions= 1.89e+04 Memory=   129.367	
+Depth=     130 States= 1.49e+04 Transitions= 2.32e+04 Memory=   129.562	
+Depth=     140 States=  1.7e+04 Transitions= 2.69e+04 Memory=   129.660	
+Depth=     150 States= 1.88e+04 Transitions= 2.99e+04 Memory=   129.855	
+Depth=     160 States=    2e+04 Transitions= 3.22e+04 Memory=   129.953	
+Depth=     170 States= 2.04e+04 Transitions= 3.26e+04 Memory=   129.953	
+Depth=     180 States= 2.08e+04 Transitions= 3.33e+04 Memory=   129.953	
+Depth=     190 States= 2.09e+04 Transitions= 3.34e+04 Memory=   129.953	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 193, errors: 0
+    20976 states, stored
+	   20976 nominal states (stored-atomic)
+    12601 states, matched
+    33577 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         3 (resolved)
+
+Stats on memory usage (in Megabytes):
+    1.120	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.978	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  129.953	total actual memory usage
+
+
+unreached in init
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1031, state 1568, "fsm_state = 29"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1032, state 1569, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1084, state 1667, "fsm_state = 29"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1085, state 1668, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1087, state 1670, "fsm_state = 29"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1088, state 1671, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1090, state 1673, "fsm_state = 18"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1091, state 1674, "output = 13"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1093, state 1676, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1096, state 1679, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1097, state 1680, "output = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1099, state 1682, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1102, state 1685, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1103, state 1686, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1105, state 1688, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1108, state 1691, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1109, state 1692, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1111, state 1694, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1112, state 1695, "output = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1114, state 1697, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1115, state 1698, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1117, state 1700, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1118, state 1701, "output = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1120, state 1703, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1121, state 1704, "output = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1123, state 1706, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1126, state 1709, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1129, state 1712, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1130, state 1713, "output = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1132, state 1715, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1133, state 1716, "output = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1135, state 1718, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1138, state 1721, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1139, state 1722, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1141, state 1724, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1142, state 1725, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1144, state 1727, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1145, state 1728, "output = 8"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1523, state 2157, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1557, state 2192, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1558, state 2193, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1560, state 2195, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1561, state 2196, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1563, state 2198, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1564, state 2199, "output = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1566, state 2201, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1569, state 2204, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1572, state 2207, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1575, state 2210, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1576, state 2211, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1578, state 2213, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1581, state 2216, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1582, state 2217, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1584, state 2219, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1587, state 2222, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1588, state 2223, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1590, state 2225, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1591, state 2226, "output = 15"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1593, state 2228, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1596, state 2231, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1599, state 2234, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1602, state 2237, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1605, state 2240, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1608, state 2243, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1609, state 2244, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1611, state 2246, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1612, state 2247, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1614, state 2249, "fsm_state = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1615, state 2250, "output = 13"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1617, state 2252, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1618, state 2253, "output = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1651, state 2287, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1652, state 2288, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1789, state 2472, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1790, state 2473, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1833, state 2562, "fsm_state = 29"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1834, state 2563, "output = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1836, state 2565, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1837, state 2566, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1839, state 2568, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1840, state 2569, "output = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1842, state 2571, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1843, state 2572, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1845, state 2574, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1846, state 2575, "output = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1848, state 2577, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1849, state 2578, "output = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1851, state 2580, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1852, state 2581, "output = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1854, state 2583, "fsm_state = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1855, state 2584, "output = 13"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1857, state 2586, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1860, state 2589, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1863, state 2592, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1866, state 2595, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1867, state 2596, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1869, state 2598, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1872, state 2601, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1873, state 2602, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1875, state 2604, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1876, state 2605, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1878, state 2607, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1879, state 2608, "output = 15"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1881, state 2610, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1884, state 2613, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1887, state 2616, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1890, state 2619, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1891, state 2620, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1893, state 2622, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1894, state 2623, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1900, state 2630, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1901, state 2631, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1903, state 2633, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1904, state 2634, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1906, state 2636, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1907, state 2637, "output = 9"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1909, state 2639, "fsm_state = 17"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1910, state 2640, "output = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1912, state 2642, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1915, state 2645, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1918, state 2648, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1921, state 2651, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1922, state 2652, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1924, state 2654, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1927, state 2657, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1928, state 2658, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1930, state 2660, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1933, state 2663, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1934, state 2664, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1936, state 2666, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1937, state 2667, "output = 15"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1939, state 2669, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1942, state 2672, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1945, state 2675, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1948, state 2678, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1951, state 2681, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1954, state 2684, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1955, state 2685, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1957, state 2687, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1958, state 2688, "output = 2"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1960, state 2690, "fsm_state = 3"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:1961, state 2691, "output = 13"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:2015, state 2746, "fsm_state = 10"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:2061, state 2793, "fsm_state = 27"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:2062, state 2794, "output = 7"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:2153, state 2931, "fsm_state = 6"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:2220, state 2999, "fsm_state = 5"
+	OpenSSH-6.9p1_missing_newkeys_introspection.pml:2242, state 3071, "-end-"
+	(148 of 3071 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds

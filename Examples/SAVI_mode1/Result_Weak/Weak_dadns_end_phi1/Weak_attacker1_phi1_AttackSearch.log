@@ -1,0 +1,89 @@
+
+(Spin Version 6.5.2 -- 13 October 2022)
+
+Full statespace search for:
+	never claim         	+ (phi1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 500 byte, depth reached 645, errors: 0
+    17869 states, stored
+    29518 states, matched
+    47387 transitions (= stored+matched)
+    14659 atomic steps
+hash conflicts:         5 (resolved)
+
+Stats on memory usage (in Megabytes):
+    8.998	equivalent memory usage for states (stored*(State-vector + overhead))
+    8.653	actual memory usage for states (compression: 96.17%)
+         	state-vector as stored = 480 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  137.128	total actual memory usage
+
+
+unreached in proctype client
+	Weak_attacker1_phi1_attack.pml:151, state 38, "dstIP_send = 101"
+	Weak_attacker1_phi1_attack.pml:152, state 39, "dstMac_send = 1001"
+	Weak_attacker1_phi1_attack.pml:153, state 40, "target_send = gip"
+	Weak_attacker1_phi1_attack.pml:154, state 41, "c_sv[portID]!8,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	Weak_attacker1_phi1_attack.pml:149, state 43, "srcIP_send = llip"
+	Weak_attacker1_phi1_attack.pml:173, state 60, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	Weak_attacker1_phi1_attack.pml:175, state 65, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	Weak_attacker1_phi1_attack.pml:175, state 65, "else"
+	Weak_attacker1_phi1_attack.pml:216, state 93, "dstIP_send = 102"
+	Weak_attacker1_phi1_attack.pml:217, state 94, "dstMac_send = 1002"
+	Weak_attacker1_phi1_attack.pml:218, state 95, "target_send = target_recv"
+	Weak_attacker1_phi1_attack.pml:219, state 96, "c_sv[portID]!1,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,-(1)"
+	Weak_attacker1_phi1_attack.pml:214, state 97, "srcIP_send = target_recv"
+	Weak_attacker1_phi1_attack.pml:222, state 99, "printf('\nClient Mac %d receive a %e message, but no process\n',mac,msgtype)"
+	Weak_attacker1_phi1_attack.pml:212, state 100, "((((msgtype==2)&&(target_recv==gip))&&mac_isBound[mac]))"
+	Weak_attacker1_phi1_attack.pml:212, state 100, "else"
+	(14 of 110 states)
+unreached in proctype attacker1
+	Weak_attacker1_phi1_attack.pml:300, state 38, "dstIP_send = 101"
+	Weak_attacker1_phi1_attack.pml:301, state 39, "dstMac_send = 1001"
+	Weak_attacker1_phi1_attack.pml:302, state 40, "target_send = gip"
+	Weak_attacker1_phi1_attack.pml:303, state 41, "c_sv[portID]!8,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	Weak_attacker1_phi1_attack.pml:298, state 43, "srcIP_send = llip"
+	Weak_attacker1_phi1_attack.pml:318, state 56, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	Weak_attacker1_phi1_attack.pml:320, state 61, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	Weak_attacker1_phi1_attack.pml:320, state 61, "else"
+	(7 of 124 states)
+unreached in proctype dhcp_server
+	Weak_attacker1_phi1_attack.pml:398, state 10, "dhcp_sv!5,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi1_attack.pml:405, state 19, "(1)"
+	Weak_attacker1_phi1_attack.pml:415, state 29, "dhcp_sv!4,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi1_attack.pml:421, state 35, "conflictIPCount = (conflictIPCount+1)"
+	Weak_attacker1_phi1_attack.pml:422, state 36, "gip_IAID[target_recv] = -(1)"
+	Weak_attacker1_phi1_attack.pml:423, state 37, "IAID_getgip[iaid] = 0"
+	Weak_attacker1_phi1_attack.pml:424, state 38, "dhcp_sv!6,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi1_attack.pml:426, state 40, "dhcp_sv!4,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	Weak_attacker1_phi1_attack.pml:419, state 41, "((gip_IAID[target_recv]==iaid))"
+	Weak_attacker1_phi1_attack.pml:419, state 41, "((gip_IAID[target_recv]!=iaid))"
+	Weak_attacker1_phi1_attack.pml:430, state 45, "dhcp_sv!3,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,-(1)"
+	Weak_attacker1_phi1_attack.pml:432, state 47, "printf('\nInvalid message received by DHCP server\n')"
+	Weak_attacker1_phi1_attack.pml:436, state 54, "-end-"
+	(12 of 54 states)
+unreached in proctype savi_switch
+	Weak_attacker1_phi1_attack.pml:502, state 43, "printf('\nInvalid message send by Client from port %d\n',recv_portID)"
+	Weak_attacker1_phi1_attack.pml:530, state 68, "BST[target].state = 3"
+	Weak_attacker1_phi1_attack.pml:531, state 70, "(1)"
+	Weak_attacker1_phi1_attack.pml:528, state 71, "((BST[target].state==2))"
+	Weak_attacker1_phi1_attack.pml:528, state 71, "else"
+	Weak_attacker1_phi1_attack.pml:533, state 74, "(1)"
+	Weak_attacker1_phi1_attack.pml:535, state 76, "printf('\nInvalid message send by DHCP server\n')"
+	Weak_attacker1_phi1_attack.pml:541, state 85, "-end-"
+	(7 of 85 states)
+unreached in init
+	(0 of 34 states)
+unreached in claim phi1
+	_spin_nvr.tmp:10, state 18, "(is_attacker1_end)"
+	_spin_nvr.tmp:10, state 18, "(1)"
+	_spin_nvr.tmp:20, state 30, "-end-"
+	(2 of 30 states)
+
+pan: elapsed time 0.03 seconds
+pan: rate 595633.33 states/second
+ltl phi1: (! (<> (is_attacker1_end))) || ([] (((assignedIPCount+conflictIPCount)<5)))

@@ -1,0 +1,30 @@
+pan:1: acceptance cycle (at depth 6)
+pan: wrote DCCP_attacker_phi1_attack.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+
+Full statespace search for:
+	never claim         	+ (phi1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 64 byte, depth reached 11, errors: 1
+        4 states, stored
+        0 states, matched
+        4 transitions (= stored+matched)
+        4 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.000	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.273	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  128.730	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds
+ltl phi1: ! (<> ([] (((state[0]==before_state[0])) && ((state[1]==before_state[1])))))

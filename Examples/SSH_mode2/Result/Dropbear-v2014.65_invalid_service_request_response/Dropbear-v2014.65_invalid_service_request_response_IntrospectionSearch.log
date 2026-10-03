@@ -1,0 +1,50 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.293	
+Depth=      20 States=      213 Transitions=      213 Memory=   128.293	
+Depth=      30 States=      862 Transitions=      953 Memory=   128.293	
+Depth=      40 States= 1.42e+03 Transitions= 1.91e+03 Memory=   128.391	
+Depth=      50 States= 2.24e+03 Transitions= 2.84e+03 Memory=   128.391	
+Depth=      60 States= 2.41e+03 Transitions= 3.02e+03 Memory=   128.488	
+Depth=      70 States= 2.75e+03 Transitions=  3.4e+03 Memory=   128.488	
+Depth=      80 States= 3.58e+03 Transitions= 4.41e+03 Memory=   128.488	
+Depth=      90 States= 3.93e+03 Transitions= 4.89e+03 Memory=   128.586	
+Depth=     100 States= 4.43e+03 Transitions= 5.55e+03 Memory=   128.586	
+Depth=     110 States= 5.01e+03 Transitions= 6.14e+03 Memory=   128.684	
+Depth=     120 States= 5.37e+03 Transitions= 6.75e+03 Memory=   128.684	
+Depth=     130 States= 6.47e+03 Transitions= 7.88e+03 Memory=   128.781	
+Depth=     140 States= 6.92e+03 Transitions= 8.77e+03 Memory=   128.781	
+Depth=     150 States= 7.33e+03 Transitions= 9.32e+03 Memory=   128.781	
+Depth=     160 States=  7.5e+03 Transitions= 9.53e+03 Memory=   128.879	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 162, errors: 0
+     7526 states, stored
+	    7526 nominal states (stored-atomic)
+     2077 states, matched
+     9603 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.402	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.976	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.879	total actual memory usage
+
+
+unreached in init
+	Dropbear-v2014.65_invalid_service_request_response_introspection.pml:840, state 1115, "-end-"
+	(1 of 1115 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds

@@ -1,0 +1,39 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.391	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.391	
+Depth=      30 States=      701 Transitions=      785 Memory=   128.391	
+Depth=      40 States= 1.13e+03 Transitions= 1.52e+03 Memory=   128.391	
+Depth=      50 States= 1.62e+03 Transitions= 2.07e+03 Memory=   128.488	
+Depth=      60 States=  1.8e+03 Transitions= 2.25e+03 Memory=   128.488	
+Depth=      70 States= 2.14e+03 Transitions= 2.67e+03 Memory=   128.488	
+Depth=      80 States= 2.82e+03 Transitions= 3.51e+03 Memory=   128.586	
+pan:1: assertion violated  !( !((dfa_state!=8))) (at depth 82)
+pan: wrote OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 82, errors: 1
+     2884 states, stored
+	    2884 nominal states (stored-atomic)
+      693 states, matched
+     3577 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.154	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.646	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.586	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

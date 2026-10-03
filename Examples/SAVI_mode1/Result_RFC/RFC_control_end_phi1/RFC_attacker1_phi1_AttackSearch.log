@@ -1,0 +1,97 @@
+error: max search depth too small
+Depth=    9999 States=    1e+06 Transitions= 3.17e+06 Memory=   581.171	t=     2.39 R=   4e+05
+Depth=    9999 States=    2e+06 Transitions= 6.43e+06 Memory=  1034.394	t=     4.93 R=   4e+05
+Depth=    9999 States=    3e+06 Transitions=  9.7e+06 Memory=  1492.890	t=     7.51 R=   4e+05
+Depth=    9999 States=    4e+06 Transitions= 1.31e+07 Memory=  1955.292	t=     10.2 R=   4e+05
+Depth=    9999 States=    5e+06 Transitions= 1.64e+07 Memory=  2416.815	t=     12.9 R=   4e+05
+Depth=    9999 States=    6e+06 Transitions= 1.97e+07 Memory=  2879.413	t=     15.6 R=   4e+05
+Depth=    9999 States=    7e+06 Transitions= 2.31e+07 Memory=  3341.327	t=     18.4 R=   4e+05
+Depth=    9999 States=    8e+06 Transitions= 2.64e+07 Memory=  3807.343	t=     21.2 R=   4e+05
+Depth=    9999 States=    9e+06 Transitions= 2.98e+07 Memory=  4273.554	t=     24.1 R=   4e+05
+Depth=    9999 States=    1e+07 Transitions= 3.32e+07 Memory=  4740.253	t=     26.9 R=   4e+05
+
+(Spin Version 6.5.2 -- 13 October 2022)
+
+Full statespace search for:
+	never claim         	+ (phi1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 488 byte, depth reached 9999, errors: 0
+ 10753453 states, stored
+ 24956277 states, matched
+ 35709730 transitions (= stored+matched)
+ 16140683 atomic steps
+hash conflicts:   5000545 (resolved)
+
+Stats on memory usage (in Megabytes):
+ 5291.731	equivalent memory usage for states (stored*(State-vector + overhead))
+ 4979.870	actual memory usage for states (compression: 94.11%)
+         	state-vector as stored = 458 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+   16.882	memory lost to fragmentation
+ 5091.522	total actual memory usage
+
+
+unreached in proctype client
+	RFC_attacker1_phi1_attack.pml:151, state 38, "dstIP_send = 101"
+	RFC_attacker1_phi1_attack.pml:152, state 39, "dstMac_send = 1001"
+	RFC_attacker1_phi1_attack.pml:153, state 40, "target_send = gip"
+	RFC_attacker1_phi1_attack.pml:154, state 41, "c_sv[portID]!8,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	RFC_attacker1_phi1_attack.pml:149, state 43, "srcIP_send = llip"
+	RFC_attacker1_phi1_attack.pml:173, state 60, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	RFC_attacker1_phi1_attack.pml:175, state 65, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	RFC_attacker1_phi1_attack.pml:175, state 65, "else"
+	RFC_attacker1_phi1_attack.pml:216, state 93, "dstIP_send = 102"
+	RFC_attacker1_phi1_attack.pml:217, state 94, "dstMac_send = 1002"
+	RFC_attacker1_phi1_attack.pml:218, state 95, "target_send = target_recv"
+	RFC_attacker1_phi1_attack.pml:219, state 96, "c_sv[portID]!1,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,-(1)"
+	RFC_attacker1_phi1_attack.pml:214, state 97, "srcIP_send = target_recv"
+	RFC_attacker1_phi1_attack.pml:222, state 99, "printf('\nClient Mac %d receive a %e message, but no process\n',mac,msgtype)"
+	RFC_attacker1_phi1_attack.pml:212, state 100, "((((msgtype==2)&&(target_recv==gip))&&mac_isBound[mac]))"
+	RFC_attacker1_phi1_attack.pml:212, state 100, "else"
+	(14 of 110 states)
+unreached in proctype attacker1
+	RFC_attacker1_phi1_attack.pml:300, state 38, "dstIP_send = 101"
+	RFC_attacker1_phi1_attack.pml:301, state 39, "dstMac_send = 1001"
+	RFC_attacker1_phi1_attack.pml:302, state 40, "target_send = gip"
+	RFC_attacker1_phi1_attack.pml:303, state 41, "c_sv[portID]!8,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,IAID"
+	RFC_attacker1_phi1_attack.pml:298, state 43, "srcIP_send = llip"
+	RFC_attacker1_phi1_attack.pml:318, state 56, "sv_c[portID]?msgtype,srcIP_recv,srcMac_recv,dstIP_recv,dstMac_recv,target_recv,iaid"
+	RFC_attacker1_phi1_attack.pml:320, state 61, "((((iaid==IAID)&&((msgtype==6)||(msgtype==4)))&&(target_recv==gip)))"
+	RFC_attacker1_phi1_attack.pml:320, state 61, "else"
+	(7 of 115 states)
+unreached in proctype dhcp_server
+	RFC_attacker1_phi1_attack.pml:404, state 19, "(1)"
+	RFC_attacker1_phi1_attack.pml:414, state 29, "dhcp_sv!4,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	RFC_attacker1_phi1_attack.pml:420, state 35, "conflictIPCount = (conflictIPCount+1)"
+	RFC_attacker1_phi1_attack.pml:421, state 36, "gip_IAID[target_recv] = -(1)"
+	RFC_attacker1_phi1_attack.pml:422, state 37, "IAID_getgip[iaid] = 0"
+	RFC_attacker1_phi1_attack.pml:423, state 38, "dhcp_sv!6,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	RFC_attacker1_phi1_attack.pml:425, state 40, "dhcp_sv!4,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,iaid"
+	RFC_attacker1_phi1_attack.pml:418, state 41, "((gip_IAID[target_recv]==iaid))"
+	RFC_attacker1_phi1_attack.pml:418, state 41, "((gip_IAID[target_recv]!=iaid))"
+	RFC_attacker1_phi1_attack.pml:429, state 45, "dhcp_sv!3,srcIP_send,srcMac_send,dstIP_send,dstMac_send,target_send,-(1)"
+	RFC_attacker1_phi1_attack.pml:431, state 47, "printf('\nInvalid message received by DHCP server\n')"
+	RFC_attacker1_phi1_attack.pml:435, state 54, "-end-"
+	(11 of 54 states)
+unreached in proctype savi_switch
+	RFC_attacker1_phi1_attack.pml:515, state 57, "printf('\nInvalid message send by Client from port %d\n',recv_portID)"
+	RFC_attacker1_phi1_attack.pml:543, state 82, "BST[target].state = 3"
+	RFC_attacker1_phi1_attack.pml:546, state 88, "(1)"
+	RFC_attacker1_phi1_attack.pml:548, state 90, "printf('\nInvalid message send by DHCP server\n')"
+	RFC_attacker1_phi1_attack.pml:554, state 99, "-end-"
+	(5 of 99 states)
+unreached in init
+	(0 of 34 states)
+unreached in claim phi1
+	_spin_nvr.tmp:10, state 18, "(is_attacker1_end)"
+	_spin_nvr.tmp:10, state 18, "(1)"
+	_spin_nvr.tmp:20, state 30, "-end-"
+	(2 of 30 states)
+
+pan: elapsed time 29.2 seconds
+pan: rate 368774.11 states/second
+ltl phi1: (! (<> (is_attacker1_end))) || ([] (((assignedIPCount+conflictIPCount)<5)))

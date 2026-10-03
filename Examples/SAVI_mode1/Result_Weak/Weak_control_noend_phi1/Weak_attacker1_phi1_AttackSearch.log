@@ -1,0 +1,32 @@
+pan:1: assertion violated  !( !(((assignedIPCount+conflictIPCount)<5))) (at depth 2396)
+pan: wrote Weak_attacker1_phi1_attack.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+
+Full statespace search for:
+	never claim         	+ (phi1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 488 byte, depth reached 2396, errors: 1
+    53699 states, stored
+    96818 states, matched
+   150517 transitions (= stored+matched)
+   110125 atomic steps
+hash conflicts:        59 (resolved)
+
+Stats on memory usage (in Megabytes):
+   26.425	equivalent memory usage for states (stored*(State-vector + overhead))
+   25.441	actual memory usage for states (compression: 96.28%)
+         	state-vector as stored = 469 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  153.827	total actual memory usage
+
+
+
+pan: elapsed time 0.13 seconds
+pan: rate 413069.23 states/second
+ltl phi1: [] (((assignedIPCount+conflictIPCount)<5))

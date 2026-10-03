@@ -1,0 +1,32 @@
+pan:1: assertion violated  !(is_attacker_end) (at depth 4252)
+pan: wrote TCP_attacker_phi1_attack.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+
+Full statespace search for:
+	never claim         	+ (phi1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 92 byte, depth reached 4252, errors: 1
+    20976 states, stored
+    30111 states, matched
+    51087 transitions (= stored+matched)
+    13773 atomic steps
+hash conflicts:         1 (resolved)
+
+Stats on memory usage (in Megabytes):
+    2.401	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.742	actual memory usage for states (compression: 72.57%)
+         	state-vector as stored = 59 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  130.194	total actual memory usage
+
+
+
+pan: elapsed time 0.02 seconds
+pan: rate   1048800 states/second
+ltl phi1: (! (<> (is_attacker_end))) || ([] ((! ((state[0]==0))) || (! ((state[1]==4)))))

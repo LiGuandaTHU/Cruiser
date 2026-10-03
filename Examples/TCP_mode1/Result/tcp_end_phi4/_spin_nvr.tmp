@@ -1,0 +1,23 @@
+never phi4 {    /* !((! (<> (is_attacker_end))) || ([] ((! ((state[0]==3))) || (<> ((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0))))))) */
+T0_init:
+	do
+	:: (! ((! ((state[0]==3)))) && ! (((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0)))) && (is_attacker_end)) -> goto accept_S26
+	:: (! ((! ((state[0]==3)))) && ! (((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0))))) -> goto T0_S14
+	:: ((is_attacker_end)) -> goto T0_S25
+	:: (1) -> goto T0_init
+	od;
+accept_S26:
+	do
+	:: (! (((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0))))) -> goto accept_S26
+	od;
+T0_S14:
+	do
+	:: (! (((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0)))) && (is_attacker_end)) -> goto accept_S26
+	:: (! (((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0))))) -> goto T0_S14
+	od;
+T0_S25:
+	do
+	:: (! ((! ((state[0]==3)))) && ! (((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0))))) -> goto accept_S26
+	:: (1) -> goto T0_S25
+	od;
+}

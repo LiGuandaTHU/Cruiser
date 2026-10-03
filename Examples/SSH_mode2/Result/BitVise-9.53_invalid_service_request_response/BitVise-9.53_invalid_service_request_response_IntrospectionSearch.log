@@ -1,0 +1,35 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.488	
+Depth=      20 States=      213 Transitions=      213 Memory=   128.488	
+Depth=      30 States=      696 Transitions=      801 Memory=   128.488	
+Depth=      40 States= 1.27e+03 Transitions= 1.59e+03 Memory=   128.586	
+pan:1: assertion violated  !( !((dfa_state!=3))) (at depth 41)
+pan: wrote BitVise-9.53_invalid_service_request_response_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 41, errors: 1
+     1376 states, stored
+	    1376 nominal states (stored-atomic)
+      325 states, matched
+     1701 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.073	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.682	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.586	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds

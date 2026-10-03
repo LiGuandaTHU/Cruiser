@@ -1,0 +1,93 @@
+end: false
+
+channel:
+  - name: AtoB
+    field:
+      - fieldname: type
+        fieldtype: mtype
+  - name: BtoA
+    field:
+      - fieldname: type
+        fieldtype: mtype
+
+behavior:
+  - pattern: INTERCEPTION
+    channel: AtoB
+    filter: NONE
+
+  - pattern: INTERCEPTION
+    channel: BtoA
+    filter: NONE
+  
+  - pattern: INJECTION
+    channel: AtoB
+    assigner:
+      type:
+        one of:
+        - const: SYN
+        - const: ACK
+        - const: FIN
+
+  - pattern: INJECTION
+    channel: BtoA
+    assigner:
+      type:
+        one of:
+        - const: SYN
+        - const: ACK
+        - const: FIN
+
+# channel:
+#   - name: AtoN
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+#   - name: NtoA
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+#   - name: BtoN
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+#   - name: NtoB
+#     field:
+#       - fieldname: type
+#         fieldtype: mtype
+
+# behavior:
+#   - pattern: INTERCEPTION
+#     channel: AtoN
+#     filter:
+#       type:
+#         one of:
+#         - const: SYN
+#         - const: ACK
+#         - const: FIN
+
+#   - pattern: INTERCEPTION
+#     channel: BtoN
+#     filter:
+#       type:
+#         one of:
+#         - const: SYN
+#         - const: ACK
+#         - const: FIN
+
+#   - pattern: INJECTION
+#     channel: NtoA
+#     assigner:
+#       type:
+#         one of:
+#         - const: SYN
+#         - const: ACK
+#         - const: FIN
+
+#   - pattern: INJECTION
+#     channel: NtoB
+#     assigner:
+#       type:
+#         one of:
+#         - const: SYN
+#         - const: ACK
+#         - const: FIN

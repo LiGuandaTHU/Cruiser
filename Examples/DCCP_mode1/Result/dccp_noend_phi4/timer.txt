@@ -1,0 +1,4 @@
+Model Construction Time: 0.013700975105166435 seconds
+Attack Search Time: 1.6406457424163818 seconds
+Line of basic model: 178
+Line of attack model: 232

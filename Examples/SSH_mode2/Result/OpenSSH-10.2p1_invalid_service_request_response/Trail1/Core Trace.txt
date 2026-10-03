@@ -1,0 +1,9 @@
+Input: I_KEXINIT
+ >>> DFA State: start
+FSM State: s3
+Output: O_KEXINIT
+ >>> DFA State: kexinit
+Input: I_SR_AUTH
+ >>> DFA State: sr
+FSM State: s3
+Output: O_UNIMPL

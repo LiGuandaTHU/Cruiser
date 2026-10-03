@@ -1,0 +1,9 @@
+never phi2 {    /* !([] (! (((state[0]==8)) && ((state[1]==8))))) */
+T0_init:
+	do
+	:: atomic { (! ((! (((state[0]==8)) && ((state[1]==8)))))) -> assert(!(! ((! (((state[0]==8)) && ((state[1]==8))))))) }
+	:: (1) -> goto T0_init
+	od;
+accept_all:
+	skip
+}

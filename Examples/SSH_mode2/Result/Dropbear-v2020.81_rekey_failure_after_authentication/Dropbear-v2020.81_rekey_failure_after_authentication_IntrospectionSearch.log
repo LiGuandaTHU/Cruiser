@@ -1,0 +1,191 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.293	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.293	
+Depth=      30 States=      689 Transitions=      773 Memory=   128.293	
+Depth=      40 States= 1.12e+03 Transitions= 1.51e+03 Memory=   128.293	
+Depth=      50 States= 1.61e+03 Transitions= 2.06e+03 Memory=   128.391	
+Depth=      60 States= 1.77e+03 Transitions= 2.22e+03 Memory=   128.391	
+Depth=      70 States= 2.08e+03 Transitions= 2.57e+03 Memory=   128.391	
+Depth=      80 States= 2.77e+03 Transitions= 3.39e+03 Memory=   128.488	
+Depth=      90 States= 3.34e+03 Transitions=  4.1e+03 Memory=   128.488	
+Depth=     100 States= 4.32e+03 Transitions= 5.38e+03 Memory=   128.586	
+Depth=     110 States= 5.01e+03 Transitions= 6.17e+03 Memory=   128.684	
+Depth=     120 States= 5.85e+03 Transitions= 7.33e+03 Memory=   128.684	
+Depth=     130 States= 6.95e+03 Transitions= 8.62e+03 Memory=   128.781	
+Depth=     140 States= 7.49e+03 Transitions= 9.54e+03 Memory=   128.879	
+Depth=     150 States= 7.76e+03 Transitions= 9.94e+03 Memory=   128.879	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 157, errors: 0
+     7812 states, stored
+	    7812 nominal states (stored-atomic)
+     2190 states, matched
+    10002 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.417	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.952	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.879	total actual memory usage
+
+
+unreached in init
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:381, state 649, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:382, state 650, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:502, state 864, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:503, state 865, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:505, state 867, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:506, state 868, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:508, state 870, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:509, state 871, "output = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:511, state 873, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:512, state 874, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:514, state 876, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:515, state 877, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:517, state 879, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:518, state 880, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:520, state 882, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:521, state 883, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:523, state 885, "fsm_state = 12"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:524, state 886, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:526, state 888, "fsm_state = 12"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:527, state 889, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:529, state 891, "fsm_state = 12"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:530, state 892, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:532, state 894, "fsm_state = 12"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:533, state 895, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:549, state 1003, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:550, state 1004, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:630, state 1177, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:631, state 1178, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:633, state 1180, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:634, state 1181, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:636, state 1183, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:637, state 1184, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:639, state 1186, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:640, state 1187, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:642, state 1189, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:643, state 1190, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:645, state 1192, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:646, state 1193, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:651, state 1198, "fsm_state = 9"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:652, state 1199, "output = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:654, state 1201, "fsm_state = 9"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:655, state 1202, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:657, state 1204, "fsm_state = 9"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:658, state 1205, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:660, state 1207, "fsm_state = 9"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:661, state 1208, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:663, state 1210, "fsm_state = 9"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:664, state 1211, "output = 3"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:670, state 1218, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:671, state 1219, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:673, state 1221, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:674, state 1222, "output = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:676, state 1224, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:677, state 1225, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:679, state 1227, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:680, state 1228, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:682, state 1230, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:683, state 1231, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:685, state 1233, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:686, state 1234, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:688, state 1236, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:689, state 1237, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:691, state 1239, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:692, state 1240, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:694, state 1242, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:695, state 1243, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:697, state 1245, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:698, state 1246, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:700, state 1248, "fsm_state = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:701, state 1249, "output = 7"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:717, state 1357, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:718, state 1358, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:757, state 1398, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:758, state 1399, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:834, state 1477, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:835, state 1478, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:837, state 1480, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:838, state 1481, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:840, state 1483, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:841, state 1484, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:843, state 1486, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:844, state 1487, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:846, state 1489, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:847, state 1490, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:849, state 1492, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:850, state 1493, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:852, state 1495, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:853, state 1496, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:855, state 1498, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:856, state 1499, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:858, state 1501, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:859, state 1502, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:864, state 1507, "fsm_state = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:865, state 1508, "output = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:867, state 1510, "fsm_state = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:868, state 1511, "output = 7"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:877, state 1521, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:878, state 1522, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:914, state 1559, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:915, state 1560, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:917, state 1562, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:918, state 1563, "output = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:920, state 1565, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:921, state 1566, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:923, state 1568, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:924, state 1569, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:926, state 1571, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:927, state 1572, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:929, state 1574, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:930, state 1575, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:932, state 1577, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:933, state 1578, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:935, state 1580, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:936, state 1581, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:938, state 1583, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:939, state 1584, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:941, state 1586, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:942, state 1587, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:944, state 1589, "fsm_state = 2"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:945, state 1590, "output = 7"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:958, state 1695, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:959, state 1696, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:961, state 1698, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:962, state 1699, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:964, state 1701, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:965, state 1702, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:967, state 1704, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:968, state 1705, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:970, state 1707, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:971, state 1708, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:973, state 1710, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:974, state 1711, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:976, state 1713, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:977, state 1714, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:979, state 1716, "fsm_state = 20"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:980, state 1717, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:982, state 1719, "fsm_state = 18"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:983, state 1720, "output = 8"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:988, state 1725, "fsm_state = 1"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:989, state 1726, "output = 4"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:991, state 1728, "fsm_state = 1"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:992, state 1729, "output = 7"
+	Dropbear-v2020.81_rekey_failure_after_authentication_introspection.pml:1001, state 1834, "-end-"
+	(143 of 1834 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds

@@ -1,0 +1,11 @@
+never phi3 {    /* !(! (<> ([] ((state[0]==before_state[0]))))) */
+T0_init:
+	do
+	:: (((state[0]==before_state[0]))) -> goto accept_S4
+	:: (1) -> goto T0_init
+	od;
+accept_S4:
+	do
+	:: (((state[0]==before_state[0]))) -> goto accept_S4
+	od;
+}

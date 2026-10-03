@@ -1,0 +1,216 @@
+ltl phi4: (! (<> (is_attacker_end))) || ([] ((! ((state[0]==3))) || (<> ((((state[0]==4)) || ((state[0]==5))) || ((state[0]==0))))))
+starting claim 3
+Never claim moves to line 6 [(1)]
+2: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:119 (state 1) [(1)]
+2: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:120 (state 2) [AtoB_type_recv = 0]
+2: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:120 (state 3) [BtoA_type_recv = 0]
+2: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:120 (state 4) [AtoB_type_send = 0]
+2: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:123 (state 5) [BtoA_type_send = 0]
+4: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+5: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+6: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+6: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+8: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+8: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+10: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+11: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:135 (state 12) [AtoB_type_send = ACK]
+12: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send ACK -> queue 1 (AtoB)
+12: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+14: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv ACK <- queue 1 (AtoB)
+14: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+16: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+17: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:136 (state 13) [AtoB_type_send = FIN]
+18: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send FIN -> queue 1 (AtoB)
+18: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+20: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv FIN <- queue 1 (AtoB)
+20: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+22: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:141 (state 18) [(nfull(BtoA))]
+23: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:143 (state 19) [BtoA_type_send = SYN]
+24: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:147 Send SYN -> queue 2 (BtoA)
+24: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:147 (state 24) [BtoA!BtoA_type_send]
+26: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv SYN <- queue 2 (BtoA)
+26: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+28: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+29: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+30: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+30: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+32: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+32: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+34: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+35: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:135 (state 12) [AtoB_type_send = ACK]
+36: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send ACK -> queue 1 (AtoB)
+36: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+38: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv ACK <- queue 1 (AtoB)
+38: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+40: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+41: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:136 (state 13) [AtoB_type_send = FIN]
+42: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send FIN -> queue 1 (AtoB)
+42: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+44: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:141 (state 18) [(nfull(BtoA))]
+45: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:143 (state 19) [BtoA_type_send = SYN]
+46: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:147 Send SYN -> queue 2 (BtoA)
+46: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:147 (state 24) [BtoA!BtoA_type_send]
+48: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:149 (state 26) [goto :b0]
+50: proc  0 (:init::1) TCP_attacker_phi4_attack.pml:110 (state 1) [state[0] = 0]
+52: proc  0 (:init::1) TCP_attacker_phi4_attack.pml:111 (state 2) [state[1] = 0]
+Starting TCP with pid 3
+54: proc  0 (:init::1) TCP_attacker_phi4_attack.pml:112 (state 3) [(run TCP(AtoB,BtoA,0))]
+56: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:36 (state 1) [pids[i] = _pid]
+58: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:38 (state 2) [state[i] = 0]
+60: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:41 (state 3) [goto LISTEN]
+62: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:48 (state 9) [state[i] = 1]
+64: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:50 Recv SYN <- queue 2 (rcv)
+64: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:50 (state 10) [rcv?SYN]
+Starting TCP with pid 4
+66: proc  0 (:init::1) TCP_attacker_phi4_attack.pml:113 (state 4) [(run TCP(BtoA,AtoB,1))]
+68: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:36 (state 1) [pids[i] = _pid]
+70: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:38 (state 2) [state[i] = 0]
+72: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:41 (state 3) [goto LISTEN]
+74: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:48 (state 9) [state[i] = 1]
+76: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:153 (state 31) [(timeout)]
+78: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv FIN <- queue 1 (AtoB)
+78: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+80: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:50 Send SYN -> queue 1 (snd)
+80: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:50 (state 11) [snd!SYN]
+82: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 Recv SYN <- queue 1 (rcv)
+82: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 (state 10) [rcv?SYN]
+84: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 Send SYN -> queue 2 (snd)
+84: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 (state 11) [snd!SYN]
+86: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:51 Send ACK -> queue 1 (snd)
+86: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:51 (state 12) [snd!ACK]
+88: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:71 (state 35) [state[i] = 3]
+Never claim moves to line 4 [((!(!((state[0]==3)))&&!((((state[0]==4)||(state[0]==5))||(state[0]==0)))))]
+90: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv ACK <- queue 1 (AtoB)
+90: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+Never claim moves to line 15 [(!((((state[0]==4)||(state[0]==5))||(state[0]==0))))]
+92: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv SYN <- queue 2 (BtoA)
+92: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+94: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:51 Send ACK -> queue 2 (snd)
+94: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:51 (state 12) [snd!ACK]
+96: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:71 (state 35) [state[i] = 3]
+98: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv ACK <- queue 2 (BtoA)
+98: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+100: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+101: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+102: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+102: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+104: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+104: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+106: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+107: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:135 (state 12) [AtoB_type_send = ACK]
+108: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send ACK -> queue 1 (AtoB)
+108: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+110: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:72 Recv ACK <- queue 1 (rcv)
+110: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:72 (state 36) [rcv?ACK]
+112: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:75 (state 38) [state[i] = 4]
+114: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:78 Send FIN -> queue 2 (snd)
+114: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:78 (state 39) [snd!FIN]
+116: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:83 (state 46) [state[i] = 5]
+118: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv FIN <- queue 2 (BtoA)
+118: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+120: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+121: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+122: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+122: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+124: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+124: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+126: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+127: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:135 (state 12) [AtoB_type_send = ACK]
+128: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send ACK -> queue 1 (AtoB)
+128: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+130: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:88 Recv ACK <- queue 1 (rcv)
+130: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:88 (state 50) [rcv?ACK]
+132: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:94 (state 57) [state[i] = 7]
+134: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+135: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+136: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+136: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+138: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+138: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+140: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+141: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:135 (state 12) [AtoB_type_send = ACK]
+142: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send ACK -> queue 1 (AtoB)
+142: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+144: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:141 (state 18) [(nfull(BtoA))]
+145: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:143 (state 19) [BtoA_type_send = SYN]
+146: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:147 Send SYN -> queue 2 (BtoA)
+146: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:147 (state 24) [BtoA!BtoA_type_send]
+148: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv ACK <- queue 1 (AtoB)
+148: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+150: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+151: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+152: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+152: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+154: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+154: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+156: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+157: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:136 (state 13) [AtoB_type_send = FIN]
+158: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send FIN -> queue 1 (AtoB)
+158: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+160: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:95 Recv FIN <- queue 1 (rcv)
+160: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:95 (state 58) [rcv?FIN]
+162: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv SYN <- queue 2 (BtoA)
+162: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+164: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:95 Send ACK -> queue 2 (snd)
+164: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:95 (state 59) [snd!ACK]
+166: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:103 (state 67) [state[i] = 10]
+168: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:38 (state 2) [state[i] = 0]
+170: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:41 (state 3) [goto LISTEN]
+172: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:48 (state 9) [state[i] = 1]
+174: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv ACK <- queue 2 (BtoA)
+174: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+176: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+177: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+178: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+178: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+180: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 Recv SYN <- queue 1 (rcv)
+180: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 (state 10) [rcv?SYN]
+182: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 Send SYN -> queue 2 (snd)
+182: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:50 (state 11) [snd!SYN]
+184: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv SYN <- queue 2 (BtoA)
+184: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+186: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:51 Send ACK -> queue 2 (snd)
+186: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:51 (state 12) [snd!ACK]
+188: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:71 (state 35) [state[i] = 3]
+190: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+191: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:135 (state 12) [AtoB_type_send = ACK]
+192: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send ACK -> queue 1 (AtoB)
+192: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+194: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:72 Recv ACK <- queue 1 (rcv)
+194: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:72 (state 36) [rcv?ACK]
+196: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:75 (state 38) [state[i] = 4]
+198: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+199: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+200: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+200: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+202: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 Recv SYN <- queue 1 (AtoB)
+202: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:126 (state 6) [AtoB?AtoB_type_recv]
+204: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 Recv ACK <- queue 2 (BtoA)
+204: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:129 (state 8) [BtoA?BtoA_type_recv]
+206: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:78 Send FIN -> queue 2 (snd)
+206: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:78 (state 39) [snd!FIN]
+208: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:83 (state 46) [state[i] = 5]
+210: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:132 (state 10) [(nfull(AtoB))]
+211: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:134 (state 11) [AtoB_type_send = SYN]
+212: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 Send SYN -> queue 1 (AtoB)
+212: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:138 (state 16) [AtoB!AtoB_type_send]
+214: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:150 (state 27) [goto AttackEnd]
+216: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:156 (state 35) [is_attacker_end = 1]
+Never claim moves to line 14 [((!((((state[0]==4)||(state[0]==5))||(state[0]==0)))&&is_attacker_end))]
+Never claim moves to line 10 [(!((((state[0]==4)||(state[0]==5))||(state[0]==0))))]
+<<<<<START OF CYCLE>>>>>
+spin: trail ends after 219 steps
+#processes: 4
+is_attacker_end = 1
+queue 1 (AtoB): [SYN]
+queue 2 (BtoA): [FIN]
+state[0] = 3
+state[1] = 5
+pids[0] = 2
+pids[1] = 3
+219: proc  3 (TCP:1) TCP_attacker_phi4_attack.pml:84 (state 52)
+219: proc  2 (TCP:1) TCP_attacker_phi4_attack.pml:72 (state 36)
+219: proc  1 (attacker:1) TCP_attacker_phi4_attack.pml:157 (state 36) <valid end state>
+219: proc  0 (:init::1) TCP_attacker_phi4_attack.pml:114 (state 5) <valid end state>
+219: proc  - (phi4:1) _spin_nvr.tmp:9 (state 14)
+4 processes created

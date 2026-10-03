@@ -1,0 +1,87 @@
+end: true
+
+channel:
+  - name: c_sv[1]
+    field:
+      - fieldname: type
+        fieldtype: mtype:Message_type
+      - fieldname: srcIP
+        fieldtype: short
+      - fieldname: srcMac
+        fieldtype: short
+      - fieldname: dstIP
+        fieldtype: short
+      - fieldname: dstMac
+        fieldtype: short
+      - fieldname: target
+        fieldtype: short
+      - fieldname: iaid
+        fieldtype: short
+    
+  - name: c_sv[portID]
+    field:
+      - fieldname: type
+        fieldtype: mtype:Message_type
+      - fieldname: srcIP
+        fieldtype: short
+      - fieldname: srcMac
+        fieldtype: short
+      - fieldname: dstIP
+        fieldtype: short
+      - fieldname: dstMac
+        fieldtype: short
+      - fieldname: target
+        fieldtype: short
+      - fieldname: iaid
+        fieldtype: short
+
+  - name: sv_c[portID]
+    field:
+      - fieldname: type
+        fieldtype: mtype:Message_type
+      - fieldname: srcIP
+        fieldtype: short
+      - fieldname: srcMac
+        fieldtype: short
+      - fieldname: dstIP
+        fieldtype: short
+      - fieldname: dstMac
+        fieldtype: short
+      - fieldname: target
+        fieldtype: short
+      - fieldname: iaid
+        fieldtype: short
+
+
+behavior:
+  - pattern: INTERCEPTION
+    channel: sv_c[portID]
+    filter: NONE
+
+  - pattern: SNIFFING
+    channel: c_sv[1]
+    filter: NONE
+
+  - pattern: INJECTION
+    channel: c_sv[portID]
+    assigner:
+      type:
+        const: PING
+      srcIP:
+        cacheref: 
+          channel: c_sv[1]
+          pattern: SNIFFING
+          field: srcIP
+      srcMac:
+        variable: mac
+      dstIP:
+        const: DHCP_SERVER_UNI_IP
+      dstMac:
+        const: DHCP_SERVER_UNI_MAC
+      target:
+        cacheref:
+          channel: c_sv[1]
+          pattern: SNIFFING
+          field: target
+      iaid:
+        variable: IAID

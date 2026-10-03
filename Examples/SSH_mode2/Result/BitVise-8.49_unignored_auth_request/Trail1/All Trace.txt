@@ -1,0 +1,221 @@
+ltl no_bug: [] ((dfa_state!=8))
+starting claim 1
+1: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:100 (state 1) [fsm_state = 43]
+2: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:101 (state 2) [dfa_state = 9]
+3: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:102 (state 3) [dealt = 0]
+4: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+5: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:113 (state 11) [input = 22]
+Input: I_KEXINIT
+6: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+7: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+8: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 107) [else]
+9: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+10: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:124 (state 113) [((fsm_state==43))]
+12: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:145 (state 224) [((input==22))]
+13: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:146 (state 225) [fsm_state = 41]
+14: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:147 (state 226) [output = 14]
+FSM State: s2
+15: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1969 (state 4823) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1970 (state 4824) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 4909) [dealt = 0]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 4907) [IF]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 4835) [IF]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 4831) [dfa_state = 9]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 4832) [dealt = 1]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 4836) [.(goto)]
+17: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 4908) [.(goto)]
+18: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4912) [else]
+19: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4913) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1972 (state 4917) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+22: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:112 (state 10) [input = 23]
+Input: I_KEX30
+23: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+24: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+25: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 107) [else]
+26: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+27: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:232 (state 860) [((fsm_state==41))]
+29: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:264 (state 891) [((input==23))]
+30: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:265 (state 892) [fsm_state = 39]
+31: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:266 (state 893) [output = 1]
+Output: O_KEX31
+32: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:267 (state 894) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 979) [dealt = 0]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 977) [IF]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 905) [IF]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 901) [dfa_state = 9]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 902) [dealt = 1]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 906) [.(goto)]
+33: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 978) [.(goto)]
+34: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 982) [else]
+35: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 983) [(1)]
+DFA State: start
+36: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:269 (state 987) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:270 (state 988) [output = 6]
+FSM State: s4
+38: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1969 (state 4823) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1970 (state 4824) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 4909) [dealt = 0]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 4907) [IF]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 4835) [IF]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 4831) [dfa_state = 9]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 4832) [dealt = 1]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 4836) [.(goto)]
+40: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 4908) [.(goto)]
+41: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4912) [else]
+42: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4913) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1972 (state 4917) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+45: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:109 (state 7) [input = 26]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+47: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+48: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 107) [else]
+49: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+50: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:316 (state 1037) [((fsm_state==39))]
+52: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:351 (state 1071) [((input==26))]
+53: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:352 (state 1072) [fsm_state = 37]
+54: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:114 (state 12) [input = 21]
+Input: I_SR_AUTH
+55: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+56: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+57: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 107) [else]
+58: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+59: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:396 (state 1119) [((fsm_state==37))]
+61: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:428 (state 1150) [((input==21))]
+62: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:429 (state 1151) [fsm_state = 34]
+63: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:430 (state 1152) [output = 13]
+FSM State: s9
+64: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1969 (state 4823) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+65: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1970 (state 4824) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 4909) [dealt = 0]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 4907) [IF]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 4835) [IF]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 4831) [dfa_state = 9]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 4832) [dealt = 1]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 4836) [.(goto)]
+66: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 4908) [.(goto)]
+67: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4912) [else]
+68: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4913) [(1)]
+DFA State: start
+
+69: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1972 (state 4917) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+71: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:110 (state 8) [input = 25]
+Input: I_UA_PK_OK
+72: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+73: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+74: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 107) [else]
+75: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+76: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:516 (state 1242) [((fsm_state==34))]
+78: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:548 (state 1273) [((input==25))]
+79: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:549 (state 1274) [fsm_state = 30]
+80: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:550 (state 1275) [output = 4]
+FSM State: s13
+81: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1969 (state 4823) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+82: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1970 (state 4824) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 4909) [dealt = 0]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 4907) [IF]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:18 (state 4835) [IF]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:20 (state 4828) [dfa_state = 7]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:21 (state 4829) [dealt = 1]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:27 (state 4836) [.(goto)]
+83: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 4908) [.(goto)]
+84: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4912) [else]
+85: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 4913) [(1)]
+DFA State: authenticated
+
+86: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1972 (state 4917) [printf('DFA State: %e\\n\\n',dfa_state)]
+87: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+88: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:108 (state 6) [input = 27]
+Input: I_UA_PK_NOK
+89: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:30 (state 46) [IF]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:35 (state 39) [dfa_state = 6]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:36 (state 40) [dealt = 1]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:42 (state 47) [.(goto)]
+90: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+91: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 107) [else]
+92: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: new_auth
+93: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+94: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:684 (state 1596) [((fsm_state==30))]
+95: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:695 (state 1606) [((input==27))]
+96: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:696 (state 1607) [fsm_state = 30]
+97: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:697 (state 1608) [output = 12]
+FSM State: s13
+98: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1969 (state 4823) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UNIMPL
+
+99: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:1970 (state 4824) [printf('Output: %e\\n\\n',output)]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:14 (state 4909) [dealt = 0]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:16 (state 4907) [IF]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:43 (state 4865) [IF]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:48 (state 4858) [dfa_state = 8]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:49 (state 4859) [dealt = 1]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:55 (state 4866) [.(goto)]
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:91 (state 4908) [.(goto)]
+spin: trail ends after 100 steps
+#processes: 1
+input = I_UA_PK_NOK
+output = O_UNIMPL
+fsm_state = s13
+dfa_state = bug
+dealt = 1
+100: proc  0 (:init::1) BitVise-8.49_unignored_auth_request_introspection.pml:92 (state 4914)
+100: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

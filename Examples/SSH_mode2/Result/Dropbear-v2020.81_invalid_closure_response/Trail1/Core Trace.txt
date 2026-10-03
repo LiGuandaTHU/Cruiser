@@ -1,0 +1,28 @@
+Input: I_KEXINIT
+ >>> DFA State: start
+FSM State: s2
+Output: O_KEXINIT
+ >>> DFA State: start
+Input: I_KEX30
+ >>> DFA State: start
+Output: O_KEX31
+ >>> DFA State: start
+FSM State: s4
+Output: O_NEWKEYS
+ >>> DFA State: start
+Input: I_NEWKEYS
+ >>> DFA State: start
+Input: I_UA_PK_OK
+ >>> DFA State: start
+FSM State: s6
+Output: O_UA_SUCCESS
+ >>> DFA State: start
+Input: I_CH_OPEN
+ >>> DFA State: start
+FSM State: s10
+Output: O_CH_OPEN_SUCCESS
+ >>> DFA State: channel_open
+Input: I_CH_CLOSE
+ >>> DFA State: close_received
+FSM State: s6
+Output: O_CH_EOF

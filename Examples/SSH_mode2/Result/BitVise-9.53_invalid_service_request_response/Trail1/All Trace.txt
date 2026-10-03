@@ -1,0 +1,96 @@
+ltl no_bug: [] ((dfa_state!=3))
+starting claim 1
+1: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:58 (state 1) [fsm_state = 50]
+2: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:59 (state 2) [dfa_state = 4]
+3: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:60 (state 3) [dealt = 0]
+4: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:62 (state 4) [(1)]
+5: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:68 (state 8) [input = 25]
+Input: I_KEXINIT
+6: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:79 (state 20) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:13 (state 59) [dealt = 0]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:15 (state 57) [IF]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:17 (state 31) [IF]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:22 (state 27) [dfa_state = 4]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:23 (state 28) [dealt = 1]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:26 (state 32) [.(goto)]
+7: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:49 (state 58) [.(goto)]
+8: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 62) [else]
+9: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 63) [(1)]
+DFA State: start
+10: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:81 (state 67) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:83 (state 68) [((fsm_state==50))]
+12: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:149 (state 448) [((input==25))]
+13: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:150 (state 449) [fsm_state = 46]
+14: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:151 (state 450) [output = 3]
+FSM State: s4
+15: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:2346 (state 3642) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:2347 (state 3643) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:13 (state 3682) [dealt = 0]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:15 (state 3680) [IF]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:17 (state 3654) [IF]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:19 (state 3647) [dfa_state = 2]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:20 (state 3648) [dealt = 1]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:26 (state 3655) [.(goto)]
+17: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:49 (state 3681) [.(goto)]
+18: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 3685) [else]
+19: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 3686) [(1)]
+DFA State: kexinit
+
+20: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:2349 (state 3690) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:62 (state 4) [(1)]
+22: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:67 (state 7) [input = 26]
+Input: I_NEWKEYS
+23: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:79 (state 20) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:13 (state 59) [dealt = 0]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:15 (state 57) [IF]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:29 (state 44) [IF]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:34 (state 40) [dfa_state = 2]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:35 (state 41) [dealt = 1]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:38 (state 45) [.(goto)]
+24: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:49 (state 58) [.(goto)]
+25: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 62) [else]
+26: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 63) [(1)]
+DFA State: kexinit
+27: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:81 (state 67) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:283 (state 587) [((fsm_state==46))]
+29: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:318 (state 621) [((input==26))]
+30: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:319 (state 622) [fsm_state = 45]
+31: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:71 (state 11) [input = 22]
+Input: I_SR_AUTH
+32: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:79 (state 20) [printf('Input: %e\\n',input)]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:13 (state 59) [dealt = 0]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:15 (state 57) [IF]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:29 (state 44) [IF]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:31 (state 37) [dfa_state = 1]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:32 (state 38) [dealt = 1]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:38 (state 45) [.(goto)]
+33: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:49 (state 58) [.(goto)]
+34: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 62) [else]
+35: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:52 (state 63) [(1)]
+DFA State: sr
+36: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:81 (state 67) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:330 (state 680) [((fsm_state==45))]
+38: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:365 (state 714) [((input==22))]
+39: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:366 (state 715) [fsm_state = 45]
+40: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:65 (state 5) [input = 28]
+Input: I_KEX30
+41: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:79 (state 20) [printf('Input: %e\\n',input)]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:13 (state 59) [dealt = 0]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:15 (state 57) [IF]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:39 (state 55) [IF]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:44 (state 51) [dfa_state = 3]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:45 (state 52) [dealt = 1]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:48 (state 56) [.(goto)]
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:49 (state 58) [.(goto)]
+spin: trail ends after 42 steps
+#processes: 1
+input = I_KEX30
+output = O_KEXINIT
+fsm_state = s5
+dfa_state = bug
+dealt = 1
+42: proc  0 (:init::1) BitVise-9.53_invalid_service_request_response_introspection.pml:50 (state 64)
+42: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

@@ -1,0 +1,166 @@
+ltl no_bug: [] ((dfa_state!=9))
+starting claim 1
+1: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:130 (state 1) [fsm_state = 66]
+2: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:131 (state 2) [dfa_state = 10]
+3: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:132 (state 3) [dealt = 0]
+4: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+5: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:144 (state 12) [input = 21]
+Input: I_KEXINIT
+6: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:17 (state 28) [IF]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:19 (state 24) [dfa_state = 8]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:20 (state 25) [dealt = 1]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:23 (state 29) [.(goto)]
+7: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+8: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 140) [else]
+9: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: iki
+10: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:155 (state 146) [((fsm_state==66))]
+12: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:221 (state 1072) [((input==21))]
+13: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:222 (state 1073) [fsm_state = 62]
+14: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:223 (state 1074) [output = 8]
+FSM State: s4
+15: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3138 (state 7624) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3139 (state 7625) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 7742) [dealt = 0]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 7740) [IF]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:26 (state 7649) [IF]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:28 (state 7639) [dfa_state = 7]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:29 (state 7640) [dealt = 1]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:38 (state 7650) [.(goto)]
+17: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 7741) [.(goto)]
+18: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 7745) [else]
+19: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 7746) [(1)]
+DFA State: oki
+
+20: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3141 (state 7750) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+22: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:141 (state 9) [input = 24]
+Input: I_KEX30
+23: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:39 (state 58) [IF]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:41 (state 48) [dfa_state = 5]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:42 (state 49) [dealt = 1]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:51 (state 59) [.(goto)]
+24: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+25: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 140) [else]
+26: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: k30
+27: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:355 (state 1211) [((fsm_state==62))]
+29: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:393 (state 1248) [((input==24))]
+30: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:394 (state 1249) [fsm_state = 60]
+31: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:395 (state 1250) [output = 6]
+Output: O_KEX31
+32: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:396 (state 1251) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 1368) [dealt = 0]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 1366) [IF]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:62 (state 1314) [IF]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:64 (state 1304) [dfa_state = 4]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:65 (state 1305) [dealt = 1]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:74 (state 1315) [.(goto)]
+33: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 1367) [.(goto)]
+34: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 1371) [else]
+35: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 1372) [(1)]
+DFA State: k31
+36: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:398 (state 1376) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:399 (state 1377) [output = 15]
+FSM State: s6
+38: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3138 (state 7624) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3139 (state 7625) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 7742) [dealt = 0]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 7740) [IF]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:75 (state 7702) [IF]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:77 (state 7692) [dfa_state = 3]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:78 (state 7693) [dealt = 1]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:87 (state 7703) [.(goto)]
+40: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 7741) [.(goto)]
+41: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 7745) [else]
+42: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 7746) [(1)]
+DFA State: onk
+
+43: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3141 (state 7750) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+45: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:141 (state 9) [input = 24]
+Input: I_KEX30
+46: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:88 (state 111) [IF]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:96 (state 107) [dfa_state = 6]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:97 (state 108) [dealt = 1]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:100 (state 112) [.(goto)]
+47: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+48: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 140) [else]
+49: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: end
+50: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:445 (state 1426) [((fsm_state==60))]
+52: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:468 (state 1448) [((input==24))]
+53: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:469 (state 1449) [fsm_state = 60]
+54: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:147 (state 15) [input = 18]
+Input: I_NEWKEYS
+55: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:52 (state 69) [IF]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:57 (state 65) [dfa_state = 6]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:58 (state 66) [dealt = 1]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:61 (state 70) [.(goto)]
+56: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+57: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 140) [else]
+58: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: end
+59: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:445 (state 1426) [((fsm_state==60))]
+61: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:483 (state 1463) [((input==18))]
+62: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:484 (state 1464) [fsm_state = 58]
+63: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:145 (state 13) [input = 20]
+Input: I_SR_AUTH
+64: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:151 (state 20) [printf('Input: %e\\n',input)]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 137) [dealt = 0]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 135) [IF]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:52 (state 69) [IF]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:57 (state 65) [dfa_state = 6]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:58 (state 66) [dealt = 1]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:61 (state 70) [.(goto)]
+65: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 136) [.(goto)]
+66: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 140) [else]
+67: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:124 (state 141) [(1)]
+DFA State: end
+68: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:153 (state 145) [printf('DFA State: %e\\n',dfa_state)]
+69: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:531 (state 1514) [((fsm_state==58))]
+70: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:569 (state 1551) [((input==20))]
+71: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:570 (state 1552) [fsm_state = 54]
+72: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:571 (state 1553) [output = 5]
+FSM State: s12
+73: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3138 (state 7624) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+74: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:3139 (state 7625) [printf('Output: %e\\n\\n',output)]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:13 (state 7742) [dealt = 0]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:15 (state 7740) [IF]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:52 (state 7674) [IF]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:54 (state 7667) [dfa_state = 9]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:55 (state 7668) [dealt = 1]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:61 (state 7675) [.(goto)]
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:121 (state 7741) [.(goto)]
+spin: trail ends after 75 steps
+#processes: 1
+input = I_SR_AUTH
+output = O_SR_ACCEPT
+fsm_state = s12
+dfa_state = bug
+dealt = 1
+75: proc  0 (:init::1) BitVise-7.23_transport_layer_bug_introspection.pml:122 (state 7747)
+75: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

@@ -1,0 +1,9 @@
+never no_bug {    /* !([] ((dfa_state!=5))) */
+T0_init:
+	do
+	:: atomic { (! (((dfa_state!=5)))) -> assert(!(! (((dfa_state!=5))))) }
+	:: (1) -> goto T0_init
+	od;
+accept_all:
+	skip
+}

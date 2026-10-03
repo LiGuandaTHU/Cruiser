@@ -1,0 +1,11 @@
+never phi2 {    /* !((! ([] (<> (((state[0]==1)) && ((state[1]==2)))))) || (<> ((state[0]==4)))) */
+T0_init:
+	do
+	:: (! (((state[0]==4))) && (((state[0]==1)) && ((state[1]==2)))) -> goto accept_S9
+	:: (! (((state[0]==4)))) -> goto T0_init
+	od;
+accept_S9:
+	do
+	:: (! (((state[0]==4)))) -> goto T0_init
+	od;
+}

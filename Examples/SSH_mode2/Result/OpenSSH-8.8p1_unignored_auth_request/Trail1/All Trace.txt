@@ -1,0 +1,235 @@
+ltl no_bug: [] ((dfa_state!=8))
+starting claim 1
+1: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:100 (state 1) [fsm_state = 37]
+2: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:101 (state 2) [dfa_state = 9]
+3: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:102 (state 3) [dealt = 0]
+4: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+5: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:107 (state 5) [input = 29]
+Input: I_KEXINIT
+6: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+7: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+8: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 107) [else]
+9: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+10: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:124 (state 113) [((fsm_state==37))]
+12: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:162 (state 423) [((input==29))]
+13: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:163 (state 424) [fsm_state = 35]
+14: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:164 (state 425) [output = 3]
+FSM State: s2
+15: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1705 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1706 (state 4008) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 4093) [dealt = 0]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 4091) [IF]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 4019) [IF]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 4015) [dfa_state = 9]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 4016) [dealt = 1]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 4020) [.(goto)]
+17: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 4092) [.(goto)]
+18: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4096) [else]
+19: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4097) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1708 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+22: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:110 (state 8) [input = 26]
+Input: I_KEX30
+23: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+24: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+25: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 107) [else]
+26: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+27: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:220 (state 575) [((fsm_state==35))]
+29: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:255 (state 609) [((input==26))]
+30: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:256 (state 610) [fsm_state = 33]
+31: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:257 (state 611) [output = 5]
+Output: O_KEX31
+32: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:258 (state 612) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 697) [dealt = 0]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 695) [IF]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 623) [IF]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 619) [dfa_state = 9]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 620) [dealt = 1]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 624) [.(goto)]
+33: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 696) [.(goto)]
+34: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 700) [else]
+35: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 701) [(1)]
+DFA State: start
+36: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:260 (state 705) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:261 (state 706) [output = 15]
+FSM State: s4
+38: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1705 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1706 (state 4008) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 4093) [dealt = 0]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 4091) [IF]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 4019) [IF]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 4015) [dfa_state = 9]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 4016) [dealt = 1]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 4020) [.(goto)]
+40: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 4092) [.(goto)]
+41: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4096) [else]
+42: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4097) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1708 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+45: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:113 (state 11) [input = 23]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+47: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+48: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 107) [else]
+49: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+50: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:304 (state 752) [((fsm_state==33))]
+52: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:339 (state 786) [((input==23))]
+53: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:340 (state 787) [fsm_state = 32]
+54: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:116 (state 14) [input = 20]
+Input: I_SR_AUTH
+55: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+56: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+57: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 107) [else]
+58: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+59: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:344 (state 793) [((fsm_state==32))]
+61: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:376 (state 824) [((input==20))]
+62: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:377 (state 825) [fsm_state = 31]
+63: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:378 (state 826) [output = 11]
+FSM State: s6
+64: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1705 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+65: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1706 (state 4008) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 4093) [dealt = 0]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 4091) [IF]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 4019) [IF]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 4015) [dfa_state = 9]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 4016) [dealt = 1]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 4020) [.(goto)]
+66: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 4092) [.(goto)]
+67: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4096) [else]
+68: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4097) [(1)]
+DFA State: start
+
+69: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1708 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+71: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:117 (state 15) [input = 19]
+Input: I_UA_PK_OK
+72: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 30) [IF]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:23 (state 26) [dfa_state = 9]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:24 (state 27) [dealt = 1]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 31) [.(goto)]
+73: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+74: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 107) [else]
+75: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: start
+76: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:384 (state 834) [((fsm_state==31))]
+78: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:419 (state 868) [((input==19))]
+79: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:420 (state 869) [fsm_state = 27]
+80: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:421 (state 870) [output = 2]
+Output: O_UA_SUCCESS
+81: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:422 (state 871) [printf('Output: %e\\n',output)]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 956) [dealt = 0]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 954) [IF]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:18 (state 882) [IF]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:20 (state 875) [dfa_state = 7]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:21 (state 876) [dealt = 1]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:27 (state 883) [.(goto)]
+82: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 955) [.(goto)]
+83: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 959) [else]
+84: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 960) [(1)]
+DFA State: authenticated
+85: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:424 (state 964) [printf('DFA State: %e\\n',dfa_state)]
+86: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:425 (state 965) [output = 8]
+FSM State: s10
+87: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1705 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_GLOBAL_REQUEST
+
+88: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1706 (state 4008) [printf('Output: %e\\n\\n',output)]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 4093) [dealt = 0]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 4091) [IF]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:30 (state 4035) [IF]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:38 (state 4031) [dfa_state = 7]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:39 (state 4032) [dealt = 1]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:42 (state 4036) [.(goto)]
+89: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 4092) [.(goto)]
+90: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4096) [else]
+91: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 4097) [(1)]
+DFA State: authenticated
+
+92: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1708 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+93: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:104 (state 4) [(1)]
+94: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:117 (state 15) [input = 19]
+Input: I_UA_PK_OK
+95: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:120 (state 19) [printf('Input: %e\\n',input)]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 104) [dealt = 0]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 102) [IF]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:30 (state 46) [IF]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:35 (state 39) [dfa_state = 6]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:36 (state 40) [dealt = 1]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:42 (state 47) [.(goto)]
+96: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 103) [.(goto)]
+97: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 107) [else]
+98: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:94 (state 108) [(1)]
+DFA State: new_auth
+99: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:122 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+100: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:552 (state 1188) [((fsm_state==27))]
+101: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:569 (state 1204) [((input==19))]
+102: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:570 (state 1205) [fsm_state = 27]
+103: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:571 (state 1206) [output = 9]
+FSM State: s10
+104: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1705 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UNIMPL
+
+105: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:1706 (state 4008) [printf('Output: %e\\n\\n',output)]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:14 (state 4093) [dealt = 0]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:16 (state 4091) [IF]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:43 (state 4049) [IF]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:48 (state 4042) [dfa_state = 8]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:49 (state 4043) [dealt = 1]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:55 (state 4050) [.(goto)]
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:91 (state 4092) [.(goto)]
+spin: trail ends after 106 steps
+#processes: 1
+input = I_UA_PK_OK
+output = O_UNIMPL
+fsm_state = s10
+dfa_state = bug
+dealt = 1
+106: proc  0 (:init::1) OpenSSH-8.8p1_unignored_auth_request_introspection.pml:92 (state 4098)
+106: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

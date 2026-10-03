@@ -1,0 +1,17 @@
+never phi2 {    /* !((! (<> (is_attacker_end))) || ((! ([] (<> (((state[0]==1)) && ((state[1]==2)))))) || (<> ((state[0]==4))))) */
+T0_init:
+	do
+	:: (! (((state[0]==4))) && (((state[0]==1)) && ((state[1]==2))) && (is_attacker_end)) -> goto accept_S44
+	:: (! (((state[0]==4))) && (is_attacker_end)) -> goto T0_S44
+	:: (! (((state[0]==4)))) -> goto T0_init
+	od;
+accept_S44:
+	do
+	:: (! (((state[0]==4)))) -> goto T0_S44
+	od;
+T0_S44:
+	do
+	:: (! (((state[0]==4))) && (((state[0]==1)) && ((state[1]==2)))) -> goto accept_S44
+	:: (! (((state[0]==4)))) -> goto T0_S44
+	od;
+}

@@ -1,0 +1,51 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.488	
+Depth=      20 States=      213 Transitions=      213 Memory=   128.488	
+Depth=      30 States=      651 Transitions=      769 Memory=   128.488	
+Depth=      40 States=      972 Transitions=  1.3e+03 Memory=   128.488	
+Depth=      50 States= 1.19e+03 Transitions= 1.69e+03 Memory=   128.488	
+Depth=      60 States= 1.44e+03 Transitions= 1.94e+03 Memory=   128.586	
+Depth=      70 States= 2.08e+03 Transitions= 2.73e+03 Memory=   128.586	
+Depth=      80 States= 3.01e+03 Transitions= 4.31e+03 Memory=   128.684	
+Depth=      90 States= 4.29e+03 Transitions= 6.01e+03 Memory=   128.781	
+Depth=     100 States= 5.63e+03 Transitions= 7.49e+03 Memory=   128.879	
+Depth=     110 States= 7.62e+03 Transitions= 9.76e+03 Memory=   129.074	
+Depth=     120 States= 9.88e+03 Transitions= 1.27e+04 Memory=   129.270	
+Depth=     130 States= 1.26e+04 Transitions= 1.62e+04 Memory=   129.465	
+Depth=     140 States= 1.53e+04 Transitions= 1.98e+04 Memory=   129.660	
+Depth=     150 States=  1.8e+04 Transitions= 2.33e+04 Memory=   129.855	
+Depth=     160 States=    2e+04 Transitions= 2.57e+04 Memory=   130.051	
+Depth=     170 States= 2.14e+04 Transitions= 2.81e+04 Memory=   130.148	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 179, errors: 0
+    21728 states, stored
+	   21728 nominal states (stored-atomic)
+     6961 states, matched
+    28689 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    1.160	equivalent memory usage for states (stored*(State-vector + overhead))
+    2.158	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  130.148	total actual memory usage
+
+
+unreached in init
+	BitVise-7.23_invalid_response_before_newkeys_introspection.pml:3064, state 4486, "-end-"
+	(1 of 4486 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds

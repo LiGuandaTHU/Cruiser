@@ -1,0 +1,983 @@
+never phi3 {    /* !((! (<> (is_attacker_end))) || (! (<> (((((((((([] ((state[0]==2))) || ([] ((state[0]==3)))) || ([] ((state[0]==4)))) || ([] ((state[0]==5)))) || ([] ((state[0]==6)))) || ([] ((state[0]==7)))) || ([] ((state[0]==8)))) || ([] ((state[0]==9)))) || ([] ((state[0]==10)))) && ((((((((([] ((state[1]==2))) || ([] ((state[1]==3)))) || ([] ((state[1]==4)))) || ([] ((state[1]==5)))) || ([] ((state[1]==6)))) || ([] ((state[1]==7)))) || ([] ((state[1]==8)))) || ([] ((state[1]==9)))) || ([] ((state[1]==10)))))))) */
+T0_init:
+	do
+	:: (((state[0]==9)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2194
+	:: (((state[0]==9)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2198
+	:: (((state[0]==9)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2202
+	:: (((state[0]==9)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2206
+	:: (((state[0]==9)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2210
+	:: (((state[0]==9)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2214
+	:: (((state[0]==9)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2218
+	:: (((state[0]==9)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2222
+	:: (((state[0]==9)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2226
+	:: (((state[0]==8)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2239
+	:: (((state[0]==8)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2243
+	:: (((state[0]==8)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2247
+	:: (((state[0]==8)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2251
+	:: (((state[0]==8)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2255
+	:: (((state[0]==8)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2259
+	:: (((state[0]==8)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2263
+	:: (((state[0]==8)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2267
+	:: (((state[0]==8)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2271
+	:: (((state[0]==7)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2284
+	:: (((state[0]==7)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2288
+	:: (((state[0]==7)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2292
+	:: (((state[0]==7)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2296
+	:: (((state[0]==7)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2300
+	:: (((state[0]==7)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2304
+	:: (((state[0]==7)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2308
+	:: (((state[0]==7)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2312
+	:: (((state[0]==7)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2316
+	:: (((state[0]==6)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2329
+	:: (((state[0]==6)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2333
+	:: (((state[0]==6)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2337
+	:: (((state[0]==6)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2341
+	:: (((state[0]==6)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2345
+	:: (((state[0]==6)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2349
+	:: (((state[0]==6)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2353
+	:: (((state[0]==6)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2357
+	:: (((state[0]==6)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2361
+	:: (((state[0]==5)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2374
+	:: (((state[0]==5)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2378
+	:: (((state[0]==5)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2382
+	:: (((state[0]==5)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2386
+	:: (((state[0]==5)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2390
+	:: (((state[0]==5)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2394
+	:: (((state[0]==5)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2398
+	:: (((state[0]==5)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2402
+	:: (((state[0]==5)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2406
+	:: (((state[0]==4)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2419
+	:: (((state[0]==4)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2423
+	:: (((state[0]==4)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2427
+	:: (((state[0]==4)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2431
+	:: (((state[0]==4)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2435
+	:: (((state[0]==4)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2439
+	:: (((state[0]==4)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2443
+	:: (((state[0]==4)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2447
+	:: (((state[0]==4)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2451
+	:: (((state[0]==3)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2464
+	:: (((state[0]==3)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2468
+	:: (((state[0]==3)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2472
+	:: (((state[0]==3)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2476
+	:: (((state[0]==3)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2480
+	:: (((state[0]==3)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2484
+	:: (((state[0]==3)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2488
+	:: (((state[0]==3)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2492
+	:: (((state[0]==3)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2496
+	:: (((state[0]==2)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2509
+	:: (((state[0]==2)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2513
+	:: (((state[0]==2)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2517
+	:: (((state[0]==2)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2521
+	:: (((state[0]==2)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2525
+	:: (((state[0]==2)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2529
+	:: (((state[0]==2)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2533
+	:: (((state[0]==2)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2537
+	:: (((state[0]==2)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2541
+	:: (((state[0]==10)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2554
+	:: (((state[0]==10)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2558
+	:: (((state[0]==10)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2562
+	:: (((state[0]==10)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2566
+	:: (((state[0]==10)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2570
+	:: (((state[0]==10)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2574
+	:: (((state[0]==10)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2578
+	:: (((state[0]==10)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2582
+	:: (((state[0]==10)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2586
+	:: (((state[0]==9)) && ((state[1]==9))) -> goto T0_S721
+	:: (((state[0]==9)) && ((state[1]==8))) -> goto T0_S751
+	:: (((state[0]==9)) && ((state[1]==7))) -> goto T0_S767
+	:: (((state[0]==9)) && ((state[1]==6))) -> goto T0_S783
+	:: (((state[0]==9)) && ((state[1]==5))) -> goto T0_S799
+	:: (((state[0]==9)) && ((state[1]==4))) -> goto T0_S815
+	:: (((state[0]==9)) && ((state[1]==3))) -> goto T0_S831
+	:: (((state[0]==9)) && ((state[1]==2))) -> goto T0_S847
+	:: (((state[0]==9)) && ((state[1]==10))) -> goto T0_S863
+	:: (((state[0]==8)) && ((state[1]==9))) -> goto T0_S888
+	:: (((state[0]==8)) && ((state[1]==8))) -> goto T0_S914
+	:: (((state[0]==8)) && ((state[1]==7))) -> goto T0_S930
+	:: (((state[0]==8)) && ((state[1]==6))) -> goto T0_S946
+	:: (((state[0]==8)) && ((state[1]==5))) -> goto T0_S962
+	:: (((state[0]==8)) && ((state[1]==4))) -> goto T0_S978
+	:: (((state[0]==8)) && ((state[1]==3))) -> goto T0_S994
+	:: (((state[0]==8)) && ((state[1]==2))) -> goto T0_S1010
+	:: (((state[0]==8)) && ((state[1]==10))) -> goto T0_S1026
+	:: (((state[0]==7)) && ((state[1]==9))) -> goto T0_S1051
+	:: (((state[0]==7)) && ((state[1]==8))) -> goto T0_S1077
+	:: (((state[0]==7)) && ((state[1]==7))) -> goto T0_S1093
+	:: (((state[0]==7)) && ((state[1]==6))) -> goto T0_S1109
+	:: (((state[0]==7)) && ((state[1]==5))) -> goto T0_S1125
+	:: (((state[0]==7)) && ((state[1]==4))) -> goto T0_S1141
+	:: (((state[0]==7)) && ((state[1]==3))) -> goto T0_S1157
+	:: (((state[0]==7)) && ((state[1]==2))) -> goto T0_S1173
+	:: (((state[0]==7)) && ((state[1]==10))) -> goto T0_S1189
+	:: (((state[0]==6)) && ((state[1]==9))) -> goto T0_S1214
+	:: (((state[0]==6)) && ((state[1]==8))) -> goto T0_S1240
+	:: (((state[0]==6)) && ((state[1]==7))) -> goto T0_S1256
+	:: (((state[0]==6)) && ((state[1]==6))) -> goto T0_S1272
+	:: (((state[0]==6)) && ((state[1]==5))) -> goto T0_S1288
+	:: (((state[0]==6)) && ((state[1]==4))) -> goto T0_S1304
+	:: (((state[0]==6)) && ((state[1]==3))) -> goto T0_S1320
+	:: (((state[0]==6)) && ((state[1]==2))) -> goto T0_S1336
+	:: (((state[0]==6)) && ((state[1]==10))) -> goto T0_S1352
+	:: (((state[0]==5)) && ((state[1]==9))) -> goto T0_S1377
+	:: (((state[0]==5)) && ((state[1]==8))) -> goto T0_S1403
+	:: (((state[0]==5)) && ((state[1]==7))) -> goto T0_S1419
+	:: (((state[0]==5)) && ((state[1]==6))) -> goto T0_S1435
+	:: (((state[0]==5)) && ((state[1]==5))) -> goto T0_S1451
+	:: (((state[0]==5)) && ((state[1]==4))) -> goto T0_S1467
+	:: (((state[0]==5)) && ((state[1]==3))) -> goto T0_S1483
+	:: (((state[0]==5)) && ((state[1]==2))) -> goto T0_S1499
+	:: (((state[0]==5)) && ((state[1]==10))) -> goto T0_S1515
+	:: (((state[0]==4)) && ((state[1]==9))) -> goto T0_S1540
+	:: (((state[0]==4)) && ((state[1]==8))) -> goto T0_S1566
+	:: (((state[0]==4)) && ((state[1]==7))) -> goto T0_S1582
+	:: (((state[0]==4)) && ((state[1]==6))) -> goto T0_S1598
+	:: (((state[0]==4)) && ((state[1]==5))) -> goto T0_S1614
+	:: (((state[0]==4)) && ((state[1]==4))) -> goto T0_S1630
+	:: (((state[0]==4)) && ((state[1]==3))) -> goto T0_S1646
+	:: (((state[0]==4)) && ((state[1]==2))) -> goto T0_S1662
+	:: (((state[0]==4)) && ((state[1]==10))) -> goto T0_S1678
+	:: (((state[0]==3)) && ((state[1]==9))) -> goto T0_S1703
+	:: (((state[0]==3)) && ((state[1]==8))) -> goto T0_S1729
+	:: (((state[0]==3)) && ((state[1]==7))) -> goto T0_S1745
+	:: (((state[0]==3)) && ((state[1]==6))) -> goto T0_S1761
+	:: (((state[0]==3)) && ((state[1]==5))) -> goto T0_S1777
+	:: (((state[0]==3)) && ((state[1]==4))) -> goto T0_S1793
+	:: (((state[0]==3)) && ((state[1]==3))) -> goto T0_S1809
+	:: (((state[0]==3)) && ((state[1]==2))) -> goto T0_S1825
+	:: (((state[0]==3)) && ((state[1]==10))) -> goto T0_S1841
+	:: (((state[0]==2)) && ((state[1]==9))) -> goto T0_S1866
+	:: (((state[0]==2)) && ((state[1]==8))) -> goto T0_S1892
+	:: (((state[0]==2)) && ((state[1]==7))) -> goto T0_S1908
+	:: (((state[0]==2)) && ((state[1]==6))) -> goto T0_S1924
+	:: (((state[0]==2)) && ((state[1]==5))) -> goto T0_S1940
+	:: (((state[0]==2)) && ((state[1]==4))) -> goto T0_S1956
+	:: (((state[0]==2)) && ((state[1]==3))) -> goto T0_S1972
+	:: (((state[0]==2)) && ((state[1]==2))) -> goto T0_S1988
+	:: (((state[0]==2)) && ((state[1]==10))) -> goto T0_S2004
+	:: (((state[0]==10)) && ((state[1]==9))) -> goto T0_S2029
+	:: (((state[0]==10)) && ((state[1]==8))) -> goto T0_S2055
+	:: (((state[0]==10)) && ((state[1]==7))) -> goto T0_S2071
+	:: (((state[0]==10)) && ((state[1]==6))) -> goto T0_S2087
+	:: (((state[0]==10)) && ((state[1]==5))) -> goto T0_S2103
+	:: (((state[0]==10)) && ((state[1]==4))) -> goto T0_S2119
+	:: (((state[0]==10)) && ((state[1]==3))) -> goto T0_S2135
+	:: (((state[0]==10)) && ((state[1]==2))) -> goto T0_S2151
+	:: (((state[0]==10)) && ((state[1]==10))) -> goto T0_S2167
+	:: ((is_attacker_end)) -> goto T0_S2176
+	:: (1) -> goto T0_init
+	od;
+accept_S2194:
+	do
+	:: (((state[0]==9)) && ((state[1]==9))) -> goto accept_S2194
+	od;
+accept_S2198:
+	do
+	:: (((state[0]==9)) && ((state[1]==8))) -> goto accept_S2198
+	od;
+accept_S2202:
+	do
+	:: (((state[0]==9)) && ((state[1]==7))) -> goto accept_S2202
+	od;
+accept_S2206:
+	do
+	:: (((state[0]==9)) && ((state[1]==6))) -> goto accept_S2206
+	od;
+accept_S2210:
+	do
+	:: (((state[0]==9)) && ((state[1]==5))) -> goto accept_S2210
+	od;
+accept_S2214:
+	do
+	:: (((state[0]==9)) && ((state[1]==4))) -> goto accept_S2214
+	od;
+accept_S2218:
+	do
+	:: (((state[0]==9)) && ((state[1]==3))) -> goto accept_S2218
+	od;
+accept_S2222:
+	do
+	:: (((state[0]==9)) && ((state[1]==2))) -> goto accept_S2222
+	od;
+accept_S2226:
+	do
+	:: (((state[0]==9)) && ((state[1]==10))) -> goto accept_S2226
+	od;
+accept_S2239:
+	do
+	:: (((state[0]==8)) && ((state[1]==9))) -> goto accept_S2239
+	od;
+accept_S2243:
+	do
+	:: (((state[0]==8)) && ((state[1]==8))) -> goto accept_S2243
+	od;
+accept_S2247:
+	do
+	:: (((state[0]==8)) && ((state[1]==7))) -> goto accept_S2247
+	od;
+accept_S2251:
+	do
+	:: (((state[0]==8)) && ((state[1]==6))) -> goto accept_S2251
+	od;
+accept_S2255:
+	do
+	:: (((state[0]==8)) && ((state[1]==5))) -> goto accept_S2255
+	od;
+accept_S2259:
+	do
+	:: (((state[0]==8)) && ((state[1]==4))) -> goto accept_S2259
+	od;
+accept_S2263:
+	do
+	:: (((state[0]==8)) && ((state[1]==3))) -> goto accept_S2263
+	od;
+accept_S2267:
+	do
+	:: (((state[0]==8)) && ((state[1]==2))) -> goto accept_S2267
+	od;
+accept_S2271:
+	do
+	:: (((state[0]==8)) && ((state[1]==10))) -> goto accept_S2271
+	od;
+accept_S2284:
+	do
+	:: (((state[0]==7)) && ((state[1]==9))) -> goto accept_S2284
+	od;
+accept_S2288:
+	do
+	:: (((state[0]==7)) && ((state[1]==8))) -> goto accept_S2288
+	od;
+accept_S2292:
+	do
+	:: (((state[0]==7)) && ((state[1]==7))) -> goto accept_S2292
+	od;
+accept_S2296:
+	do
+	:: (((state[0]==7)) && ((state[1]==6))) -> goto accept_S2296
+	od;
+accept_S2300:
+	do
+	:: (((state[0]==7)) && ((state[1]==5))) -> goto accept_S2300
+	od;
+accept_S2304:
+	do
+	:: (((state[0]==7)) && ((state[1]==4))) -> goto accept_S2304
+	od;
+accept_S2308:
+	do
+	:: (((state[0]==7)) && ((state[1]==3))) -> goto accept_S2308
+	od;
+accept_S2312:
+	do
+	:: (((state[0]==7)) && ((state[1]==2))) -> goto accept_S2312
+	od;
+accept_S2316:
+	do
+	:: (((state[0]==7)) && ((state[1]==10))) -> goto accept_S2316
+	od;
+accept_S2329:
+	do
+	:: (((state[0]==6)) && ((state[1]==9))) -> goto accept_S2329
+	od;
+accept_S2333:
+	do
+	:: (((state[0]==6)) && ((state[1]==8))) -> goto accept_S2333
+	od;
+accept_S2337:
+	do
+	:: (((state[0]==6)) && ((state[1]==7))) -> goto accept_S2337
+	od;
+accept_S2341:
+	do
+	:: (((state[0]==6)) && ((state[1]==6))) -> goto accept_S2341
+	od;
+accept_S2345:
+	do
+	:: (((state[0]==6)) && ((state[1]==5))) -> goto accept_S2345
+	od;
+accept_S2349:
+	do
+	:: (((state[0]==6)) && ((state[1]==4))) -> goto accept_S2349
+	od;
+accept_S2353:
+	do
+	:: (((state[0]==6)) && ((state[1]==3))) -> goto accept_S2353
+	od;
+accept_S2357:
+	do
+	:: (((state[0]==6)) && ((state[1]==2))) -> goto accept_S2357
+	od;
+accept_S2361:
+	do
+	:: (((state[0]==6)) && ((state[1]==10))) -> goto accept_S2361
+	od;
+accept_S2374:
+	do
+	:: (((state[0]==5)) && ((state[1]==9))) -> goto accept_S2374
+	od;
+accept_S2378:
+	do
+	:: (((state[0]==5)) && ((state[1]==8))) -> goto accept_S2378
+	od;
+accept_S2382:
+	do
+	:: (((state[0]==5)) && ((state[1]==7))) -> goto accept_S2382
+	od;
+accept_S2386:
+	do
+	:: (((state[0]==5)) && ((state[1]==6))) -> goto accept_S2386
+	od;
+accept_S2390:
+	do
+	:: (((state[0]==5)) && ((state[1]==5))) -> goto accept_S2390
+	od;
+accept_S2394:
+	do
+	:: (((state[0]==5)) && ((state[1]==4))) -> goto accept_S2394
+	od;
+accept_S2398:
+	do
+	:: (((state[0]==5)) && ((state[1]==3))) -> goto accept_S2398
+	od;
+accept_S2402:
+	do
+	:: (((state[0]==5)) && ((state[1]==2))) -> goto accept_S2402
+	od;
+accept_S2406:
+	do
+	:: (((state[0]==5)) && ((state[1]==10))) -> goto accept_S2406
+	od;
+accept_S2419:
+	do
+	:: (((state[0]==4)) && ((state[1]==9))) -> goto accept_S2419
+	od;
+accept_S2423:
+	do
+	:: (((state[0]==4)) && ((state[1]==8))) -> goto accept_S2423
+	od;
+accept_S2427:
+	do
+	:: (((state[0]==4)) && ((state[1]==7))) -> goto accept_S2427
+	od;
+accept_S2431:
+	do
+	:: (((state[0]==4)) && ((state[1]==6))) -> goto accept_S2431
+	od;
+accept_S2435:
+	do
+	:: (((state[0]==4)) && ((state[1]==5))) -> goto accept_S2435
+	od;
+accept_S2439:
+	do
+	:: (((state[0]==4)) && ((state[1]==4))) -> goto accept_S2439
+	od;
+accept_S2443:
+	do
+	:: (((state[0]==4)) && ((state[1]==3))) -> goto accept_S2443
+	od;
+accept_S2447:
+	do
+	:: (((state[0]==4)) && ((state[1]==2))) -> goto accept_S2447
+	od;
+accept_S2451:
+	do
+	:: (((state[0]==4)) && ((state[1]==10))) -> goto accept_S2451
+	od;
+accept_S2464:
+	do
+	:: (((state[0]==3)) && ((state[1]==9))) -> goto accept_S2464
+	od;
+accept_S2468:
+	do
+	:: (((state[0]==3)) && ((state[1]==8))) -> goto accept_S2468
+	od;
+accept_S2472:
+	do
+	:: (((state[0]==3)) && ((state[1]==7))) -> goto accept_S2472
+	od;
+accept_S2476:
+	do
+	:: (((state[0]==3)) && ((state[1]==6))) -> goto accept_S2476
+	od;
+accept_S2480:
+	do
+	:: (((state[0]==3)) && ((state[1]==5))) -> goto accept_S2480
+	od;
+accept_S2484:
+	do
+	:: (((state[0]==3)) && ((state[1]==4))) -> goto accept_S2484
+	od;
+accept_S2488:
+	do
+	:: (((state[0]==3)) && ((state[1]==3))) -> goto accept_S2488
+	od;
+accept_S2492:
+	do
+	:: (((state[0]==3)) && ((state[1]==2))) -> goto accept_S2492
+	od;
+accept_S2496:
+	do
+	:: (((state[0]==3)) && ((state[1]==10))) -> goto accept_S2496
+	od;
+accept_S2509:
+	do
+	:: (((state[0]==2)) && ((state[1]==9))) -> goto accept_S2509
+	od;
+accept_S2513:
+	do
+	:: (((state[0]==2)) && ((state[1]==8))) -> goto accept_S2513
+	od;
+accept_S2517:
+	do
+	:: (((state[0]==2)) && ((state[1]==7))) -> goto accept_S2517
+	od;
+accept_S2521:
+	do
+	:: (((state[0]==2)) && ((state[1]==6))) -> goto accept_S2521
+	od;
+accept_S2525:
+	do
+	:: (((state[0]==2)) && ((state[1]==5))) -> goto accept_S2525
+	od;
+accept_S2529:
+	do
+	:: (((state[0]==2)) && ((state[1]==4))) -> goto accept_S2529
+	od;
+accept_S2533:
+	do
+	:: (((state[0]==2)) && ((state[1]==3))) -> goto accept_S2533
+	od;
+accept_S2537:
+	do
+	:: (((state[0]==2)) && ((state[1]==2))) -> goto accept_S2537
+	od;
+accept_S2541:
+	do
+	:: (((state[0]==2)) && ((state[1]==10))) -> goto accept_S2541
+	od;
+accept_S2554:
+	do
+	:: (((state[0]==10)) && ((state[1]==9))) -> goto accept_S2554
+	od;
+accept_S2558:
+	do
+	:: (((state[0]==10)) && ((state[1]==8))) -> goto accept_S2558
+	od;
+accept_S2562:
+	do
+	:: (((state[0]==10)) && ((state[1]==7))) -> goto accept_S2562
+	od;
+accept_S2566:
+	do
+	:: (((state[0]==10)) && ((state[1]==6))) -> goto accept_S2566
+	od;
+accept_S2570:
+	do
+	:: (((state[0]==10)) && ((state[1]==5))) -> goto accept_S2570
+	od;
+accept_S2574:
+	do
+	:: (((state[0]==10)) && ((state[1]==4))) -> goto accept_S2574
+	od;
+accept_S2578:
+	do
+	:: (((state[0]==10)) && ((state[1]==3))) -> goto accept_S2578
+	od;
+accept_S2582:
+	do
+	:: (((state[0]==10)) && ((state[1]==2))) -> goto accept_S2582
+	od;
+accept_S2586:
+	do
+	:: (((state[0]==10)) && ((state[1]==10))) -> goto accept_S2586
+	od;
+T0_S721:
+	do
+	:: (((state[0]==9)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2194
+	:: (((state[0]==9)) && ((state[1]==9))) -> goto T0_S721
+	od;
+T0_S751:
+	do
+	:: (((state[0]==9)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2198
+	:: (((state[0]==9)) && ((state[1]==8))) -> goto T0_S751
+	od;
+T0_S767:
+	do
+	:: (((state[0]==9)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2202
+	:: (((state[0]==9)) && ((state[1]==7))) -> goto T0_S767
+	od;
+T0_S783:
+	do
+	:: (((state[0]==9)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2206
+	:: (((state[0]==9)) && ((state[1]==6))) -> goto T0_S783
+	od;
+T0_S799:
+	do
+	:: (((state[0]==9)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2210
+	:: (((state[0]==9)) && ((state[1]==5))) -> goto T0_S799
+	od;
+T0_S815:
+	do
+	:: (((state[0]==9)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2214
+	:: (((state[0]==9)) && ((state[1]==4))) -> goto T0_S815
+	od;
+T0_S831:
+	do
+	:: (((state[0]==9)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2218
+	:: (((state[0]==9)) && ((state[1]==3))) -> goto T0_S831
+	od;
+T0_S847:
+	do
+	:: (((state[0]==9)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2222
+	:: (((state[0]==9)) && ((state[1]==2))) -> goto T0_S847
+	od;
+T0_S863:
+	do
+	:: (((state[0]==9)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2226
+	:: (((state[0]==9)) && ((state[1]==10))) -> goto T0_S863
+	od;
+T0_S888:
+	do
+	:: (((state[0]==8)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2239
+	:: (((state[0]==8)) && ((state[1]==9))) -> goto T0_S888
+	od;
+T0_S914:
+	do
+	:: (((state[0]==8)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2243
+	:: (((state[0]==8)) && ((state[1]==8))) -> goto T0_S914
+	od;
+T0_S930:
+	do
+	:: (((state[0]==8)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2247
+	:: (((state[0]==8)) && ((state[1]==7))) -> goto T0_S930
+	od;
+T0_S946:
+	do
+	:: (((state[0]==8)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2251
+	:: (((state[0]==8)) && ((state[1]==6))) -> goto T0_S946
+	od;
+T0_S962:
+	do
+	:: (((state[0]==8)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2255
+	:: (((state[0]==8)) && ((state[1]==5))) -> goto T0_S962
+	od;
+T0_S978:
+	do
+	:: (((state[0]==8)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2259
+	:: (((state[0]==8)) && ((state[1]==4))) -> goto T0_S978
+	od;
+T0_S994:
+	do
+	:: (((state[0]==8)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2263
+	:: (((state[0]==8)) && ((state[1]==3))) -> goto T0_S994
+	od;
+T0_S1010:
+	do
+	:: (((state[0]==8)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2267
+	:: (((state[0]==8)) && ((state[1]==2))) -> goto T0_S1010
+	od;
+T0_S1026:
+	do
+	:: (((state[0]==8)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2271
+	:: (((state[0]==8)) && ((state[1]==10))) -> goto T0_S1026
+	od;
+T0_S1051:
+	do
+	:: (((state[0]==7)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2284
+	:: (((state[0]==7)) && ((state[1]==9))) -> goto T0_S1051
+	od;
+T0_S1077:
+	do
+	:: (((state[0]==7)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2288
+	:: (((state[0]==7)) && ((state[1]==8))) -> goto T0_S1077
+	od;
+T0_S1093:
+	do
+	:: (((state[0]==7)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2292
+	:: (((state[0]==7)) && ((state[1]==7))) -> goto T0_S1093
+	od;
+T0_S1109:
+	do
+	:: (((state[0]==7)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2296
+	:: (((state[0]==7)) && ((state[1]==6))) -> goto T0_S1109
+	od;
+T0_S1125:
+	do
+	:: (((state[0]==7)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2300
+	:: (((state[0]==7)) && ((state[1]==5))) -> goto T0_S1125
+	od;
+T0_S1141:
+	do
+	:: (((state[0]==7)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2304
+	:: (((state[0]==7)) && ((state[1]==4))) -> goto T0_S1141
+	od;
+T0_S1157:
+	do
+	:: (((state[0]==7)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2308
+	:: (((state[0]==7)) && ((state[1]==3))) -> goto T0_S1157
+	od;
+T0_S1173:
+	do
+	:: (((state[0]==7)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2312
+	:: (((state[0]==7)) && ((state[1]==2))) -> goto T0_S1173
+	od;
+T0_S1189:
+	do
+	:: (((state[0]==7)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2316
+	:: (((state[0]==7)) && ((state[1]==10))) -> goto T0_S1189
+	od;
+T0_S1214:
+	do
+	:: (((state[0]==6)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2329
+	:: (((state[0]==6)) && ((state[1]==9))) -> goto T0_S1214
+	od;
+T0_S1240:
+	do
+	:: (((state[0]==6)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2333
+	:: (((state[0]==6)) && ((state[1]==8))) -> goto T0_S1240
+	od;
+T0_S1256:
+	do
+	:: (((state[0]==6)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2337
+	:: (((state[0]==6)) && ((state[1]==7))) -> goto T0_S1256
+	od;
+T0_S1272:
+	do
+	:: (((state[0]==6)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2341
+	:: (((state[0]==6)) && ((state[1]==6))) -> goto T0_S1272
+	od;
+T0_S1288:
+	do
+	:: (((state[0]==6)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2345
+	:: (((state[0]==6)) && ((state[1]==5))) -> goto T0_S1288
+	od;
+T0_S1304:
+	do
+	:: (((state[0]==6)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2349
+	:: (((state[0]==6)) && ((state[1]==4))) -> goto T0_S1304
+	od;
+T0_S1320:
+	do
+	:: (((state[0]==6)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2353
+	:: (((state[0]==6)) && ((state[1]==3))) -> goto T0_S1320
+	od;
+T0_S1336:
+	do
+	:: (((state[0]==6)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2357
+	:: (((state[0]==6)) && ((state[1]==2))) -> goto T0_S1336
+	od;
+T0_S1352:
+	do
+	:: (((state[0]==6)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2361
+	:: (((state[0]==6)) && ((state[1]==10))) -> goto T0_S1352
+	od;
+T0_S1377:
+	do
+	:: (((state[0]==5)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2374
+	:: (((state[0]==5)) && ((state[1]==9))) -> goto T0_S1377
+	od;
+T0_S1403:
+	do
+	:: (((state[0]==5)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2378
+	:: (((state[0]==5)) && ((state[1]==8))) -> goto T0_S1403
+	od;
+T0_S1419:
+	do
+	:: (((state[0]==5)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2382
+	:: (((state[0]==5)) && ((state[1]==7))) -> goto T0_S1419
+	od;
+T0_S1435:
+	do
+	:: (((state[0]==5)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2386
+	:: (((state[0]==5)) && ((state[1]==6))) -> goto T0_S1435
+	od;
+T0_S1451:
+	do
+	:: (((state[0]==5)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2390
+	:: (((state[0]==5)) && ((state[1]==5))) -> goto T0_S1451
+	od;
+T0_S1467:
+	do
+	:: (((state[0]==5)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2394
+	:: (((state[0]==5)) && ((state[1]==4))) -> goto T0_S1467
+	od;
+T0_S1483:
+	do
+	:: (((state[0]==5)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2398
+	:: (((state[0]==5)) && ((state[1]==3))) -> goto T0_S1483
+	od;
+T0_S1499:
+	do
+	:: (((state[0]==5)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2402
+	:: (((state[0]==5)) && ((state[1]==2))) -> goto T0_S1499
+	od;
+T0_S1515:
+	do
+	:: (((state[0]==5)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2406
+	:: (((state[0]==5)) && ((state[1]==10))) -> goto T0_S1515
+	od;
+T0_S1540:
+	do
+	:: (((state[0]==4)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2419
+	:: (((state[0]==4)) && ((state[1]==9))) -> goto T0_S1540
+	od;
+T0_S1566:
+	do
+	:: (((state[0]==4)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2423
+	:: (((state[0]==4)) && ((state[1]==8))) -> goto T0_S1566
+	od;
+T0_S1582:
+	do
+	:: (((state[0]==4)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2427
+	:: (((state[0]==4)) && ((state[1]==7))) -> goto T0_S1582
+	od;
+T0_S1598:
+	do
+	:: (((state[0]==4)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2431
+	:: (((state[0]==4)) && ((state[1]==6))) -> goto T0_S1598
+	od;
+T0_S1614:
+	do
+	:: (((state[0]==4)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2435
+	:: (((state[0]==4)) && ((state[1]==5))) -> goto T0_S1614
+	od;
+T0_S1630:
+	do
+	:: (((state[0]==4)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2439
+	:: (((state[0]==4)) && ((state[1]==4))) -> goto T0_S1630
+	od;
+T0_S1646:
+	do
+	:: (((state[0]==4)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2443
+	:: (((state[0]==4)) && ((state[1]==3))) -> goto T0_S1646
+	od;
+T0_S1662:
+	do
+	:: (((state[0]==4)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2447
+	:: (((state[0]==4)) && ((state[1]==2))) -> goto T0_S1662
+	od;
+T0_S1678:
+	do
+	:: (((state[0]==4)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2451
+	:: (((state[0]==4)) && ((state[1]==10))) -> goto T0_S1678
+	od;
+T0_S1703:
+	do
+	:: (((state[0]==3)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2464
+	:: (((state[0]==3)) && ((state[1]==9))) -> goto T0_S1703
+	od;
+T0_S1729:
+	do
+	:: (((state[0]==3)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2468
+	:: (((state[0]==3)) && ((state[1]==8))) -> goto T0_S1729
+	od;
+T0_S1745:
+	do
+	:: (((state[0]==3)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2472
+	:: (((state[0]==3)) && ((state[1]==7))) -> goto T0_S1745
+	od;
+T0_S1761:
+	do
+	:: (((state[0]==3)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2476
+	:: (((state[0]==3)) && ((state[1]==6))) -> goto T0_S1761
+	od;
+T0_S1777:
+	do
+	:: (((state[0]==3)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2480
+	:: (((state[0]==3)) && ((state[1]==5))) -> goto T0_S1777
+	od;
+T0_S1793:
+	do
+	:: (((state[0]==3)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2484
+	:: (((state[0]==3)) && ((state[1]==4))) -> goto T0_S1793
+	od;
+T0_S1809:
+	do
+	:: (((state[0]==3)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2488
+	:: (((state[0]==3)) && ((state[1]==3))) -> goto T0_S1809
+	od;
+T0_S1825:
+	do
+	:: (((state[0]==3)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2492
+	:: (((state[0]==3)) && ((state[1]==2))) -> goto T0_S1825
+	od;
+T0_S1841:
+	do
+	:: (((state[0]==3)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2496
+	:: (((state[0]==3)) && ((state[1]==10))) -> goto T0_S1841
+	od;
+T0_S1866:
+	do
+	:: (((state[0]==2)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2509
+	:: (((state[0]==2)) && ((state[1]==9))) -> goto T0_S1866
+	od;
+T0_S1892:
+	do
+	:: (((state[0]==2)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2513
+	:: (((state[0]==2)) && ((state[1]==8))) -> goto T0_S1892
+	od;
+T0_S1908:
+	do
+	:: (((state[0]==2)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2517
+	:: (((state[0]==2)) && ((state[1]==7))) -> goto T0_S1908
+	od;
+T0_S1924:
+	do
+	:: (((state[0]==2)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2521
+	:: (((state[0]==2)) && ((state[1]==6))) -> goto T0_S1924
+	od;
+T0_S1940:
+	do
+	:: (((state[0]==2)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2525
+	:: (((state[0]==2)) && ((state[1]==5))) -> goto T0_S1940
+	od;
+T0_S1956:
+	do
+	:: (((state[0]==2)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2529
+	:: (((state[0]==2)) && ((state[1]==4))) -> goto T0_S1956
+	od;
+T0_S1972:
+	do
+	:: (((state[0]==2)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2533
+	:: (((state[0]==2)) && ((state[1]==3))) -> goto T0_S1972
+	od;
+T0_S1988:
+	do
+	:: (((state[0]==2)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2537
+	:: (((state[0]==2)) && ((state[1]==2))) -> goto T0_S1988
+	od;
+T0_S2004:
+	do
+	:: (((state[0]==2)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2541
+	:: (((state[0]==2)) && ((state[1]==10))) -> goto T0_S2004
+	od;
+T0_S2029:
+	do
+	:: (((state[0]==10)) && ((state[1]==9)) && (is_attacker_end)) -> goto accept_S2554
+	:: (((state[0]==10)) && ((state[1]==9))) -> goto T0_S2029
+	od;
+T0_S2055:
+	do
+	:: (((state[0]==10)) && ((state[1]==8)) && (is_attacker_end)) -> goto accept_S2558
+	:: (((state[0]==10)) && ((state[1]==8))) -> goto T0_S2055
+	od;
+T0_S2071:
+	do
+	:: (((state[0]==10)) && ((state[1]==7)) && (is_attacker_end)) -> goto accept_S2562
+	:: (((state[0]==10)) && ((state[1]==7))) -> goto T0_S2071
+	od;
+T0_S2087:
+	do
+	:: (((state[0]==10)) && ((state[1]==6)) && (is_attacker_end)) -> goto accept_S2566
+	:: (((state[0]==10)) && ((state[1]==6))) -> goto T0_S2087
+	od;
+T0_S2103:
+	do
+	:: (((state[0]==10)) && ((state[1]==5)) && (is_attacker_end)) -> goto accept_S2570
+	:: (((state[0]==10)) && ((state[1]==5))) -> goto T0_S2103
+	od;
+T0_S2119:
+	do
+	:: (((state[0]==10)) && ((state[1]==4)) && (is_attacker_end)) -> goto accept_S2574
+	:: (((state[0]==10)) && ((state[1]==4))) -> goto T0_S2119
+	od;
+T0_S2135:
+	do
+	:: (((state[0]==10)) && ((state[1]==3)) && (is_attacker_end)) -> goto accept_S2578
+	:: (((state[0]==10)) && ((state[1]==3))) -> goto T0_S2135
+	od;
+T0_S2151:
+	do
+	:: (((state[0]==10)) && ((state[1]==2)) && (is_attacker_end)) -> goto accept_S2582
+	:: (((state[0]==10)) && ((state[1]==2))) -> goto T0_S2151
+	od;
+T0_S2167:
+	do
+	:: (((state[0]==10)) && ((state[1]==10)) && (is_attacker_end)) -> goto accept_S2586
+	:: (((state[0]==10)) && ((state[1]==10))) -> goto T0_S2167
+	od;
+T0_S2176:
+	do
+	:: (((state[0]==9)) && ((state[1]==9))) -> goto accept_S2194
+	:: (((state[0]==9)) && ((state[1]==8))) -> goto accept_S2198
+	:: (((state[0]==9)) && ((state[1]==7))) -> goto accept_S2202
+	:: (((state[0]==9)) && ((state[1]==6))) -> goto accept_S2206
+	:: (((state[0]==9)) && ((state[1]==5))) -> goto accept_S2210
+	:: (((state[0]==9)) && ((state[1]==4))) -> goto accept_S2214
+	:: (((state[0]==9)) && ((state[1]==3))) -> goto accept_S2218
+	:: (((state[0]==9)) && ((state[1]==2))) -> goto accept_S2222
+	:: (((state[0]==9)) && ((state[1]==10))) -> goto accept_S2226
+	:: (((state[0]==8)) && ((state[1]==9))) -> goto accept_S2239
+	:: (((state[0]==8)) && ((state[1]==8))) -> goto accept_S2243
+	:: (((state[0]==8)) && ((state[1]==7))) -> goto accept_S2247
+	:: (((state[0]==8)) && ((state[1]==6))) -> goto accept_S2251
+	:: (((state[0]==8)) && ((state[1]==5))) -> goto accept_S2255
+	:: (((state[0]==8)) && ((state[1]==4))) -> goto accept_S2259
+	:: (((state[0]==8)) && ((state[1]==3))) -> goto accept_S2263
+	:: (((state[0]==8)) && ((state[1]==2))) -> goto accept_S2267
+	:: (((state[0]==8)) && ((state[1]==10))) -> goto accept_S2271
+	:: (((state[0]==7)) && ((state[1]==9))) -> goto accept_S2284
+	:: (((state[0]==7)) && ((state[1]==8))) -> goto accept_S2288
+	:: (((state[0]==7)) && ((state[1]==7))) -> goto accept_S2292
+	:: (((state[0]==7)) && ((state[1]==6))) -> goto accept_S2296
+	:: (((state[0]==7)) && ((state[1]==5))) -> goto accept_S2300
+	:: (((state[0]==7)) && ((state[1]==4))) -> goto accept_S2304
+	:: (((state[0]==7)) && ((state[1]==3))) -> goto accept_S2308
+	:: (((state[0]==7)) && ((state[1]==2))) -> goto accept_S2312
+	:: (((state[0]==7)) && ((state[1]==10))) -> goto accept_S2316
+	:: (((state[0]==6)) && ((state[1]==9))) -> goto accept_S2329
+	:: (((state[0]==6)) && ((state[1]==8))) -> goto accept_S2333
+	:: (((state[0]==6)) && ((state[1]==7))) -> goto accept_S2337
+	:: (((state[0]==6)) && ((state[1]==6))) -> goto accept_S2341
+	:: (((state[0]==6)) && ((state[1]==5))) -> goto accept_S2345
+	:: (((state[0]==6)) && ((state[1]==4))) -> goto accept_S2349
+	:: (((state[0]==6)) && ((state[1]==3))) -> goto accept_S2353
+	:: (((state[0]==6)) && ((state[1]==2))) -> goto accept_S2357
+	:: (((state[0]==6)) && ((state[1]==10))) -> goto accept_S2361
+	:: (((state[0]==5)) && ((state[1]==9))) -> goto accept_S2374
+	:: (((state[0]==5)) && ((state[1]==8))) -> goto accept_S2378
+	:: (((state[0]==5)) && ((state[1]==7))) -> goto accept_S2382
+	:: (((state[0]==5)) && ((state[1]==6))) -> goto accept_S2386
+	:: (((state[0]==5)) && ((state[1]==5))) -> goto accept_S2390
+	:: (((state[0]==5)) && ((state[1]==4))) -> goto accept_S2394
+	:: (((state[0]==5)) && ((state[1]==3))) -> goto accept_S2398
+	:: (((state[0]==5)) && ((state[1]==2))) -> goto accept_S2402
+	:: (((state[0]==5)) && ((state[1]==10))) -> goto accept_S2406
+	:: (((state[0]==4)) && ((state[1]==9))) -> goto accept_S2419
+	:: (((state[0]==4)) && ((state[1]==8))) -> goto accept_S2423
+	:: (((state[0]==4)) && ((state[1]==7))) -> goto accept_S2427
+	:: (((state[0]==4)) && ((state[1]==6))) -> goto accept_S2431
+	:: (((state[0]==4)) && ((state[1]==5))) -> goto accept_S2435
+	:: (((state[0]==4)) && ((state[1]==4))) -> goto accept_S2439
+	:: (((state[0]==4)) && ((state[1]==3))) -> goto accept_S2443
+	:: (((state[0]==4)) && ((state[1]==2))) -> goto accept_S2447
+	:: (((state[0]==4)) && ((state[1]==10))) -> goto accept_S2451
+	:: (((state[0]==3)) && ((state[1]==9))) -> goto accept_S2464
+	:: (((state[0]==3)) && ((state[1]==8))) -> goto accept_S2468
+	:: (((state[0]==3)) && ((state[1]==7))) -> goto accept_S2472
+	:: (((state[0]==3)) && ((state[1]==6))) -> goto accept_S2476
+	:: (((state[0]==3)) && ((state[1]==5))) -> goto accept_S2480
+	:: (((state[0]==3)) && ((state[1]==4))) -> goto accept_S2484
+	:: (((state[0]==3)) && ((state[1]==3))) -> goto accept_S2488
+	:: (((state[0]==3)) && ((state[1]==2))) -> goto accept_S2492
+	:: (((state[0]==3)) && ((state[1]==10))) -> goto accept_S2496
+	:: (((state[0]==2)) && ((state[1]==9))) -> goto accept_S2509
+	:: (((state[0]==2)) && ((state[1]==8))) -> goto accept_S2513
+	:: (((state[0]==2)) && ((state[1]==7))) -> goto accept_S2517
+	:: (((state[0]==2)) && ((state[1]==6))) -> goto accept_S2521
+	:: (((state[0]==2)) && ((state[1]==5))) -> goto accept_S2525
+	:: (((state[0]==2)) && ((state[1]==4))) -> goto accept_S2529
+	:: (((state[0]==2)) && ((state[1]==3))) -> goto accept_S2533
+	:: (((state[0]==2)) && ((state[1]==2))) -> goto accept_S2537
+	:: (((state[0]==2)) && ((state[1]==10))) -> goto accept_S2541
+	:: (((state[0]==10)) && ((state[1]==9))) -> goto accept_S2554
+	:: (((state[0]==10)) && ((state[1]==8))) -> goto accept_S2558
+	:: (((state[0]==10)) && ((state[1]==7))) -> goto accept_S2562
+	:: (((state[0]==10)) && ((state[1]==6))) -> goto accept_S2566
+	:: (((state[0]==10)) && ((state[1]==5))) -> goto accept_S2570
+	:: (((state[0]==10)) && ((state[1]==4))) -> goto accept_S2574
+	:: (((state[0]==10)) && ((state[1]==3))) -> goto accept_S2578
+	:: (((state[0]==10)) && ((state[1]==2))) -> goto accept_S2582
+	:: (((state[0]==10)) && ((state[1]==10))) -> goto accept_S2586
+	:: (1) -> goto T0_S2176
+	od;
+}

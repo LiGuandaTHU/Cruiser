@@ -1,0 +1,166 @@
+ltl no_bug: [] ((dfa_state!=9))
+starting claim 1
+1: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:130 (state 1) [fsm_state = 31]
+2: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:131 (state 2) [dfa_state = 10]
+3: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:132 (state 3) [dealt = 0]
+4: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+5: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:137 (state 5) [input = 36]
+Input: I_KEXINIT
+6: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:159 (state 28) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 145) [dealt = 0]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 143) [IF]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:17 (state 36) [IF]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:19 (state 32) [dfa_state = 8]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:20 (state 33) [dealt = 1]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:23 (state 37) [.(goto)]
+7: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 144) [.(goto)]
+8: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 148) [else]
+9: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 149) [(1)]
+DFA State: iki
+10: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:161 (state 153) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:163 (state 154) [((fsm_state==31))]
+12: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:224 (state 829) [((input==36))]
+13: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:225 (state 830) [fsm_state = 28]
+14: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:226 (state 831) [output = 1]
+FSM State: s3
+15: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2309 (state 4423) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2310 (state 4424) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 4541) [dealt = 0]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 4539) [IF]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:26 (state 4448) [IF]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:28 (state 4438) [dfa_state = 7]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:29 (state 4439) [dealt = 1]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:38 (state 4449) [.(goto)]
+17: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 4540) [.(goto)]
+18: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 4544) [else]
+19: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 4545) [(1)]
+DFA State: oki
+
+20: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2312 (state 4549) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+22: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:152 (state 20) [input = 21]
+Input: I_KEX30
+23: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:159 (state 28) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 145) [dealt = 0]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 143) [IF]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:39 (state 66) [IF]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:41 (state 56) [dfa_state = 5]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:42 (state 57) [dealt = 1]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:51 (state 67) [.(goto)]
+24: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 144) [.(goto)]
+25: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 148) [else]
+26: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 149) [(1)]
+DFA State: k30
+27: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:161 (state 153) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:388 (state 1120) [((fsm_state==28))]
+29: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:450 (state 1181) [((input==21))]
+30: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:451 (state 1182) [fsm_state = 24]
+31: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:452 (state 1183) [output = 9]
+Output: O_KEX31
+32: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:453 (state 1184) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 1301) [dealt = 0]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 1299) [IF]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:62 (state 1247) [IF]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:64 (state 1237) [dfa_state = 4]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:65 (state 1238) [dealt = 1]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:74 (state 1248) [.(goto)]
+33: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 1300) [.(goto)]
+34: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 1304) [else]
+35: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 1305) [(1)]
+DFA State: k31
+36: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:455 (state 1309) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:456 (state 1310) [output = 13]
+FSM State: s7
+38: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2309 (state 4423) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2310 (state 4424) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 4541) [dealt = 0]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 4539) [IF]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:75 (state 4501) [IF]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:77 (state 4491) [dfa_state = 3]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:78 (state 4492) [dealt = 1]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:87 (state 4502) [.(goto)]
+40: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 4540) [.(goto)]
+41: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 4544) [else]
+42: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 4545) [(1)]
+DFA State: onk
+
+43: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2312 (state 4549) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:134 (state 4) [(1)]
+45: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:140 (state 8) [input = 33]
+Input: I_IGNORE
+46: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:159 (state 28) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 145) [dealt = 0]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 143) [IF]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:88 (state 119) [IF]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:96 (state 115) [dfa_state = 6]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:97 (state 116) [dealt = 1]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:100 (state 120) [.(goto)]
+47: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 144) [.(goto)]
+48: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 148) [else]
+49: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 149) [(1)]
+DFA State: end
+50: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:161 (state 153) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:668 (state 1773) [((fsm_state==24))]
+52: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:721 (state 1825) [((input==33))]
+53: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:722 (state 1826) [fsm_state = 24]
+54: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:157 (state 25) [input = 16]
+Input: I_NEWKEYS
+55: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:159 (state 28) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 145) [dealt = 0]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 143) [IF]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:52 (state 77) [IF]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:57 (state 73) [dfa_state = 6]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:58 (state 74) [dealt = 1]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:61 (state 78) [.(goto)]
+56: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 144) [.(goto)]
+57: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 148) [else]
+58: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 149) [(1)]
+DFA State: end
+59: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:161 (state 153) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:668 (state 1773) [((fsm_state==24))]
+61: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:670 (state 1774) [((input==16))]
+62: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:671 (state 1775) [fsm_state = 30]
+63: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:147 (state 15) [input = 26]
+Input: I_SR_AUTH
+64: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:159 (state 28) [printf('Input: %e\\n',input)]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 145) [dealt = 0]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 143) [IF]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:52 (state 77) [IF]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:57 (state 73) [dfa_state = 6]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:58 (state 74) [dealt = 1]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:61 (state 78) [.(goto)]
+65: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 144) [.(goto)]
+66: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 148) [else]
+67: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:124 (state 149) [(1)]
+DFA State: end
+68: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:161 (state 153) [printf('DFA State: %e\\n',dfa_state)]
+69: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:254 (state 984) [((fsm_state==30))]
+70: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:313 (state 1042) [((input==26))]
+71: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:314 (state 1043) [fsm_state = 26]
+72: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:315 (state 1044) [output = 12]
+FSM State: s5
+73: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2309 (state 4423) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+74: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:2310 (state 4424) [printf('Output: %e\\n\\n',output)]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:13 (state 4541) [dealt = 0]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:15 (state 4539) [IF]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:52 (state 4473) [IF]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:54 (state 4466) [dfa_state = 9]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:55 (state 4467) [dealt = 1]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:61 (state 4474) [.(goto)]
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:121 (state 4540) [.(goto)]
+spin: trail ends after 75 steps
+#processes: 1
+input = I_SR_AUTH
+output = O_SR_ACCEPT
+fsm_state = s5
+dfa_state = bug
+dealt = 1
+75: proc  0 (:init::1) OpenSSH-6.9p1_transport_layer_bug_introspection.pml:122 (state 4546)
+75: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

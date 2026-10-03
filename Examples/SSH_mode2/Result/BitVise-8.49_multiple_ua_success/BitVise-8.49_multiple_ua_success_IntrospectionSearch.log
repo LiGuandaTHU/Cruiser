@@ -1,0 +1,56 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.391	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.391	
+Depth=      30 States=      539 Transitions=      635 Memory=   128.391	
+Depth=      40 States=      976 Transitions= 1.21e+03 Memory=   128.391	
+Depth=      50 States= 1.68e+03 Transitions= 2.35e+03 Memory=   128.488	
+Depth=      60 States= 2.15e+03 Transitions= 2.94e+03 Memory=   128.488	
+Depth=      70 States=  2.6e+03 Transitions= 3.71e+03 Memory=   128.586	
+Depth=      80 States=  3.1e+03 Transitions= 4.54e+03 Memory=   128.586	
+Depth=      90 States= 3.84e+03 Transitions= 5.57e+03 Memory=   128.684	
+Depth=     100 States= 5.02e+03 Transitions= 6.91e+03 Memory=   128.781	
+Depth=     110 States= 6.73e+03 Transitions= 9.01e+03 Memory=   128.879	
+Depth=     120 States= 9.36e+03 Transitions= 1.22e+04 Memory=   129.074	
+Depth=     130 States= 1.35e+04 Transitions= 1.74e+04 Memory=   129.465	
+Depth=     140 States=  1.8e+04 Transitions= 2.39e+04 Memory=   129.758	
+Depth=     150 States= 2.22e+04 Transitions= 2.97e+04 Memory=   130.051	
+Depth=     160 States=  2.6e+04 Transitions= 3.42e+04 Memory=   130.344	t=     0.02 R=   1e+06
+Depth=     170 States=    3e+04 Transitions= 4.03e+04 Memory=   130.734	t=     0.02 R=   2e+06
+Depth=     180 States= 3.26e+04 Transitions= 4.34e+04 Memory=   130.930	t=     0.02 R=   2e+06
+Depth=     190 States=  3.4e+04 Transitions= 4.54e+04 Memory=   131.027	t=     0.02 R=   2e+06
+Depth=     200 States= 3.48e+04 Transitions= 4.65e+04 Memory=   131.027	t=     0.02 R=   2e+06
+Depth=     210 States= 3.51e+04 Transitions= 4.68e+04 Memory=   131.125	t=     0.02 R=   2e+06
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 210, errors: 0
+    35068 states, stored
+	   35068 nominal states (stored-atomic)
+    11805 states, matched
+    46873 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         5 (resolved)
+
+Stats on memory usage (in Megabytes):
+    1.873	equivalent memory usage for states (stored*(State-vector + overhead))
+    3.171	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  131.125	total actual memory usage
+
+
+unreached in init
+	BitVise-8.49_multiple_ua_success_introspection.pml:1922, state 3040, "-end-"
+	(1 of 3040 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.02 seconds
+pan: rate   1753400 states/second

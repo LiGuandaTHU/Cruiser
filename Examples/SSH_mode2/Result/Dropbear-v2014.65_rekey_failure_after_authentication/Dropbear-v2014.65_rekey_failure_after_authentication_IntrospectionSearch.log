@@ -1,0 +1,131 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.293	
+Depth=      20 States=      213 Transitions=      213 Memory=   128.293	
+Depth=      30 States=      862 Transitions=      953 Memory=   128.293	
+Depth=      40 States= 1.41e+03 Transitions= 1.92e+03 Memory=   128.391	
+Depth=      50 States= 2.13e+03 Transitions= 2.74e+03 Memory=   128.391	
+Depth=      60 States=  2.3e+03 Transitions= 2.91e+03 Memory=   128.391	
+Depth=      70 States= 2.63e+03 Transitions= 3.29e+03 Memory=   128.488	
+Depth=      80 States=  3.5e+03 Transitions= 4.33e+03 Memory=   128.488	
+Depth=      90 States= 4.05e+03 Transitions= 5.03e+03 Memory=   128.586	
+Depth=     100 States= 4.96e+03 Transitions= 6.28e+03 Memory=   128.684	
+Depth=     110 States= 5.54e+03 Transitions= 6.92e+03 Memory=   128.684	
+Depth=     120 States= 6.26e+03 Transitions= 7.99e+03 Memory=   128.781	
+Depth=     130 States= 7.17e+03 Transitions= 9.04e+03 Memory=   128.781	
+Depth=     140 States= 7.54e+03 Transitions= 9.79e+03 Memory=   128.879	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 147, errors: 0
+     7714 states, stored
+	    7714 nominal states (stored-atomic)
+     2353 states, matched
+    10067 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.412	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.971	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.879	total actual memory usage
+
+
+unreached in init
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:533, state 895, "fsm_state = 15"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:534, state 896, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:576, state 939, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:577, state 940, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:616, state 980, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:617, state 981, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:619, state 983, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:620, state 984, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:622, state 986, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:623, state 987, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:625, state 989, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:626, state 990, "output = 3"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:628, state 992, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:629, state 993, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:631, state 995, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:632, state 996, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:634, state 998, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:635, state 999, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:637, state 1001, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:638, state 1002, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:640, state 1004, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:641, state 1005, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:643, state 1007, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:644, state 1008, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:646, state 1010, "fsm_state = 15"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:647, state 1011, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:649, state 1013, "fsm_state = 6"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:650, state 1014, "output = 13"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:652, state 1016, "fsm_state = 4"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:662, state 1027, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:663, state 1028, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:702, state 1068, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:703, state 1069, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:705, state 1071, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:706, state 1072, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:708, state 1074, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:709, state 1075, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:711, state 1077, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:712, state 1078, "output = 3"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:714, state 1080, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:715, state 1081, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:717, state 1083, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:718, state 1084, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:720, state 1086, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:721, state 1087, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:723, state 1089, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:724, state 1090, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:726, state 1092, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:727, state 1093, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:729, state 1095, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:730, state 1096, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:732, state 1098, "fsm_state = 15"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:733, state 1099, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:735, state 1101, "fsm_state = 4"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:736, state 1102, "output = 13"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:752, state 1210, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:753, state 1211, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:795, state 1254, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:796, state 1255, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:835, state 1295, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:836, state 1296, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:838, state 1298, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:839, state 1299, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:841, state 1301, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:842, state 1302, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:844, state 1304, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:845, state 1305, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:847, state 1307, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:848, state 1308, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:850, state 1310, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:851, state 1311, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:853, state 1313, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:854, state 1314, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:856, state 1316, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:857, state 1317, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:859, state 1319, "fsm_state = 16"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:860, state 1320, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:862, state 1322, "fsm_state = 15"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:863, state 1323, "output = 10"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:868, state 1328, "fsm_state = 1"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:869, state 1329, "output = 3"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:871, state 1331, "fsm_state = 1"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:872, state 1332, "output = 13"
+	Dropbear-v2014.65_rekey_failure_after_authentication_introspection.pml:881, state 1437, "-end-"
+	(84 of 1437 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds

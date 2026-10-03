@@ -1,0 +1,53 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.293	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.293	
+Depth=      30 States=      689 Transitions=      773 Memory=   128.293	
+Depth=      40 States= 1.12e+03 Transitions= 1.49e+03 Memory=   128.293	
+Depth=      50 States= 1.72e+03 Transitions= 2.16e+03 Memory=   128.391	
+Depth=      60 States= 1.87e+03 Transitions= 2.32e+03 Memory=   128.391	
+Depth=      70 States= 2.18e+03 Transitions= 2.67e+03 Memory=   128.391	
+Depth=      80 States= 2.85e+03 Transitions= 3.47e+03 Memory=   128.488	
+Depth=      90 States= 3.27e+03 Transitions= 4.01e+03 Memory=   128.488	
+Depth=     100 States= 3.89e+03 Transitions= 4.79e+03 Memory=   128.586	
+Depth=     110 States= 4.38e+03 Transitions= 5.33e+03 Memory=   128.586	
+Depth=     120 States=  4.9e+03 Transitions= 6.07e+03 Memory=   128.586	
+Depth=     130 States= 5.94e+03 Transitions= 7.24e+03 Memory=   128.684	
+Depth=     140 States= 6.74e+03 Transitions= 8.36e+03 Memory=   128.781	
+Depth=     150 States= 7.51e+03 Transitions= 9.35e+03 Memory=   128.879	
+Depth=     160 States= 8.06e+03 Transitions= 9.97e+03 Memory=   128.879	
+Depth=     170 States= 8.66e+03 Transitions= 1.07e+04 Memory=   128.879	
+Depth=     180 States= 9.15e+03 Transitions= 1.14e+04 Memory=   128.977	
+Depth=     190 States= 9.39e+03 Transitions= 1.17e+04 Memory=   128.977	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 194, errors: 0
+     9436 states, stored
+	    9436 nominal states (stored-atomic)
+     2388 states, matched
+    11824 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.504	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.042	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.977	total actual memory usage
+
+
+unreached in init
+	Dropbear-v2025.89_invalid_service_request_response_introspection.pml:1052, state 1603, "-end-"
+	(1 of 1603 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds

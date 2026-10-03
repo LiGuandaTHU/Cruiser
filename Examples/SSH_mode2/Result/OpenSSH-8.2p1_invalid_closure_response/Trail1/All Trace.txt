@@ -1,0 +1,354 @@
+ltl no_bug: [] ((dfa_state!=3))
+starting claim 1
+1: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:55 (state 1) [fsm_state = 37]
+2: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:56 (state 2) [dfa_state = 4]
+3: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:57 (state 3) [dealt = 0]
+4: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+5: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:71 (state 14) [input = 19]
+Input: I_KEXINIT
+6: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+8: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+9: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+10: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:79 (state 64) [((fsm_state==37))]
+12: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:117 (state 227) [((input==19))]
+13: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:118 (state 228) [fsm_state = 35]
+14: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:119 (state 229) [output = 4]
+FSM State: s2
+15: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 2741) [dfa_state = 4]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 2742) [dealt = 1]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+18: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+19: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+22: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:73 (state 16) [input = 17]
+Input: I_KEX30
+23: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+25: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+26: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+27: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:175 (state 330) [((fsm_state==35))]
+29: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:210 (state 364) [((input==17))]
+30: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:211 (state 365) [fsm_state = 33]
+31: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:212 (state 366) [output = 5]
+Output: O_KEX31
+32: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:213 (state 367) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 403) [dealt = 0]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 401) [IF]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 378) [IF]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 374) [dfa_state = 4]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 375) [dealt = 1]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 379) [.(goto)]
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 402) [.(goto)]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 406) [else]
+35: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 407) [(1)]
+DFA State: start
+36: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:215 (state 411) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:216 (state 412) [output = 16]
+FSM State: s4
+38: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 2741) [dfa_state = 4]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 2742) [dealt = 1]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+40: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+41: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+42: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+45: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:62 (state 5) [input = 28]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+47: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+48: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+49: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+50: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:259 (state 458) [((fsm_state==33))]
+52: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:294 (state 492) [((input==28))]
+53: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:295 (state 493) [fsm_state = 32]
+54: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:64 (state 7) [input = 26]
+Input: I_SR_AUTH
+55: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+56: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+57: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+58: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+59: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:299 (state 499) [((fsm_state==32))]
+61: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:331 (state 530) [((input==26))]
+62: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:332 (state 531) [fsm_state = 31]
+63: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:333 (state 532) [output = 3]
+FSM State: s6
+64: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+65: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 2741) [dfa_state = 4]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 2742) [dealt = 1]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+66: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+67: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+68: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: start
+
+69: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+71: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:72 (state 15) [input = 18]
+Input: I_UA_PK_OK
+72: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+73: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+74: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+75: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+76: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:339 (state 540) [((fsm_state==31))]
+78: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:374 (state 574) [((input==18))]
+79: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:375 (state 575) [fsm_state = 27]
+80: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:376 (state 576) [output = 9]
+Output: O_UA_SUCCESS
+81: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:377 (state 577) [printf('Output: %e\\n',output)]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 613) [dealt = 0]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 611) [IF]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 588) [IF]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 584) [dfa_state = 4]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 585) [dealt = 1]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 589) [.(goto)]
+82: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 612) [.(goto)]
+83: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 616) [else]
+84: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 617) [(1)]
+DFA State: start
+85: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:379 (state 621) [printf('DFA State: %e\\n',dfa_state)]
+86: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:380 (state 622) [output = 10]
+FSM State: s10
+87: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_GLOBAL_REQUEST
+
+88: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 2741) [dfa_state = 4]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 2742) [dealt = 1]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+89: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+90: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+91: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: start
+
+92: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+93: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+94: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:71 (state 14) [input = 19]
+Input: I_KEXINIT
+95: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+96: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+97: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+98: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+99: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+100: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:507 (state 796) [((fsm_state==27))]
+101: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:542 (state 830) [((input==19))]
+102: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:543 (state 831) [fsm_state = 23]
+103: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:544 (state 832) [output = 4]
+FSM State: s14
+104: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+105: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 2741) [dfa_state = 4]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 2742) [dealt = 1]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+106: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+107: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+108: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: start
+
+109: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+110: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+111: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:73 (state 16) [input = 17]
+Input: I_KEX30
+112: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+113: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+114: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+115: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+116: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+117: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:667 (state 960) [((fsm_state==23))]
+118: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:702 (state 994) [((input==17))]
+119: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:703 (state 995) [fsm_state = 18]
+120: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:704 (state 996) [output = 5]
+Output: O_KEX31
+121: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:705 (state 997) [printf('Output: %e\\n',output)]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 1033) [dealt = 0]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 1031) [IF]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 1008) [IF]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 1004) [dfa_state = 4]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 1005) [dealt = 1]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 1009) [.(goto)]
+122: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 1032) [.(goto)]
+123: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 1036) [else]
+124: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 1037) [(1)]
+DFA State: start
+125: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:707 (state 1041) [printf('DFA State: %e\\n',dfa_state)]
+126: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:708 (state 1042) [output = 16]
+FSM State: s19
+127: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+128: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 2741) [dfa_state = 4]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 2742) [dealt = 1]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+129: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+130: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+131: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: start
+
+132: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+133: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+134: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:69 (state 12) [input = 21]
+Input: I_CH_OPEN
+135: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 30) [IF]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:22 (state 26) [dfa_state = 4]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:23 (state 27) [dealt = 1]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 31) [.(goto)]
+136: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+137: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+138: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: start
+139: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+140: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:887 (state 1395) [((fsm_state==18))]
+141: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:922 (state 1429) [((input==21))]
+142: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:923 (state 1430) [fsm_state = 16]
+143: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:924 (state 1431) [output = 14]
+FSM State: s21
+144: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1660 (state 2733) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_CH_OPEN_SUCCESS
+
+145: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1661 (state 2734) [printf('Output: %e\\n\\n',output)]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 2770) [dealt = 0]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 2768) [IF]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:17 (state 2745) [IF]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:19 (state 2738) [dfa_state = 2]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:20 (state 2739) [dealt = 1]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:26 (state 2746) [.(goto)]
+146: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 2769) [.(goto)]
+147: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2773) [else]
+148: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 2774) [(1)]
+DFA State: channel_open
+
+149: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1663 (state 2778) [printf('DFA State: %e\\n\\n',dfa_state)]
+150: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+151: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:66 (state 9) [input = 24]
+Input: I_CH_CLOSE
+152: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:29 (state 43) [IF]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:31 (state 36) [dfa_state = 1]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:32 (state 37) [dealt = 1]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:38 (state 44) [.(goto)]
+153: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+154: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 58) [else]
+155: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:49 (state 59) [(1)]
+DFA State: close_received
+156: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:77 (state 63) [printf('DFA State: %e\\n',dfa_state)]
+157: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:967 (state 1477) [((fsm_state==16))]
+158: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:999 (state 1508) [((input==24))]
+159: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:1000 (state 1509) [fsm_state = 11]
+160: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:62 (state 5) [input = 28]
+Input: I_NEWKEYS
+161: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:75 (state 19) [printf('Input: %e\\n',input)]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:13 (state 55) [dealt = 0]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:15 (state 53) [IF]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:39 (state 51) [IF]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:41 (state 47) [dfa_state = 3]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:42 (state 48) [dealt = 1]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:45 (state 52) [.(goto)]
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:46 (state 54) [.(goto)]
+spin: trail ends after 162 steps
+#processes: 1
+input = I_NEWKEYS
+output = O_CH_OPEN_SUCCESS
+fsm_state = s26
+dfa_state = bug
+dealt = 1
+162: proc  0 (:init::1) OpenSSH-8.2p1_invalid_closure_response_introspection.pml:47 (state 60)
+162: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

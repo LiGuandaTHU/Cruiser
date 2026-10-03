@@ -1,0 +1,288 @@
+ltl no_bug: [] ((dfa_state!=9))
+starting claim 1
+1: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:103 (state 1) [fsm_state = 17]
+2: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:104 (state 2) [dfa_state = 10]
+3: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:105 (state 3) [dealt = 0]
+4: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:107 (state 4) [(1)]
+5: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:110 (state 5) [input = 26]
+Input: I_KEXINIT
+6: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 31) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 27) [dfa_state = 10]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 28) [dealt = 1]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 32) [.(goto)]
+7: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+8: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+9: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: start
+10: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:128 (state 119) [((fsm_state==17))]
+12: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:171 (state 353) [((input==26))]
+13: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:172 (state 354) [fsm_state = 14]
+14: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:173 (state 355) [output = 6]
+FSM State: s3
+15: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:880 (state 1369) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:881 (state 1370) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 1460) [dealt = 0]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 1458) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 1381) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 1377) [dfa_state = 10]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 1378) [dealt = 1]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 1382) [.(goto)]
+17: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 1459) [.(goto)]
+18: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1463) [else]
+19: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1464) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:883 (state 1468) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:107 (state 4) [(1)]
+22: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:121 (state 16) [input = 15]
+Input: I_KEX30
+23: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 31) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 27) [dfa_state = 10]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 28) [dealt = 1]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 32) [.(goto)]
+24: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+25: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+26: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: start
+27: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:265 (state 451) [((fsm_state==14))]
+29: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:303 (state 488) [((input==15))]
+30: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:304 (state 489) [fsm_state = 12]
+31: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:305 (state 490) [output = 7]
+Output: O_KEX31
+32: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:306 (state 491) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 581) [dealt = 0]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 579) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 502) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 498) [dfa_state = 10]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 499) [dealt = 1]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 503) [.(goto)]
+33: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 580) [.(goto)]
+34: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 584) [else]
+35: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 585) [(1)]
+DFA State: start
+36: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:308 (state 589) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:309 (state 590) [output = 5]
+FSM State: s5
+38: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:880 (state 1369) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:881 (state 1370) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 1460) [dealt = 0]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 1458) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 1381) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 1377) [dfa_state = 10]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 1378) [dealt = 1]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 1382) [.(goto)]
+40: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 1459) [.(goto)]
+41: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1463) [else]
+42: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1464) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:883 (state 1468) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:107 (state 4) [(1)]
+45: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:113 (state 8) [input = 23]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 31) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 27) [dfa_state = 10]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 28) [dealt = 1]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 32) [.(goto)]
+47: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+48: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+49: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: start
+50: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:355 (state 639) [((fsm_state==12))]
+52: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:393 (state 676) [((input==23))]
+53: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:394 (state 677) [fsm_state = 11]
+54: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:119 (state 14) [input = 17]
+Input: I_UA_PK_OK
+55: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 31) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:22 (state 27) [dfa_state = 10]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:23 (state 28) [dealt = 1]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 32) [.(goto)]
+56: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+57: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+58: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: start
+59: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:398 (state 683) [((fsm_state==11))]
+61: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:436 (state 720) [((input==17))]
+62: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:437 (state 721) [fsm_state = 8]
+63: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:438 (state 722) [output = 10]
+FSM State: s9
+64: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:880 (state 1369) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+65: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:881 (state 1370) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 1460) [dealt = 0]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 1458) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:17 (state 1381) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:19 (state 1374) [dfa_state = 8]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:20 (state 1375) [dealt = 1]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:26 (state 1382) [.(goto)]
+66: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 1459) [.(goto)]
+67: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1463) [else]
+68: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1464) [(1)]
+DFA State: auth
+
+69: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:883 (state 1468) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:107 (state 4) [(1)]
+71: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:110 (state 5) [input = 26]
+Input: I_KEXINIT
+72: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:29 (state 44) [IF]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:31 (state 37) [dfa_state = 7]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:32 (state 38) [dealt = 1]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:38 (state 45) [.(goto)]
+73: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+74: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+75: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: rekey
+76: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:531 (state 915) [((fsm_state==8))]
+78: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:542 (state 925) [((input==26))]
+79: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:543 (state 926) [fsm_state = 9]
+80: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:544 (state 927) [output = 6]
+FSM State: s8
+81: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:880 (state 1369) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+82: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:881 (state 1370) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 1460) [dealt = 0]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 1458) [IF]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:39 (state 1402) [IF]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:41 (state 1398) [dfa_state = 4]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:42 (state 1399) [dealt = 1]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:45 (state 1403) [.(goto)]
+83: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 1459) [.(goto)]
+84: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1463) [else]
+85: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1464) [(1)]
+DFA State: kexinit
+
+86: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:883 (state 1468) [printf('DFA State: %e\\n\\n',dfa_state)]
+87: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:107 (state 4) [(1)]
+88: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:121 (state 16) [input = 15]
+Input: I_KEX30
+89: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:66 (state 82) [IF]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:68 (state 78) [dfa_state = 3]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:69 (state 79) [dealt = 1]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:72 (state 83) [.(goto)]
+90: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+91: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+92: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: kex30
+93: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+94: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:484 (state 771) [((fsm_state==9))]
+95: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:510 (state 796) [((input==15))]
+96: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:511 (state 797) [fsm_state = 12]
+97: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:512 (state 798) [output = 7]
+Output: O_KEX31
+98: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:513 (state 799) [printf('Output: %e\\n',output)]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 889) [dealt = 0]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 887) [IF]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:73 (state 869) [IF]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:75 (state 865) [dfa_state = 2]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:76 (state 866) [dealt = 1]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:79 (state 870) [.(goto)]
+99: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 888) [.(goto)]
+100: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 892) [else]
+101: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 893) [(1)]
+DFA State: kex31
+102: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:515 (state 897) [printf('DFA State: %e\\n',dfa_state)]
+103: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:516 (state 898) [output = 5]
+FSM State: s5
+104: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:880 (state 1369) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+105: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:881 (state 1370) [printf('Output: %e\\n\\n',output)]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 1460) [dealt = 0]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 1458) [IF]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:80 (state 1448) [IF]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:82 (state 1444) [dfa_state = 1]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:83 (state 1445) [dealt = 1]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:86 (state 1449) [.(goto)]
+106: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 1459) [.(goto)]
+107: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1463) [else]
+108: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 1464) [(1)]
+DFA State: newkeys
+
+109: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:883 (state 1468) [printf('DFA State: %e\\n\\n',dfa_state)]
+110: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:107 (state 4) [(1)]
+111: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:113 (state 8) [input = 23]
+Input: I_NEWKEYS
+112: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:87 (state 106) [IF]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:89 (state 102) [dfa_state = 6]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:90 (state 103) [dealt = 1]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:93 (state 107) [.(goto)]
+113: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+114: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+115: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: post_rekey
+116: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+117: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:355 (state 639) [((fsm_state==12))]
+118: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:393 (state 676) [((input==23))]
+119: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:394 (state 677) [fsm_state = 11]
+120: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:122 (state 17) [input = 14]
+Input: I_CH_OPEN
+121: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:124 (state 20) [printf('Input: %e\\n',input)]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 110) [dealt = 0]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 108) [IF]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:46 (state 66) [IF]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:48 (state 56) [dfa_state = 5]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:49 (state 57) [dealt = 1]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:58 (state 67) [.(goto)]
+122: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 109) [.(goto)]
+123: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 113) [else]
+124: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:97 (state 114) [(1)]
+DFA State: open
+125: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:126 (state 118) [printf('DFA State: %e\\n',dfa_state)]
+126: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:398 (state 683) [((fsm_state==11))]
+127: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:400 (state 684) [((input==14))]
+128: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:401 (state 685) [fsm_state = 16]
+129: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:402 (state 686) [output = 4]
+FSM State: s1
+130: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:880 (state 1369) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NO_CONN
+
+131: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:881 (state 1370) [printf('Output: %e\\n\\n',output)]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:13 (state 1460) [dealt = 0]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:15 (state 1458) [IF]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:59 (state 1424) [IF]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:61 (state 1420) [dfa_state = 9]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:62 (state 1421) [dealt = 1]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:65 (state 1425) [.(goto)]
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:94 (state 1459) [.(goto)]
+spin: trail ends after 132 steps
+#processes: 1
+input = I_CH_OPEN
+output = O_NO_CONN
+fsm_state = s1
+dfa_state = bug
+dealt = 1
+132: proc  0 (:init::1) Dropbear-v2014.65_channel_open_failure_after_rekey_introspection.pml:95 (state 1465)
+132: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

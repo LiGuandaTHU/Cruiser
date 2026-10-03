@@ -1,0 +1,40 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.488	
+Depth=      20 States=      213 Transitions=      213 Memory=   128.488	
+Depth=      30 States=      696 Transitions=      801 Memory=   128.488	
+Depth=      40 States= 1.23e+03 Transitions= 1.57e+03 Memory=   128.586	
+Depth=      50 States= 2.08e+03 Transitions= 2.95e+03 Memory=   128.586	
+Depth=      60 States= 2.58e+03 Transitions= 3.61e+03 Memory=   128.684	
+Depth=      70 States= 3.08e+03 Transitions= 4.47e+03 Memory=   128.684	
+Depth=      80 States= 3.75e+03 Transitions= 5.57e+03 Memory=   128.781	
+Depth=      90 States= 4.77e+03 Transitions= 7.02e+03 Memory=   128.781	
+pan:1: assertion violated  !( !((dfa_state!=8))) (at depth 99)
+pan: wrote BitVise-9.53_unignored_auth_request_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 99, errors: 1
+     6271 states, stored
+	    6271 nominal states (stored-atomic)
+     2517 states, matched
+     8788 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.335	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.052	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.977	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

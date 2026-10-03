@@ -1,0 +1,37 @@
+Depth=      10 States=       83 Transitions=       83 Memory=   128.293	
+Depth=      20 States=      117 Transitions=      273 Memory=   128.293	
+Depth=      30 States=      235 Transitions=      391 Memory=   128.293	
+Depth=      40 States=      392 Transitions=      665 Memory=   128.293	
+Depth=      50 States=      717 Transitions= 1.33e+03 Memory=   128.293	
+Depth=      60 States=      873 Transitions=  1.5e+03 Memory=   128.293	
+pan:1: assertion violated  !( !((dfa_state!=9))) (at depth 65)
+pan: wrote Dropbear-v2014.65_transport_layer_bug_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 65, errors: 1
+      933 states, stored
+	     933 nominal states (stored-atomic)
+      626 states, matched
+     1559 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.050	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.382	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.293	total actual memory usage
+
+
+
+pan: elapsed time 0 seconds

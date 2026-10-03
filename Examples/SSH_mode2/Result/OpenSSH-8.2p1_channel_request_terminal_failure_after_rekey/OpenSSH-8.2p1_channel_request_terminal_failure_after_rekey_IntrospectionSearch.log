@@ -1,0 +1,81 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.391	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.391	
+Depth=      30 States=      701 Transitions=      785 Memory=   128.391	
+Depth=      40 States= 1.13e+03 Transitions= 1.52e+03 Memory=   128.391	
+Depth=      50 States= 1.62e+03 Transitions= 2.07e+03 Memory=   128.488	
+Depth=      60 States=  1.8e+03 Transitions= 2.25e+03 Memory=   128.488	
+Depth=      70 States= 2.14e+03 Transitions= 2.67e+03 Memory=   128.488	
+Depth=      80 States= 2.81e+03 Transitions= 3.51e+03 Memory=   128.586	
+Depth=      90 States= 3.25e+03 Transitions= 4.09e+03 Memory=   128.586	
+Depth=     100 States= 3.98e+03 Transitions=  4.9e+03 Memory=   128.684	
+Depth=     110 States= 4.61e+03 Transitions= 5.66e+03 Memory=   128.684	
+Depth=     120 States= 5.49e+03 Transitions= 6.75e+03 Memory=   128.781	
+Depth=     130 States= 6.48e+03 Transitions= 8.07e+03 Memory=   128.879	
+Depth=     140 States= 7.89e+03 Transitions= 9.85e+03 Memory=   128.977	
+Depth=     150 States=  9.5e+03 Transitions= 1.19e+04 Memory=   129.074	
+Depth=     160 States= 1.13e+04 Transitions= 1.44e+04 Memory=   129.270	
+Depth=     170 States=  1.3e+04 Transitions= 1.66e+04 Memory=   129.367	
+Depth=     180 States= 1.48e+04 Transitions= 1.91e+04 Memory=   129.465	
+Depth=     190 States= 1.63e+04 Transitions=  2.1e+04 Memory=   129.660	
+Depth=     200 States= 1.78e+04 Transitions=  2.3e+04 Memory=   129.758	
+Depth=     210 States= 1.93e+04 Transitions= 2.52e+04 Memory=   129.855	
+Depth=     220 States=    2e+04 Transitions= 2.61e+04 Memory=   129.855	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 224, errors: 0
+    20016 states, stored
+	   20016 nominal states (stored-atomic)
+     6117 states, matched
+    26133 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    1.069	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.913	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  129.855	total actual memory usage
+
+
+unreached in init
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1634, state 4058, "fsm_state = 3"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1658, state 4082, "fsm_state = 2"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1664, state 4088, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1665, state 4089, "output = 13"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1671, state 4096, "fsm_state = 36"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1672, state 4097, "output = 10"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1674, state 4099, "fsm_state = 20"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1675, state 4100, "output = 5"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1677, state 4102, "fsm_state = 3"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1680, state 4105, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1681, state 4106, "output = 6"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1683, state 4108, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1684, state 4109, "output = 6"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1686, state 4111, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1687, state 4112, "output = 11"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1689, state 4114, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1692, state 4117, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1693, state 4118, "output = 6"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1695, state 4120, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1696, state 4121, "output = 6"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1698, state 4123, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1699, state 4124, "output = 6"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1701, state 4126, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1704, state 4129, "fsm_state = 1"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1705, state 4130, "output = 6"
+	OpenSSH-8.2p1_channel_request_terminal_failure_after_rekey_introspection.pml:1714, state 4240, "-end-"
+	(26 of 4240 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0 seconds

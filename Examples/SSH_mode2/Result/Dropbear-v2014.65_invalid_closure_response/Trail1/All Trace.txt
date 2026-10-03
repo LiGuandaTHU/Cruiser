@@ -1,0 +1,221 @@
+ltl no_bug: [] ((dfa_state!=3))
+starting claim 1
+1: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:55 (state 1) [fsm_state = 17]
+2: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:56 (state 2) [dfa_state = 4]
+3: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:57 (state 3) [dealt = 0]
+4: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+5: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:67 (state 10) [input = 21]
+Input: I_KEXINIT
+6: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:76 (state 20) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 56) [dealt = 0]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 54) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 31) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 27) [dfa_state = 4]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 28) [dealt = 1]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 32) [.(goto)]
+7: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 55) [.(goto)]
+8: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 59) [else]
+9: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 60) [(1)]
+DFA State: start
+10: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:78 (state 64) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:80 (state 65) [((fsm_state==17))]
+12: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:123 (state 191) [((input==21))]
+13: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:124 (state 192) [fsm_state = 14]
+14: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:125 (state 193) [output = 10]
+FSM State: s3
+15: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:832 (state 1045) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:833 (state 1046) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 1082) [dealt = 0]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 1080) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 1057) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 1053) [dfa_state = 4]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 1054) [dealt = 1]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 1058) [.(goto)]
+17: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 1081) [.(goto)]
+18: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1085) [else]
+19: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1086) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:835 (state 1090) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+22: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:66 (state 9) [input = 22]
+Input: I_KEX30
+23: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:76 (state 20) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 56) [dealt = 0]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 54) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 31) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 27) [dfa_state = 4]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 28) [dealt = 1]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 32) [.(goto)]
+24: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 55) [.(goto)]
+25: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 59) [else]
+26: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 60) [(1)]
+DFA State: start
+27: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:78 (state 64) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:217 (state 289) [((fsm_state==14))]
+29: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:255 (state 326) [((input==22))]
+30: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:256 (state 327) [fsm_state = 12]
+31: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:257 (state 328) [output = 13]
+Output: O_KEX31
+32: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:258 (state 329) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 365) [dealt = 0]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 363) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 340) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 336) [dfa_state = 4]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 337) [dealt = 1]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 341) [.(goto)]
+33: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 364) [.(goto)]
+34: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 368) [else]
+35: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 369) [(1)]
+DFA State: start
+36: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:260 (state 373) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:261 (state 374) [output = 11]
+FSM State: s5
+38: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:832 (state 1045) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:833 (state 1046) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 1082) [dealt = 0]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 1080) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 1057) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 1053) [dfa_state = 4]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 1054) [dealt = 1]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 1058) [.(goto)]
+40: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 1081) [.(goto)]
+41: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1085) [else]
+42: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1086) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:835 (state 1090) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+45: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:68 (state 11) [input = 20]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:76 (state 20) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 56) [dealt = 0]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 54) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 31) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 27) [dfa_state = 4]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 28) [dealt = 1]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 32) [.(goto)]
+47: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 55) [.(goto)]
+48: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 59) [else]
+49: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 60) [(1)]
+DFA State: start
+50: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:78 (state 64) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:307 (state 423) [((fsm_state==12))]
+52: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:345 (state 460) [((input==20))]
+53: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:346 (state 461) [fsm_state = 11]
+54: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:71 (state 14) [input = 17]
+Input: I_UA_PK_OK
+55: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:76 (state 20) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 56) [dealt = 0]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 54) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 31) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 27) [dfa_state = 4]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 28) [dealt = 1]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 32) [.(goto)]
+56: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 55) [.(goto)]
+57: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 59) [else]
+58: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 60) [(1)]
+DFA State: start
+59: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:78 (state 64) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:350 (state 467) [((fsm_state==11))]
+61: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:388 (state 504) [((input==17))]
+62: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:389 (state 505) [fsm_state = 8]
+63: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:390 (state 506) [output = 2]
+FSM State: s9
+64: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:832 (state 1045) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+65: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:833 (state 1046) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 1082) [dealt = 0]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 1080) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 1057) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 1053) [dfa_state = 4]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 1054) [dealt = 1]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 1058) [.(goto)]
+66: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 1081) [.(goto)]
+67: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1085) [else]
+68: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1086) [(1)]
+DFA State: start
+
+69: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:835 (state 1090) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+71: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:63 (state 6) [input = 25]
+Input: I_CH_OPEN
+72: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:76 (state 20) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 56) [dealt = 0]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 54) [IF]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 31) [IF]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:22 (state 27) [dfa_state = 4]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:23 (state 28) [dealt = 1]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 32) [.(goto)]
+73: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 55) [.(goto)]
+74: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 59) [else]
+75: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 60) [(1)]
+DFA State: start
+76: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:78 (state 64) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:483 (state 645) [((fsm_state==8))]
+78: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:521 (state 682) [((input==25))]
+79: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:522 (state 683) [fsm_state = 7]
+80: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:523 (state 684) [output = 9]
+FSM State: s10
+81: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:832 (state 1045) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_CH_OPEN_SUCCESS
+
+82: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:833 (state 1046) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 1082) [dealt = 0]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 1080) [IF]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:17 (state 1057) [IF]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:19 (state 1050) [dfa_state = 2]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:20 (state 1051) [dealt = 1]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:26 (state 1058) [.(goto)]
+83: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 1081) [.(goto)]
+84: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1085) [else]
+85: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 1086) [(1)]
+DFA State: channel_open
+
+86: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:835 (state 1090) [printf('DFA State: %e\\n\\n',dfa_state)]
+87: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:59 (state 4) [(1)]
+88: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:64 (state 7) [input = 24]
+Input: I_CH_CLOSE
+89: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:76 (state 20) [printf('Input: %e\\n',input)]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 56) [dealt = 0]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 54) [IF]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:29 (state 44) [IF]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:31 (state 37) [dfa_state = 1]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:32 (state 38) [dealt = 1]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:38 (state 45) [.(goto)]
+90: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 55) [.(goto)]
+91: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 59) [else]
+92: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:49 (state 60) [(1)]
+DFA State: close_received
+93: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:78 (state 64) [printf('DFA State: %e\\n',dfa_state)]
+94: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:526 (state 689) [((fsm_state==7))]
+95: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:534 (state 696) [((input==24))]
+96: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:535 (state 697) [fsm_state = 8]
+97: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:536 (state 698) [output = 8]
+FSM State: s9
+98: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:832 (state 1045) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_CH_EOF
+
+99: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:833 (state 1046) [printf('Output: %e\\n\\n',output)]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:13 (state 1082) [dealt = 0]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:15 (state 1080) [IF]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:39 (state 1078) [IF]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:41 (state 1074) [dfa_state = 3]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:42 (state 1075) [dealt = 1]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:45 (state 1079) [.(goto)]
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:46 (state 1081) [.(goto)]
+spin: trail ends after 100 steps
+#processes: 1
+input = I_CH_CLOSE
+output = O_CH_EOF
+fsm_state = s9
+dfa_state = bug
+dealt = 1
+100: proc  0 (:init::1) Dropbear-v2014.65_invalid_closure_response_introspection.pml:47 (state 1087)
+100: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

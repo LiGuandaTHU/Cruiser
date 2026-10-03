@@ -1,0 +1,45 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.391	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.391	
+Depth=      30 States=      701 Transitions=      785 Memory=   128.391	
+Depth=      40 States= 1.14e+03 Transitions= 1.54e+03 Memory=   128.391	
+Depth=      50 States= 1.63e+03 Transitions= 2.09e+03 Memory=   128.488	
+Depth=      60 States= 1.81e+03 Transitions= 2.27e+03 Memory=   128.488	
+Depth=      70 States= 2.15e+03 Transitions= 2.69e+03 Memory=   128.488	
+Depth=      80 States= 2.82e+03 Transitions= 3.53e+03 Memory=   128.586	
+Depth=      90 States= 3.35e+03 Transitions=  4.2e+03 Memory=   128.586	
+Depth=     100 States= 4.29e+03 Transitions= 5.22e+03 Memory=   128.684	
+Depth=     110 States= 5.32e+03 Transitions=  6.5e+03 Memory=   128.781	
+Depth=     120 States= 6.47e+03 Transitions=  7.9e+03 Memory=   128.879	
+Depth=     130 States= 7.63e+03 Transitions= 9.53e+03 Memory=   128.977	
+Depth=     140 States= 9.12e+03 Transitions= 1.13e+04 Memory=   129.074	
+pan:1: assertion violated  !( !((dfa_state!=3))) (at depth 145)
+pan: wrote OpenSSH-10.2p1_missing_newkeys_introspection.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 145, errors: 1
+    10166 states, stored
+	   10166 nominal states (stored-atomic)
+     2665 states, matched
+    12831 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         4 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.543	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.259	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  129.172	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds

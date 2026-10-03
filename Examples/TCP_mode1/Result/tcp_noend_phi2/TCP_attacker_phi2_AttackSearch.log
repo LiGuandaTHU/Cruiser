@@ -1,0 +1,30 @@
+pan:1: acceptance cycle (at depth 432)
+pan: wrote TCP_attacker_phi2_attack.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+
+Full statespace search for:
+	never claim         	+ (phi2)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 84 byte, depth reached 2803, errors: 1
+     6477 states, stored (12059 visited)
+    28406 states, matched
+    40465 transitions (= visited+matched)
+    27484 atomic steps
+hash conflicts:        10 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.692	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.769	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  129.218	total actual memory usage
+
+
+
+pan: elapsed time 0.01 seconds
+ltl phi2: (! ([] (<> (((state[0]==1)) && ((state[1]==2)))))) || (<> ((state[0]==4)))

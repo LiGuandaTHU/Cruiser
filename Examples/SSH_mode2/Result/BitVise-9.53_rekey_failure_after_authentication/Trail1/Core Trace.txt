@@ -1,0 +1,40 @@
+Input: I_KEXINIT
+ >>> DFA State: start
+FSM State: s4
+Output: O_KEXINIT
+ >>> DFA State: start
+Input: I_KEX30
+ >>> DFA State: start
+Output: O_KEX31
+ >>> DFA State: start
+FSM State: s6
+Output: O_NEWKEYS
+ >>> DFA State: start
+Input: I_NEWKEYS
+ >>> DFA State: start
+Input: I_SR_AUTH
+ >>> DFA State: start
+FSM State: s12
+Output: O_SR_ACCEPT
+ >>> DFA State: start
+Input: I_KEXINIT
+ >>> DFA State: start
+FSM State: s19
+Output: O_KEXINIT
+ >>> DFA State: start
+Input: I_KEX30
+ >>> DFA State: start
+Output: O_KEX31
+ >>> DFA State: start
+FSM State: s31
+Output: O_NEWKEYS
+ >>> DFA State: start
+Input: I_UA_PK_OK
+ >>> DFA State: start
+FSM State: s41
+Output: O_UA_SUCCESS
+ >>> DFA State: sr_accept
+Input: I_KEXINIT
+ >>> DFA State: kexinit
+FSM State: s3
+Output: O_DISCONNECT

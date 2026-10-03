@@ -1,0 +1,23 @@
+Input: I_SR_CONN
+ >>> DFA State: start
+FSM State: s3
+Output: O_KEXINIT
+ >>> DFA State: start
+Input: I_KEX30
+ >>> DFA State: start
+Output: O_KEX31
+ >>> DFA State: start
+FSM State: s7
+Output: O_NEWKEYS
+ >>> DFA State: start
+Input: I_NEWKEYS
+ >>> DFA State: start
+Input: I_SR_AUTH
+ >>> DFA State: start
+FSM State: s5
+Output: O_SR_ACCEPT
+ >>> DFA State: sr_accept
+Input: I_KEXINIT
+ >>> DFA State: kexinit
+FSM State: s5
+Output: O_UNIMPL

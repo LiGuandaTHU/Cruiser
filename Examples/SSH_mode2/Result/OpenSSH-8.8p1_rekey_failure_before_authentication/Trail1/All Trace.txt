@@ -1,0 +1,185 @@
+ltl no_bug: [] ((dfa_state!=8))
+starting claim 1
+1: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:99 (state 1) [fsm_state = 37]
+2: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:100 (state 2) [dfa_state = 9]
+3: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:101 (state 3) [dealt = 0]
+4: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:103 (state 4) [(1)]
+5: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:116 (state 15) [input = 18]
+Input: I_KEXINIT
+6: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:119 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 104) [dealt = 0]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 102) [IF]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 30) [IF]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 26) [dfa_state = 9]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 27) [dealt = 1]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 31) [.(goto)]
+7: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 103) [.(goto)]
+8: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 107) [else]
+9: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 108) [(1)]
+DFA State: start
+10: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:121 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:123 (state 113) [((fsm_state==37))]
+12: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:161 (state 423) [((input==18))]
+13: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:162 (state 424) [fsm_state = 35]
+14: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:163 (state 425) [output = 14]
+FSM State: s2
+15: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1704 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1705 (state 4008) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 4093) [dealt = 0]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 4091) [IF]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 4019) [IF]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 4015) [dfa_state = 9]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 4016) [dealt = 1]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 4020) [.(goto)]
+17: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 4092) [.(goto)]
+18: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 4096) [else]
+19: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 4097) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1707 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:103 (state 4) [(1)]
+22: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:114 (state 13) [input = 20]
+Input: I_KEX30
+23: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:119 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 104) [dealt = 0]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 102) [IF]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 30) [IF]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 26) [dfa_state = 9]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 27) [dealt = 1]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 31) [.(goto)]
+24: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 103) [.(goto)]
+25: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 107) [else]
+26: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 108) [(1)]
+DFA State: start
+27: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:121 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:219 (state 575) [((fsm_state==35))]
+29: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:254 (state 609) [((input==20))]
+30: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:255 (state 610) [fsm_state = 33]
+31: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:256 (state 611) [output = 8]
+Output: O_KEX31
+32: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:257 (state 612) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 697) [dealt = 0]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 695) [IF]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 623) [IF]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 619) [dfa_state = 9]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 620) [dealt = 1]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 624) [.(goto)]
+33: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 696) [.(goto)]
+34: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 700) [else]
+35: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 701) [(1)]
+DFA State: start
+36: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:259 (state 705) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:260 (state 706) [output = 16]
+FSM State: s4
+38: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1704 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1705 (state 4008) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 4093) [dealt = 0]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 4091) [IF]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 4019) [IF]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 4015) [dfa_state = 9]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 4016) [dealt = 1]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 4020) [.(goto)]
+40: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 4092) [.(goto)]
+41: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 4096) [else]
+42: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 4097) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1707 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:103 (state 4) [(1)]
+45: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:109 (state 8) [input = 25]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:119 (state 19) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 104) [dealt = 0]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 102) [IF]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 30) [IF]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 26) [dfa_state = 9]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 27) [dealt = 1]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 31) [.(goto)]
+47: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 103) [.(goto)]
+48: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 107) [else]
+49: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 108) [(1)]
+DFA State: start
+50: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:121 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:303 (state 752) [((fsm_state==33))]
+52: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:338 (state 786) [((input==25))]
+53: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:339 (state 787) [fsm_state = 32]
+54: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:112 (state 11) [input = 22]
+Input: I_SR_AUTH
+55: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:119 (state 19) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 104) [dealt = 0]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 102) [IF]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 30) [IF]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:22 (state 26) [dfa_state = 9]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:23 (state 27) [dealt = 1]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 31) [.(goto)]
+56: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 103) [.(goto)]
+57: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 107) [else]
+58: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 108) [(1)]
+DFA State: start
+59: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:121 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:343 (state 793) [((fsm_state==32))]
+61: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:375 (state 824) [((input==22))]
+62: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:376 (state 825) [fsm_state = 31]
+63: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:377 (state 826) [output = 4]
+FSM State: s6
+64: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1704 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_SR_ACCEPT
+
+65: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1705 (state 4008) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 4093) [dealt = 0]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 4091) [IF]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:17 (state 4019) [IF]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:19 (state 4012) [dfa_state = 7]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:20 (state 4013) [dealt = 1]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:26 (state 4020) [.(goto)]
+66: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 4092) [.(goto)]
+67: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 4096) [else]
+68: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 4097) [(1)]
+DFA State: sr_accept
+
+69: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1707 (state 4101) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:103 (state 4) [(1)]
+71: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:116 (state 15) [input = 18]
+Input: I_KEXINIT
+72: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:119 (state 19) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 104) [dealt = 0]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 102) [IF]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:29 (state 43) [IF]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:31 (state 36) [dfa_state = 6]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:32 (state 37) [dealt = 1]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:38 (state 44) [.(goto)]
+73: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 103) [.(goto)]
+74: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 107) [else]
+75: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:93 (state 108) [(1)]
+DFA State: kexinit
+76: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:121 (state 112) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:383 (state 834) [((fsm_state==31))]
+78: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:403 (state 853) [((input==18))]
+79: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:404 (state 854) [fsm_state = 31]
+80: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:405 (state 855) [output = 1]
+FSM State: s6
+81: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1704 (state 4007) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UNIMPL
+
+82: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:1705 (state 4008) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:13 (state 4093) [dealt = 0]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:15 (state 4091) [IF]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:39 (state 4043) [IF]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:44 (state 4039) [dfa_state = 8]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:45 (state 4040) [dealt = 1]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:48 (state 4044) [.(goto)]
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:90 (state 4092) [.(goto)]
+spin: trail ends after 83 steps
+#processes: 1
+input = I_KEXINIT
+output = O_UNIMPL
+fsm_state = s6
+dfa_state = bug
+dealt = 1
+83: proc  0 (:init::1) OpenSSH-8.8p1_rekey_failure_before_authentication_introspection.pml:91 (state 4098)
+83: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

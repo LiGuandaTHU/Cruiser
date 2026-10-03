@@ -1,0 +1,31 @@
+ltl phi1: ! (<> ([] (((state[0]==before_state[0])) && ((state[1]==before_state[1])))))
+starting claim 3
+Never claim moves to line 3 [(((state[0]==before_state[0])&&(state[1]==before_state[1])))]
+2: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:183 (state 1) [(1)]
+2: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:184 (state 2) [AtoB_type_recv = 0]
+2: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:184 (state 3) [BtoA_type_recv = 0]
+2: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:184 (state 4) [BtoA_type_send = 0]
+2: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:187 (state 5) [AtoB_type_send = 0]
+Never claim moves to line 8 [(((state[0]==before_state[0])&&(state[1]==before_state[1])))]
+4: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:196 (state 10) [(nfull(BtoA))]
+5: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:198 (state 11) [BtoA_type_send = DCCP_REQUEST]
+6: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:207 Send DCCP_REQUEST -> queue 1 (BtoA)
+6: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:207 (state 21) [BtoA!BtoA_type_send]
+<<<<<START OF CYCLE>>>>>
+8: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:193 Recv DCCP_REQUEST <- queue 1 (BtoA)
+8: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:193 (state 8) [BtoA?BtoA_type_recv]
+10: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:196 (state 10) [(nfull(BtoA))]
+11: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:198 (state 11) [BtoA_type_send = DCCP_REQUEST]
+12: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:207 Send DCCP_REQUEST -> queue 1 (BtoA)
+12: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:207 (state 21) [BtoA!BtoA_type_send]
+spin: trail ends after 12 steps
+#processes: 2
+queue 1 (BtoA): [DCCP_REQUEST]
+state[0] = 0
+state[1] = 0
+before_state[0] = 0
+before_state[1] = 0
+12: proc  1 (attacker:1) DCCP_attacker_phi1_attack.pml:188 (state 36)
+12: proc  0 (:init::1) DCCP_attacker_phi1_attack.pml:172 (state 1)
+12: proc  - (phi1:1) _spin_nvr.tmp:7 (state 10)
+2 processes created

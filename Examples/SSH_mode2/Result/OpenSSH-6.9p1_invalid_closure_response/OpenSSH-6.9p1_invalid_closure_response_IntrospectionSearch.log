@@ -1,0 +1,216 @@
+Depth=      10 States=      131 Transitions=      131 Memory=   128.391	
+Depth=      20 States=      341 Transitions=      341 Memory=   128.391	
+Depth=      30 States= 1.09e+03 Transitions= 1.43e+03 Memory=   128.391	
+Depth=      40 States= 1.84e+03 Transitions= 2.78e+03 Memory=   128.488	
+Depth=      50 States= 2.77e+03 Transitions= 4.27e+03 Memory=   128.586	
+Depth=      60 States= 3.09e+03 Transitions= 4.68e+03 Memory=   128.586	
+Depth=      70 States= 3.45e+03 Transitions= 5.24e+03 Memory=   128.586	
+Depth=      80 States= 4.24e+03 Transitions= 6.65e+03 Memory=   128.684	
+Depth=      90 States= 4.96e+03 Transitions= 7.79e+03 Memory=   128.781	
+Depth=     100 States=  6.3e+03 Transitions= 9.75e+03 Memory=   128.879	
+Depth=     110 States= 8.67e+03 Transitions= 1.27e+04 Memory=   129.074	
+Depth=     120 States= 1.09e+04 Transitions=  1.7e+04 Memory=   129.270	
+Depth=     130 States= 1.29e+04 Transitions= 2.01e+04 Memory=   129.367	
+Depth=     140 States= 1.44e+04 Transitions=  2.3e+04 Memory=   129.465	
+Depth=     150 States= 1.53e+04 Transitions= 2.41e+04 Memory=   129.562	
+Depth=     160 States= 1.61e+04 Transitions=  2.6e+04 Memory=   129.660	
+Depth=     170 States= 1.69e+04 Transitions= 2.75e+04 Memory=   129.660	
+Depth=     180 States= 1.75e+04 Transitions= 2.83e+04 Memory=   129.758	
+Depth=     190 States= 1.81e+04 Transitions= 2.99e+04 Memory=   129.758	
+Depth=     200 States= 1.84e+04 Transitions= 3.03e+04 Memory=   129.758	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 202, errors: 0
+    18463 states, stored
+	   18463 nominal states (stored-atomic)
+    12341 states, matched
+    30804 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         3 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.986	equivalent memory usage for states (stored*(State-vector + overhead))
+    1.784	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  129.758	total actual memory usage
+
+
+unreached in init
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1621, state 2215, "fsm_state = 29"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1622, state 2216, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1624, state 2218, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1625, state 2219, "output = 14"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1627, state 2221, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1628, state 2222, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1630, state 2224, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1631, state 2225, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1633, state 2227, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1634, state 2228, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1636, state 2230, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1637, state 2231, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1639, state 2233, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1640, state 2234, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1642, state 2236, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1643, state 2237, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1645, state 2239, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1646, state 2240, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1648, state 2242, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1649, state 2243, "output = 14"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1651, state 2245, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1652, state 2246, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1654, state 2248, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1655, state 2249, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1657, state 2251, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1658, state 2252, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1660, state 2254, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1661, state 2255, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1663, state 2257, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1664, state 2258, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1666, state 2260, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1667, state 2261, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1669, state 2263, "fsm_state = 9"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1672, state 2266, "fsm_state = 9"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1673, state 2267, "output = 7"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1675, state 2269, "fsm_state = 9"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1678, state 2272, "fsm_state = 9"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1681, state 2275, "fsm_state = 4"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1682, state 2276, "output = 11"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1683, state 2277, "printf('Output: %e\n',output)"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:13, state 2320, "D_STEP13"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1685, state 2321, "printf('DFA State: %e\n',dfa_state)"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1686, state 2322, "output = 8"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1964, state 2647, "fsm_state = 29"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1965, state 2648, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1967, state 2650, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1968, state 2651, "output = 14"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1970, state 2653, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1971, state 2654, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1973, state 2656, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1974, state 2657, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1976, state 2659, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1977, state 2660, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1979, state 2662, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1980, state 2663, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1982, state 2665, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1983, state 2666, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1985, state 2668, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1986, state 2669, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1988, state 2671, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1989, state 2672, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1991, state 2674, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1992, state 2675, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1994, state 2677, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1995, state 2678, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1997, state 2680, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:1998, state 2681, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2000, state 2683, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2001, state 2684, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2003, state 2686, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2004, state 2687, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2006, state 2689, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2007, state 2690, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2009, state 2692, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2010, state 2693, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2012, state 2695, "fsm_state = 10"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2015, state 2698, "fsm_state = 4"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2018, state 2701, "fsm_state = 4"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2019, state 2702, "output = 7"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2021, state 2704, "fsm_state = 4"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2024, state 2707, "fsm_state = 4"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2031, state 2715, "fsm_state = 29"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2032, state 2716, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2034, state 2718, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2035, state 2719, "output = 14"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2037, state 2721, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2038, state 2722, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2040, state 2724, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2041, state 2725, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2043, state 2727, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2044, state 2728, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2046, state 2730, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2047, state 2731, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2049, state 2733, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2050, state 2734, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2052, state 2736, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2053, state 2737, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2055, state 2739, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2056, state 2740, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2058, state 2742, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2059, state 2743, "output = 14"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2061, state 2745, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2062, state 2746, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2064, state 2748, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2065, state 2749, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2067, state 2751, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2068, state 2752, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2070, state 2754, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2071, state 2755, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2073, state 2757, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2074, state 2758, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2076, state 2760, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2077, state 2761, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2079, state 2763, "fsm_state = 3"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2082, state 2766, "fsm_state = 3"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2083, state 2767, "output = 7"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2085, state 2769, "fsm_state = 3"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2088, state 2772, "fsm_state = 3"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2091, state 2775, "fsm_state = 1"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2092, state 2776, "output = 11"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2093, state 2777, "printf('Output: %e\n',output)"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:13, state 2820, "D_STEP13"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2095, state 2821, "printf('DFA State: %e\n',dfa_state)"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2096, state 2822, "output = 8"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2169, state 2897, "fsm_state = 29"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2170, state 2898, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2172, state 2900, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2173, state 2901, "output = 14"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2175, state 2903, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2176, state 2904, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2178, state 2906, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2179, state 2907, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2181, state 2909, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2182, state 2910, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2184, state 2912, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2185, state 2913, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2187, state 2915, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2188, state 2916, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2190, state 2918, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2191, state 2919, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2193, state 2921, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2194, state 2922, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2196, state 2924, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2197, state 2925, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2199, state 2927, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2200, state 2928, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2202, state 2930, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2203, state 2931, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2205, state 2933, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2206, state 2934, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2208, state 2936, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2209, state 2937, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2211, state 2939, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2212, state 2940, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2214, state 2942, "fsm_state = 27"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2215, state 2943, "output = 15"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2217, state 2945, "fsm_state = 5"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2220, state 2948, "fsm_state = 1"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2223, state 2951, "fsm_state = 1"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2224, state 2952, "output = 7"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2226, state 2954, "fsm_state = 1"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2229, state 2957, "fsm_state = 1"
+	OpenSSH-6.9p1_invalid_closure_response_introspection.pml:2239, state 3014, "-end-"
+	(163 of 3014 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds

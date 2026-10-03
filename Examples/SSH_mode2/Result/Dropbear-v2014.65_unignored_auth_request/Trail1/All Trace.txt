@@ -1,0 +1,288 @@
+ltl no_bug: [] ((dfa_state!=8))
+starting claim 1
+1: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:99 (state 1) [fsm_state = 17]
+2: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:100 (state 2) [dfa_state = 9]
+3: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:101 (state 3) [dealt = 0]
+4: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:103 (state 4) [(1)]
+5: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:113 (state 12) [input = 19]
+Input: I_KEXINIT
+6: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 31) [IF]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 27) [dfa_state = 9]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 28) [dealt = 1]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 32) [.(goto)]
+7: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+8: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+9: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: start
+10: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:124 (state 114) [((fsm_state==17))]
+12: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:167 (state 338) [((input==19))]
+13: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:168 (state 339) [fsm_state = 14]
+14: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:169 (state 340) [output = 8]
+FSM State: s3
+15: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:876 (state 1339) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:877 (state 1340) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 1425) [dealt = 0]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 1423) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 1351) [IF]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 1347) [dfa_state = 9]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 1348) [dealt = 1]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 1352) [.(goto)]
+17: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 1424) [.(goto)]
+18: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1428) [else]
+19: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1429) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:879 (state 1433) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:103 (state 4) [(1)]
+22: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:115 (state 14) [input = 17]
+Input: I_KEX30
+23: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 31) [IF]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 27) [dfa_state = 9]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 28) [dealt = 1]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 32) [.(goto)]
+24: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+25: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+26: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: start
+27: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:261 (state 436) [((fsm_state==14))]
+29: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:299 (state 473) [((input==17))]
+30: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:300 (state 474) [fsm_state = 12]
+31: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:301 (state 475) [output = 12]
+Output: O_KEX31
+32: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:302 (state 476) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 561) [dealt = 0]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 559) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 487) [IF]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 483) [dfa_state = 9]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 484) [dealt = 1]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 488) [.(goto)]
+33: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 560) [.(goto)]
+34: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 564) [else]
+35: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 565) [(1)]
+DFA State: start
+36: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:304 (state 569) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:305 (state 570) [output = 7]
+FSM State: s5
+38: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:876 (state 1339) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:877 (state 1340) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 1425) [dealt = 0]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 1423) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 1351) [IF]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 1347) [dfa_state = 9]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 1348) [dealt = 1]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 1352) [.(goto)]
+40: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 1424) [.(goto)]
+41: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1428) [else]
+42: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1429) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:879 (state 1433) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:103 (state 4) [(1)]
+45: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:111 (state 10) [input = 21]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 31) [IF]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 27) [dfa_state = 9]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 28) [dealt = 1]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 32) [.(goto)]
+47: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+48: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+49: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: start
+50: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:351 (state 619) [((fsm_state==12))]
+52: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:389 (state 656) [((input==21))]
+53: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:390 (state 657) [fsm_state = 11]
+54: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:112 (state 11) [input = 20]
+Input: I_UA_PK_OK
+55: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 31) [IF]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:22 (state 27) [dfa_state = 9]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:23 (state 28) [dealt = 1]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 32) [.(goto)]
+56: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+57: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+58: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: start
+59: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:394 (state 663) [((fsm_state==11))]
+61: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:432 (state 700) [((input==20))]
+62: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:433 (state 701) [fsm_state = 8]
+63: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:434 (state 702) [output = 11]
+FSM State: s9
+64: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:876 (state 1339) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+65: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:877 (state 1340) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 1425) [dealt = 0]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 1423) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:17 (state 1351) [IF]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:19 (state 1344) [dfa_state = 7]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:20 (state 1345) [dealt = 1]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:26 (state 1352) [.(goto)]
+66: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 1424) [.(goto)]
+67: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1428) [else]
+68: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1429) [(1)]
+DFA State: authenticated
+
+69: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:879 (state 1433) [printf('DFA State: %e\\n\\n',dfa_state)]
+70: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:103 (state 4) [(1)]
+71: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:113 (state 12) [input = 19]
+Input: I_KEXINIT
+72: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:29 (state 47) [IF]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:31 (state 37) [dfa_state = 5]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:32 (state 38) [dealt = 1]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:41 (state 48) [.(goto)]
+73: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+74: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+75: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: ikexinit
+76: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+77: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:527 (state 890) [((fsm_state==8))]
+78: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:538 (state 900) [((input==19))]
+79: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:539 (state 901) [fsm_state = 9]
+80: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:540 (state 902) [output = 8]
+FSM State: s8
+81: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:876 (state 1339) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+82: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:877 (state 1340) [printf('Output: %e\\n\\n',output)]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 1425) [dealt = 0]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 1423) [IF]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:55 (state 1389) [IF]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:57 (state 1385) [dfa_state = 4]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:58 (state 1386) [dealt = 1]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:61 (state 1390) [.(goto)]
+83: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 1424) [.(goto)]
+84: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1428) [else]
+85: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1429) [(1)]
+DFA State: okexinit
+
+86: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:879 (state 1433) [printf('DFA State: %e\\n\\n',dfa_state)]
+87: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:103 (state 4) [(1)]
+88: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:115 (state 14) [input = 17]
+Input: I_KEX30
+89: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:62 (state 77) [IF]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:64 (state 73) [dfa_state = 3]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:65 (state 74) [dealt = 1]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:68 (state 78) [.(goto)]
+90: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+91: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+92: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: ikex30
+93: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+94: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:480 (state 751) [((fsm_state==9))]
+95: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:506 (state 776) [((input==17))]
+96: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:507 (state 777) [fsm_state = 12]
+97: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:508 (state 778) [output = 12]
+Output: O_KEX31
+98: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:509 (state 779) [printf('Output: %e\\n',output)]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 864) [dealt = 0]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 862) [IF]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:69 (state 844) [IF]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:71 (state 840) [dfa_state = 2]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:72 (state 841) [dealt = 1]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:75 (state 845) [.(goto)]
+99: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 863) [.(goto)]
+100: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 867) [else]
+101: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 868) [(1)]
+DFA State: okex31
+102: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:511 (state 872) [printf('DFA State: %e\\n',dfa_state)]
+103: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:512 (state 873) [output = 7]
+FSM State: s5
+104: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:876 (state 1339) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+105: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:877 (state 1340) [printf('Output: %e\\n\\n',output)]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 1425) [dealt = 0]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 1423) [IF]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:76 (state 1413) [IF]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:78 (state 1409) [dfa_state = 1]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:79 (state 1410) [dealt = 1]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:82 (state 1414) [.(goto)]
+106: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 1424) [.(goto)]
+107: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1428) [else]
+108: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 1429) [(1)]
+DFA State: onewkeys
+
+109: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:879 (state 1433) [printf('DFA State: %e\\n\\n',dfa_state)]
+110: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:103 (state 4) [(1)]
+111: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:111 (state 10) [input = 21]
+Input: I_NEWKEYS
+112: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:83 (state 101) [IF]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:85 (state 97) [dfa_state = 7]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:86 (state 98) [dealt = 1]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:89 (state 102) [.(goto)]
+113: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+114: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+115: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: authenticated
+116: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+117: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:351 (state 619) [((fsm_state==12))]
+118: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:389 (state 656) [((input==21))]
+119: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:390 (state 657) [fsm_state = 11]
+120: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:112 (state 11) [input = 20]
+Input: I_UA_PK_OK
+121: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:120 (state 20) [printf('Input: %e\\n',input)]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 105) [dealt = 0]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 103) [IF]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:29 (state 47) [IF]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:34 (state 40) [dfa_state = 6]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:35 (state 41) [dealt = 1]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:41 (state 48) [.(goto)]
+122: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 104) [.(goto)]
+123: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 108) [else]
+124: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:93 (state 109) [(1)]
+DFA State: new_auth
+125: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:122 (state 113) [printf('DFA State: %e\\n',dfa_state)]
+126: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:394 (state 663) [((fsm_state==11))]
+127: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:432 (state 700) [((input==20))]
+128: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:433 (state 701) [fsm_state = 8]
+129: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:434 (state 702) [output = 11]
+FSM State: s9
+130: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:876 (state 1339) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+131: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:877 (state 1340) [printf('Output: %e\\n\\n',output)]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:13 (state 1425) [dealt = 0]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:15 (state 1423) [IF]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:42 (state 1381) [IF]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:47 (state 1374) [dfa_state = 8]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:48 (state 1375) [dealt = 1]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:54 (state 1382) [.(goto)]
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:90 (state 1424) [.(goto)]
+spin: trail ends after 132 steps
+#processes: 1
+input = I_UA_PK_OK
+output = O_UA_SUCCESS
+fsm_state = s9
+dfa_state = bug
+dealt = 1
+132: proc  0 (:init::1) Dropbear-v2014.65_unignored_auth_request_introspection.pml:91 (state 1430)
+132: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

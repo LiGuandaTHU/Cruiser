@@ -1,0 +1,149 @@
+ltl no_bug: [] ((dfa_state!=1))
+starting claim 1
+1: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:38 (state 1) [fsm_state = 23]
+2: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:39 (state 2) [dfa_state = 2]
+3: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:40 (state 3) [dealt = 0]
+4: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:42 (state 4) [(1)]
+5: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:55 (state 15) [input = 16]
+Input: I_KEXINIT
+6: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:58 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 36) [dealt = 0]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 34) [IF]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 30) [IF]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 26) [dfa_state = 2]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 27) [dealt = 1]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 31) [.(goto)]
+7: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 35) [.(goto)]
+8: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 39) [else]
+9: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 40) [(1)]
+DFA State: start
+10: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:60 (state 44) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:62 (state 45) [((fsm_state==23))]
+12: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:98 (state 103) [((input==16))]
+13: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:99 (state 104) [fsm_state = 20]
+14: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:100 (state 105) [output = 7]
+FSM State: s3
+15: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1027 (state 1287) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1028 (state 1288) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 1305) [dealt = 0]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 1303) [IF]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 1299) [IF]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 1295) [dfa_state = 2]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 1296) [dealt = 1]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 1300) [.(goto)]
+17: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 1304) [.(goto)]
+18: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 1308) [else]
+19: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 1309) [(1)]
+DFA State: start
+
+20: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1030 (state 1313) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:42 (state 4) [(1)]
+22: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:51 (state 11) [input = 20]
+Input: I_KEX30
+23: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:58 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 36) [dealt = 0]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 34) [IF]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 30) [IF]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 26) [dfa_state = 2]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 27) [dealt = 1]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 31) [.(goto)]
+24: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 35) [.(goto)]
+25: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 39) [else]
+26: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 40) [(1)]
+DFA State: start
+27: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:60 (state 44) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:190 (state 222) [((fsm_state==20))]
+29: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:225 (state 256) [((input==20))]
+30: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:226 (state 257) [fsm_state = 19]
+31: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:227 (state 258) [output = 8]
+Output: O_KEX31
+32: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:228 (state 259) [printf('Output: %e\\n',output)]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 276) [dealt = 0]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 274) [IF]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 270) [IF]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 266) [dfa_state = 2]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 267) [dealt = 1]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 271) [.(goto)]
+33: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 275) [.(goto)]
+34: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 279) [else]
+35: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 280) [(1)]
+DFA State: start
+36: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:230 (state 284) [printf('DFA State: %e\\n',dfa_state)]
+37: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:231 (state 285) [output = 14]
+FSM State: s4
+38: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1027 (state 1287) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_NEWKEYS
+
+39: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1028 (state 1288) [printf('Output: %e\\n\\n',output)]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 1305) [dealt = 0]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 1303) [IF]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 1299) [IF]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 1295) [dfa_state = 2]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 1296) [dealt = 1]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 1300) [.(goto)]
+40: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 1304) [.(goto)]
+41: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 1308) [else]
+42: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 1309) [(1)]
+DFA State: start
+
+43: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1030 (state 1313) [printf('DFA State: %e\\n\\n',dfa_state)]
+44: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:42 (state 4) [(1)]
+45: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:46 (state 6) [input = 25]
+Input: I_NEWKEYS
+46: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:58 (state 19) [printf('Input: %e\\n',input)]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 36) [dealt = 0]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 34) [IF]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 30) [IF]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 26) [dfa_state = 2]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 27) [dealt = 1]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 31) [.(goto)]
+47: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 35) [.(goto)]
+48: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 39) [else]
+49: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 40) [(1)]
+DFA State: start
+50: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:60 (state 44) [printf('DFA State: %e\\n',dfa_state)]
+51: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:234 (state 290) [((fsm_state==19))]
+52: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:269 (state 324) [((input==25))]
+53: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:270 (state 325) [fsm_state = 18]
+54: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:45 (state 5) [input = 26]
+Input: I_UA_PK_OK
+55: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:58 (state 19) [printf('Input: %e\\n',input)]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 36) [dealt = 0]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 34) [IF]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 30) [IF]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:22 (state 26) [dfa_state = 2]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:23 (state 27) [dealt = 1]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 31) [.(goto)]
+56: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 35) [.(goto)]
+57: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 39) [else]
+58: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:32 (state 40) [(1)]
+DFA State: start
+59: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:60 (state 44) [printf('DFA State: %e\\n',dfa_state)]
+60: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:274 (state 331) [((fsm_state==18))]
+61: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:303 (state 359) [((input==26))]
+62: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:304 (state 360) [fsm_state = 17]
+63: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:305 (state 361) [output = 9]
+FSM State: s6
+64: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1027 (state 1287) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UA_SUCCESS
+
+65: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:1028 (state 1288) [printf('Output: %e\\n\\n',output)]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:13 (state 1305) [dealt = 0]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:15 (state 1303) [IF]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:17 (state 1299) [IF]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:19 (state 1292) [dfa_state = 1]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:20 (state 1293) [dealt = 1]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:26 (state 1300) [.(goto)]
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:29 (state 1304) [.(goto)]
+spin: trail ends after 66 steps
+#processes: 1
+input = I_UA_PK_OK
+output = O_UA_SUCCESS
+fsm_state = s6
+dfa_state = bug
+dealt = 1
+66: proc  0 (:init::1) Dropbear-v2025.89_missing_sr_auth_introspection.pml:30 (state 1310)
+66: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

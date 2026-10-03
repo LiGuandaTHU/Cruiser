@@ -1,0 +1,51 @@
+Depth=      10 States=       77 Transitions=       77 Memory=   128.293	
+Depth=      20 States=      197 Transitions=      197 Memory=   128.293	
+Depth=      30 States=      679 Transitions=      763 Memory=   128.293	
+Depth=      40 States= 1.02e+03 Transitions= 1.31e+03 Memory=   128.293	
+Depth=      50 States=  1.3e+03 Transitions= 1.63e+03 Memory=   128.391	
+Depth=      60 States= 1.49e+03 Transitions= 1.82e+03 Memory=   128.391	
+Depth=      70 States= 2.04e+03 Transitions= 2.46e+03 Memory=   128.391	
+Depth=      80 States= 2.88e+03 Transitions= 3.63e+03 Memory=   128.488	
+Depth=      90 States= 3.43e+03 Transitions= 4.29e+03 Memory=   128.488	
+Depth=     100 States=    4e+03 Transitions= 5.01e+03 Memory=   128.586	
+Depth=     110 States= 4.49e+03 Transitions= 5.51e+03 Memory=   128.586	
+Depth=     120 States= 5.03e+03 Transitions= 6.28e+03 Memory=   128.684	
+Depth=     130 States= 6.24e+03 Transitions= 7.63e+03 Memory=   128.781	
+Depth=     140 States= 7.06e+03 Transitions= 8.88e+03 Memory=   128.781	
+Depth=     150 States= 7.63e+03 Transitions= 9.63e+03 Memory=   128.879	
+Depth=     160 States= 7.92e+03 Transitions= 9.96e+03 Memory=   128.879	
+Depth=     170 States= 8.19e+03 Transitions= 1.03e+04 Memory=   128.879	
+
+(Spin Version 6.5.2 -- 13 October 2022)
+	+ Breadth-First Search
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (no_bug)
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by -E flag)
+
+State-vector 28 byte, depth reached 179, errors: 0
+     8296 states, stored
+	    8296 nominal states (stored-atomic)
+     2234 states, matched
+    10530 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:         0 (resolved)
+
+Stats on memory usage (in Megabytes):
+    0.443	equivalent memory usage for states (stored*(State-vector + overhead))
+    0.960	actual memory usage for states
+  128.000	memory used for hash table (-w24)
+  128.879	total actual memory usage
+
+
+unreached in init
+	Dropbear-v2020.81_invalid_response_before_newkeys_introspection.pml:953, state 1294, "-end-"
+	(1 of 1294 states)
+unreached in claim no_bug
+	_spin_nvr.tmp:8, state 10, "-end-"
+	(1 of 10 states)
+
+pan: elapsed time 0.01 seconds

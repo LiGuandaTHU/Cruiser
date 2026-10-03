@@ -1,0 +1,4 @@
+ >>> proc 1 (attacker:1) send DCCP_REQUEST -> queue 1 (BtoA)
+<<<<<START OF CYCLE>>>>>
+ >>> proc 1 (attacker:1) fetch DCCP_REQUEST -> queue 1 (BtoA)
+ >>> proc 1 (attacker:1) send DCCP_REQUEST -> queue 1 (BtoA)

@@ -1,0 +1,9 @@
+never phi1 {    /* !([] (((assignedIPCount+conflictIPCount)<5))) */
+T0_init:
+	do
+	:: atomic { (! ((((assignedIPCount+conflictIPCount)<5)))) -> assert(!(! ((((assignedIPCount+conflictIPCount)<5))))) }
+	:: (1) -> goto T0_init
+	od;
+accept_all:
+	skip
+}

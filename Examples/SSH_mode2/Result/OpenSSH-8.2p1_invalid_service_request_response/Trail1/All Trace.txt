@@ -1,0 +1,82 @@
+ltl no_bug: [] ((dfa_state!=3))
+starting claim 1
+1: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:58 (state 1) [fsm_state = 37]
+2: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:59 (state 2) [dfa_state = 4]
+3: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:60 (state 3) [dealt = 0]
+4: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:62 (state 4) [(1)]
+5: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:74 (state 14) [input = 19]
+Input: I_KEXINIT
+6: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:13 (state 58) [dealt = 0]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:15 (state 56) [IF]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:17 (state 30) [IF]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:22 (state 26) [dfa_state = 4]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:23 (state 27) [dealt = 1]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:26 (state 31) [.(goto)]
+7: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:49 (state 57) [.(goto)]
+8: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:52 (state 61) [else]
+9: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:52 (state 62) [(1)]
+DFA State: start
+10: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+11: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:82 (state 67) [((fsm_state==37))]
+12: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:120 (state 239) [((input==19))]
+13: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:121 (state 240) [fsm_state = 35]
+14: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:122 (state 241) [output = 9]
+FSM State: s2
+15: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:1663 (state 2811) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_KEXINIT
+
+16: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:1664 (state 2812) [printf('Output: %e\\n\\n',output)]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:13 (state 2851) [dealt = 0]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:15 (state 2849) [IF]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:17 (state 2823) [IF]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:19 (state 2816) [dfa_state = 2]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:20 (state 2817) [dealt = 1]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:26 (state 2824) [.(goto)]
+17: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:49 (state 2850) [.(goto)]
+18: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:52 (state 2854) [else]
+19: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:52 (state 2855) [(1)]
+DFA State: kexinit
+
+20: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:1666 (state 2859) [printf('DFA State: %e\\n\\n',dfa_state)]
+21: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:62 (state 4) [(1)]
+22: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:69 (state 9) [input = 24]
+Input: I_SR_AUTH
+23: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:78 (state 19) [printf('Input: %e\\n',input)]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:13 (state 58) [dealt = 0]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:15 (state 56) [IF]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:29 (state 43) [IF]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:31 (state 36) [dfa_state = 1]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:32 (state 37) [dealt = 1]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:38 (state 44) [.(goto)]
+24: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:49 (state 57) [.(goto)]
+25: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:52 (state 61) [else]
+26: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:52 (state 62) [(1)]
+DFA State: sr
+27: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:80 (state 66) [printf('DFA State: %e\\n',dfa_state)]
+28: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:178 (state 345) [((fsm_state==35))]
+29: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:201 (state 367) [((input==24))]
+30: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:202 (state 368) [fsm_state = 35]
+31: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:203 (state 369) [output = 10]
+FSM State: s2
+32: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:1663 (state 2811) [printf('FSM State: %e\\n',fsm_state)]
+Output: O_UNIMPL
+
+33: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:1664 (state 2812) [printf('Output: %e\\n\\n',output)]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:13 (state 2851) [dealt = 0]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:15 (state 2849) [IF]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:39 (state 2847) [IF]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:44 (state 2843) [dfa_state = 3]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:45 (state 2844) [dealt = 1]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:48 (state 2848) [.(goto)]
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:49 (state 2850) [.(goto)]
+spin: trail ends after 34 steps
+#processes: 1
+input = I_SR_AUTH
+output = O_UNIMPL
+fsm_state = s2
+dfa_state = bug
+dealt = 1
+34: proc  0 (:init::1) OpenSSH-8.2p1_invalid_service_request_response_introspection.pml:50 (state 2856)
+34: proc  - (no_bug:1) _spin_nvr.tmp:2 (state 6)
+1 processes created

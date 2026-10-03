@@ -1,0 +1,73 @@
+error: max search depth too small
+Depth=    9999 States=    1e+06 Transitions= 4.12e+06 Memory=   212.421	t=     0.81 R=   1e+06
+Depth=    9999 States=    2e+06 Transitions= 8.34e+06 Memory=   296.405	t=     1.69 R=   1e+06
+Depth=    9999 States=    3e+06 Transitions= 1.23e+07 Memory=   380.390	t=     2.58 R=   1e+06
+Depth=    9999 States=    4e+06 Transitions= 1.67e+07 Memory=   464.374	t=      3.6 R=   1e+06
+Depth=    9999 States=    5e+06 Transitions= 2.08e+07 Memory=   548.358	t=     5.13 R=   1e+06
+Depth=    9999 States=    6e+06 Transitions= 2.48e+07 Memory=   632.343	t=     6.42 R=   9e+05
+Depth=    9999 States=    7e+06 Transitions=  2.9e+07 Memory=   716.327	t=     7.62 R=   9e+05
+Depth=    9999 States=    8e+06 Transitions= 3.27e+07 Memory=   800.214	t=     8.85 R=   9e+05
+Depth=    9999 States=    9e+06 Transitions= 3.62e+07 Memory=   884.198	t=     9.89 R=   9e+05
+Depth=    9999 States=    1e+07 Transitions= 3.99e+07 Memory=   968.183	t=     10.9 R=   9e+05
+Depth=    9999 States=  1.1e+07 Transitions= 4.34e+07 Memory=  1051.483	t=       12 R=   9e+05
+Depth=    9999 States=  1.2e+07 Transitions= 4.73e+07 Memory=  1135.272	t=     13.3 R=   9e+05
+Depth=    9999 States=  1.3e+07 Transitions= 5.13e+07 Memory=  1219.257	t=     14.5 R=   9e+05
+Depth=    9999 States=  1.4e+07 Transitions= 5.53e+07 Memory=  1303.241	t=     15.6 R=   9e+05
+Depth=    9999 States=  1.5e+07 Transitions= 5.88e+07 Memory=  1387.226	t=     16.8 R=   9e+05
+Depth=    9999 States=  1.6e+07 Transitions= 6.24e+07 Memory=  1471.210	t=       18 R=   9e+05
+Depth=    9999 States=  1.7e+07 Transitions= 6.61e+07 Memory=  1555.097	t=     19.3 R=   9e+05
+Depth=    9999 States=  1.8e+07 Transitions= 6.97e+07 Memory=  1639.081	t=     20.6 R=   9e+05
+Depth=    9999 States=  1.9e+07 Transitions= 7.35e+07 Memory=  1722.675	t=     22.1 R=   9e+05
+Depth=    9999 States=    2e+07 Transitions= 7.71e+07 Memory=  1804.120	t=     23.5 R=   8e+05
+Depth=    9999 States=  2.1e+07 Transitions=  8.1e+07 Memory=  1883.905	t=     25.1 R=   8e+05
+Depth=    9999 States=  2.2e+07 Transitions=  8.5e+07 Memory=  1966.132	t=     26.7 R=   8e+05
+Depth=    9999 States=  2.3e+07 Transitions=  8.9e+07 Memory=  2044.843	t=     28.3 R=   8e+05
+Depth=    9999 States=  2.4e+07 Transitions= 9.31e+07 Memory=  2123.944	t=     30.1 R=   8e+05
+Depth=    9999 States=  2.5e+07 Transitions= 9.74e+07 Memory=  2205.878	t=     31.9 R=   8e+05
+Depth=    9999 States=  2.6e+07 Transitions= 1.01e+08 Memory=  2289.862	t=     33.5 R=   8e+05
+Depth=    9999 States=  2.7e+07 Transitions= 1.05e+08 Memory=  2373.847	t=     35.1 R=   8e+05
+Depth=    9999 States=  2.8e+07 Transitions= 1.09e+08 Memory=  2456.952	t=     36.7 R=   8e+05
+Depth=    9999 States=  2.9e+07 Transitions= 1.12e+08 Memory=  2540.546	t=     38.4 R=   8e+05
+Depth=    9999 States=    3e+07 Transitions= 1.16e+08 Memory=  2624.530	t=     40.1 R=   7e+05
+Depth=    9999 States=  3.1e+07 Transitions=  1.2e+08 Memory=  2708.515	t=     41.8 R=   7e+05
+
+(Spin Version 6.5.2 -- 13 October 2022)
+
+Full statespace search for:
+	never claim         	+ (phi1)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 100 byte, depth reached 9999, errors: 0
+ 31452136 states, stored (3.17196e+07 visited)
+ 91500457 states, matched
+1.232201e+08 transitions (= visited+matched)
+ 31776663 atomic steps
+hash conflicts:  49271364 (resolved)
+
+Stats on memory usage (in Megabytes):
+ 3839.372	equivalent memory usage for states (stored*(State-vector + overhead))
+ 2640.867	actual memory usage for states (compression: 68.78%)
+         	state-vector as stored = 60 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+    1.512	memory lost to fragmentation
+ 2767.890	total actual memory usage
+
+
+unreached in proctype DCCP
+	DCCP_attacker_phi1_attack.pml:84, state 27, "snd!DCCP_RESET"
+	DCCP_attacker_phi1_attack.pml:171, state 112, "-end-"
+	(2 of 112 states)
+unreached in init
+	(0 of 7 states)
+unreached in proctype attacker
+	(0 of 46 states)
+unreached in claim phi1
+	_spin_nvr.tmp:22, state 31, "-end-"
+	(1 of 31 states)
+
+pan: elapsed time 43.2 seconds
+pan: rate 733571.72 states/second
+ltl phi1: (! (<> (is_attacker_end))) || (! (<> ([] (((state[0]==before_state[0])) && ((state[1]==before_state[1]))))))

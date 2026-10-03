@@ -1,0 +1,10 @@
+Input: I_KEXINIT
+ >>> DFA State: start
+FSM State: s4
+Output: O_KEXINIT
+ >>> DFA State: kexinit
+Input: I_NEWKEYS
+ >>> DFA State: kexinit
+Input: I_SR_AUTH
+ >>> DFA State: sr
+Input: I_KEX30

@@ -1,0 +1,34 @@
+error: max search depth too small
+Depth=    9999 States=    1e+06 Transitions= 6.53e+06 Memory=   204.999	t=     1.17 R=   9e+05
+pan:1: assertion violated  !( !( !(((state[0]==8)&&(state[1]==8))))) (at depth 9930)
+pan: wrote DCCP_attacker_phi2_attack.pml1.trail
+
+(Spin Version 6.5.2 -- 13 October 2022)
+Warning: Search not completed
+
+Full statespace search for:
+	never claim         	+ (phi2)
+	assertion violations	+ (if within scope of claim)
+	acceptance   cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 84 byte, depth reached 9999, errors: 1
+  1591469 states, stored
+  8814233 states, matched
+ 10405702 transitions (= stored+matched)
+  6075887 atomic steps
+hash conflicts:    118188 (resolved)
+
+Stats on memory usage (in Megabytes):
+  169.987	equivalent memory usage for states (stored*(State-vector + overhead))
+  121.660	actual memory usage for states (compression: 71.57%)
+         	state-vector as stored = 52 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  250.116	total actual memory usage
+
+
+
+pan: elapsed time 1.97 seconds
+pan: rate 807852.28 states/second
+ltl phi2: [] (! (((state[0]==8)) && ((state[1]==8))))
